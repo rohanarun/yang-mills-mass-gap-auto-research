@@ -1,0 +1,9 @@
+{
+  "command": "lean --trust=0 -j1 -R RESULT_DIRECTORY -o BUILD_DIRECTORY/BranchCorollary.olean BranchCorollary.lean",
+  "lean_version": "4.32.0",
+  "exit_code": 0,
+  "elapsed_seconds": 1.631,
+  "source_sha256": "5f42ff2a3752276abc1f61b33992354c2c05cfedbf5843d2d63ec1fb633bbc05",
+  "log_sha256": "1e8cf81507b418a784967103d3c8504119fe913bec0535c5214effa8e4676a7c",
+  "new_mass_gap_estimate": false
+}

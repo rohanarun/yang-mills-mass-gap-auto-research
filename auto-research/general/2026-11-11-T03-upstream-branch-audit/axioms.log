@@ -1,0 +1,7 @@
+'YM.Branch.Pairs.compare_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Branch.Pairs.closeness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Branch.align' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.RG.frame_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.RG.predictor_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Axial.eligible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Axial.viable' depends on axioms: [propext, Classical.choice, Quot.sound]

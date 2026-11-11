@@ -21,6 +21,7 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Correction and scoped upstream replay](general/2026-11-11-T03-upstream-branch-audit/README.md): the branch conditions already have upstream proofs. Their 22-module chain and a frame-bound corollary passed Lean trust-zero checks. Full-construction replay and spatial decay remain open.
 - [Spin-$j$ prediction mean and closure audit](general/2026-11-11-T03-spin-j-prediction-mean/README.md): written bond-tag mean for every SU(2) spin, sharp bound $4j^2(1-r)$ on the predictor nonlinearity, and a source audit naming the remaining non-polynomial mechanisms (branch indicators, `1/card eligible`, `selected`). Exact checks passed; no spatial estimate.
 
 - [Peter–Weyl spectrum of the blocking noise](general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): written exact one-step noise eigenvalues $I_{2j+1}/I_1$ for every SU(2) observable, including repeated and overlapping links. The noise is rate-neutral, so spatial decay must come from the fine law and prediction map. Exact checks passed; no spatial estimate.

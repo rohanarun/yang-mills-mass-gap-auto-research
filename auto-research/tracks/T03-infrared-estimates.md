@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: written SU(2) noise spectrum and spin-j prediction means complement the actual-weight cutoff audit (`0 < predictor_cut <= 1`), sharper geometric remainder below one, and conditional integrated alternative at one. Rate-neutrality holds on bounded finite-spin, link-disjoint classes. The minimizing frame, branch indicators, actual small-ball estimate, spatial covariance, and terminal mixing remain uncontrolled. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: the upstream branch producers have been located and their 22-module dependency chain replayed successfully. The earlier claim that these conditions were unproved upstream is retracted. Explicit quantitative application to the same chosen kernel, bad-branch probabilities, retained-field spatial covariance, and the mass gap remain unresolved. Last indexed: 2026-11-11.
 
 ## Research question
 
@@ -82,11 +82,12 @@ A complementary bounded task is to control the distance between `selected` and t
 
 ## Active work
 
-No active file ownership. 2026-11-11 integration handoff: the predictor-average, cutoff-endpoint, and Peter–Weyl/spin-j contributions are reconciled here. Choose one of the bounded tasks above and record ownership before editing.
+2026-11-11 handoff: `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
 
 ## Contribution ledger
 
-- 2026-11-11: [Spin-$j$ prediction mean and closure audit](../general/2026-11-11-T03-spin-j-prediction-mean/README.md): written SU(2) bond-tag mean for all spins; sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step formula valid for repeated links, conditional on site tags; source audit listing branch indicators, `1/card eligible`, and the minimizing frame as the uncontrolled non-polynomial mechanisms. Requires the unproved `Branches` hypotheses and `predictor_cut ≤ 1`. Exact integer-spin checks passed; AI cross-check only; no covariance bound, Lean proof, or independent review.
+- 2026-11-11, proposed for review: [Upstream branch correction and replay](../general/2026-11-11-T03-upstream-branch-audit/README.md). Existing uniform uniqueness, axial eligibility, and viable-kernel theorems located; 22 upstream modules and a `12*d` pairwise corollary passed Lean trust-zero checks. Retracts the earlier unsupported absence claim; no physical decay bound.
+- 2026-11-11: [Spin-$j$ prediction mean and closure audit](../general/2026-11-11-T03-spin-j-prediction-mean/README.md): written SU(2) bond-tag mean for all spins; sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step formula valid for repeated links, conditional on site tags; source audit listing branch indicators, `1/card eligible`, and the minimizing frame as the uncontrolled non-polynomial mechanisms. Uses the upstream-supplied `Branches` conditions and `predictor_cut ≤ 1`. Exact integer-spin checks passed; AI cross-check only; no covariance bound, Lean proof, or independent review.
 
 - 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): written exact action of the one-step SU(2) noise on all observables (eigenvalues $I_{2j+1}/I_1$), explicit overlap covariance, and a rate-neutrality statement: on bounded finite-spin, link-disjoint classes the noise changes prefactors but preserves separation rates. Two-route rational enclosures and an exact $Q_8$ control passed. Cited Bessel inequalities not re-proved; no spatial decay, Lean proof, or independent review.
 
