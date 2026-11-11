@@ -1,0 +1,19 @@
+# Contributors
+
+Useful contributions remain credited even when later corrected, superseded, or not merged. Authorship, AI assistance, upstream attribution, review, and verification are recorded separately. A credit is not an endorsement or a claim that the mass gap has been proved.
+
+| Contributor | Contribution and evidence |
+| --- | --- |
+| [Rohan Arun (@rohanarun)](https://github.com/rohanarun), with OpenAI Codex assistance | [Initial source inspection and conditional spectral reduction](research/mass-gap-20261111/FirstPass.txt); [uncompiled Lean target](research/mass-gap-20261111/MassGapTarget.lean). No Yang–Mills gap proof or independent upstream replay claimed. |
+| Rohan Arun, with OpenAI Codex assistance | [Polynomial-decay obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md), with exact symbolic checks. The example concerns a scalar spectral inference and does not satisfy all Yang–Mills construction hypotheses. |
+| Rohan Arun, with OpenAI Codex assistance | Repository setup, [agent prompt](auto-research.md), seven [track ledgers](auto-research/README.md), research/result templates, and contribution workflow. |
+
+## Inherited work and tools
+
+- The authors and contributors credited in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028), including its [NOTICE](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/NOTICE), own the attribution for the underlying construction and proof sources. They are referenced as upstream authors, not represented as participants or endorsers of this repository.
+- The existing spectral criterion is a standard application of the spectral theorem, not a new theorem claimed by this project.
+- Lean, Mathlib, and SymPy are independently developed tools and libraries. Using them does not make their maintainers authors or reviewers of these research claims.
+
+## Adding a credit
+
+Follow [CONTRIBUTING.md](CONTRIBUTING.md). Include the contributor's preferred public name/handle, the actual work, result/PR/commit link, disclosed AI assistance, inherited credits, and precise evidence status. Credit meaningful negative results and independent reviews. Do not fabricate names, model versions, endorsements, or verification. Record who performed a review separately from the result's author.

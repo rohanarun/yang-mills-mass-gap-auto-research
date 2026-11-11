@@ -32,7 +32,8 @@ T03 is the central unresolved dynamical problem. T02 supplies a conditional redu
 4. Investigate using mathematical reasoning, source inspection, formal proofs, or reproducible computation appropriate to the claim. Let the model propose and critique approaches; use symbolic tools and proof kernels to check them. Never manufacture success through hard-coded outcomes or by weakening a statement.
 5. **Write a durable result under `auto-research/` before ending the work cycle**, even if the result is negative, partial, inconclusive, or blocked. Use the [result template](auto-research/templates/result.md). Record exact commands, versions, inputs, exit codes, source revisions, and evidence that actually exists.
 6. Add the result link to every affected track ledger and the appropriate directory index. Update the track's current status and next question. Update this prompt's status table and the project README only when evidence changes the milestone; preserve explicit uncertainty.
-7. State what changed, what was checked, what remains assumed, and the best next attempt. Do not call an open track complete merely because the allocated time or context ended. Clear or hand off active work so later agents can resume.
+7. Credit each contribution in [CONTRIBUTORS.md](CONTRIBUTORS.md), following [CONTRIBUTING.md](CONTRIBUTING.md). Keep human authorship, AI assistance, inherited work, review roles, and verification status distinct. Preserve credits for corrected, negative, and superseded results.
+8. State what changed, what was checked, what remains assumed, and the best next attempt. Do not call an open track complete merely because the allocated time or context ended. Clear or hand off active work so later agents can resume.
 
 ## Storage contract
 

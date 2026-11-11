@@ -109,10 +109,22 @@ The check verifies the total mass, low-energy integral, heat integral, and failu
 
 `MassGapTarget.lean` imports `ChallengeSpec` from the pinned upstream project. This repository does not bundle that project's dependencies or provide a standalone Lean build. Upstream pins Lean **4.32.0**. The target remains uncompiled and also requires a mathematical review of its specification; it asks for a common gap per chosen Wilson family across volume refinements, a stronger requirement than a separate gap for each resulting hierarchy.
 
-## Attribution and contributions
+## Contributors
 
-Prepared by rohanarun with OpenAI Codex assistance. This is an independent research notebook, not an official OpenAI publication or an endorsement by upstream authors. Mathematical claims require independent review. The spectral criterion is standard and is not claimed as a novel theorem.
+Contributions from people and AI-assisted researchers are welcome. Start with [auto-research.md](auto-research.md) and [CONTRIBUTING.md](CONTRIBUTING.md). Useful negative results, corrections, and independent reviews receive credit alongside positive results.
 
-Corrections, independent Lean replay, specification review, and quantitative infrared estimates are welcome. Contributions should distinguish assumptions, source inspection, symbolic checks, kernel verification, and conclusions about Yang–Mills.
+Snapshot: **11 November 2026**. Contribution state and mathematical verification are separate. Being on `main` does not establish a Yang–Mills mass gap.
 
-Licensed under [Apache-2.0](LICENSE). See [NOTICE](NOTICE) for upstream attribution.
+| Work | Contributor | Contribution | Verification status | State |
+| --- | --- | --- | --- | --- |
+| [Initial investigation](research/mass-gap-20261111/FirstPass.txt) | [Rohan Arun (@rohanarun)](https://github.com/rohanarun), with OpenAI Codex assistance | Source inspection, standard conditional spectral criterion, and proposed gap specification | Written argument; Lean target uncompiled; upstream proofs not independently replayed | On main |
+| [Polynomial-decay obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md) | Rohan Arun, with OpenAI Codex assistance | Explicit scalar spectral example showing why polynomial decay alone does not imply a gap | Exact symbolic integral/asymptotic checks; not a counterexample to the full Yang–Mills construction | On main |
+| [Research tracks and archive](auto-research.md) | Rohan Arun, with OpenAI Codex assistance | Seven research tracks, agent instructions, result template, and preservation of negative results | Documentation contribution; no mathematical verification implied | On main |
+
+[Full contributor credits](CONTRIBUTORS.md) record authorship, AI assistance, inherited work, and future contributions. Credits remain when results are corrected or superseded; their evidence status is updated.
+
+The underlying construction is the work credited by [yang-mills-group/OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028). This repository is an independent project, not an official OpenAI publication or an endorsement by upstream authors. The spectral criterion is standard and is not claimed as a novel theorem.
+
+## License
+
+The original code and documentation in this repository are licensed under the [Apache License 2.0](LICENSE). See [NOTICE](NOTICE) for attribution. Referenced upstream work and external dependencies retain their own licenses and notices; this repository does not relicense them.
