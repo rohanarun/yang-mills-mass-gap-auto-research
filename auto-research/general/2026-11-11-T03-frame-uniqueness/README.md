@@ -1,5 +1,7 @@
 # A sufficient small-cutoff condition for SU(2) frame uniqueness
 
+**Correction, 2026-11-11:** [PR #6](https://github.com/rohanarun/yang-mills-mass-gap-auto-research/pull/6) locates and successfully replays the existing upstream uniform uniqueness and viable-kernel proofs. This explicit SU(2) certificate is a specialized calculation, not the resolution of an absent upstream branch proof. Its novelty and additional physical usefulness remain unestablished.
+
 ## Metadata and question
 
 - Date / author: 2026-11-11; Rohan Arun, with OpenAI Codex assistance.
@@ -173,4 +175,4 @@ The fixture arrays belong to the relaxed quaternion model. We have not construct
 
 This resolves the *written sufficient-condition question* for frame uniqueness in fundamental SU(2). It does not establish the chosen history's parameters, arbitrary groups, `axial_exists`, analytic control of branch probabilities, spatial clustering, or the continuum mass gap. It does not strengthen the heat-correlation bound.
 
-Next bounded tasks: formalize this implication against the actual source declarations, or audit `axial_exists` with explicit patch-size dependence. Keep the cutoff hypothesis attached and do not silently replace the existing kernel. For the physical mass gap, probability and retained-field covariance estimates remain necessary. Submit this as a dependent PR without automatic merge; independent review remains open.
+Next bounded tasks: compare this explicit certificate with the existing upstream uniqueness theorem, and formalize it only if its quantitative consequences justify the work. Upstream already supplies `axial_exists` for suitable kernels; see the correction above. Keep the cutoff hypothesis attached and do not silently replace the existing kernel. For the physical mass gap, probability and retained-field covariance estimates remain necessary. Submit this as a dependent PR without automatic merge; independent review remains open.
