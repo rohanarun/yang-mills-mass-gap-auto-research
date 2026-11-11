@@ -4,6 +4,7 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 
 | Date | Tracks | Result | Evidence and outcome |
 | --- | --- | --- | --- |
+| 2026-11-11 | T03, T04, T05, T06 | [One-step SU(2) loop-noise transfer](2026-11-11-T03-loop-noise-transfer/README.md) | Written actual-kernel covariance identity and tag factorization; exact scalar/finite checks; no separation decay |
 | 2026-11-11 | T03, T05, T06 | [Gauge-invariant conditional response](2026-11-11-T03-gauge-orbit-response/README.md) | Written forest-conditioning and joint-orbit reduction; exact non-Abelian checks; no spatial rate |
 | 2026-11-11 | T03, T04, T06 | [Buffered posterior and local hidden predictions](2026-11-11-T03-buffered-posterior/README.md) | Written two-noise influence bound and local covariance reduction; exact finite controls passed; spatial decay open |
 | 2026-11-11 | T03, T04, T07 | [External YM3D transfer assessment](2026-11-11-T03-ym3d-transfer-audit/README.md) | Two supplied checkers and 29 tests replayed; useful finite comparisons, no imported continuum decay estimate |

@@ -1,0 +1,13 @@
+{
+  "repository_base_commit": "346263bc79c95062042078e7d20f4dac669f79da",
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sources": {
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8",
+    "YM/RG/Block.lean": "f6c75b9e072cf30c89a7a5974d62584d37e429cc575f0c2203dea0a6a7a3c341",
+    "YM/RG/Patch.lean": "c85cca3ad0fe6c6394a1396f076121f38e254a45b1573126c9560d4c39577e2a",
+    "YM/RG/Push.lean": "df7e045d7ba8d9e8968025fb37b04af9634ed85bca8efbefc1f1032c29b16018",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6"
+  },
+  "upstream_replayed": false
+}

@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: buffered-posterior and gauge-orbit reductions isolate the gauge-invariant response to distant cycle data; spatial decay and terminal mixing remain open. Forest observations alone have zero response, but cyclic exterior information remains uncontrolled. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: a written one-step identity transfers vertex-disjoint fundamental SU(2) loop covariance to explicit averaged fine-field predictions, with a known noise coefficient. The coefficient suppresses perimeter, not separation; spatial decay and terminal mixing remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -76,14 +76,15 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Choose the actual gauge-invariant transported insertions and bound their conditional response to distant changes of joint cycle data, or the corresponding buffered-posterior covariance. Gauge-equivalent changes have zero response; forest screening does not apply once the exterior contains cycles. Preserve generated interactions, shared branch choices, complete tree/observable supports, relative normalization, and any eligibility changes. Spatial smallness remains to be derived from dynamics.
+For the explicit averaged prediction observable in the one-step loop-transfer record, derive a weighted expansion with controlled supports or a direct spatial covariance bound under the full fine law. Do not assume it is another simple Wilson loop or multiply perimeter factors across RG steps without a closure theorem. Extend any successful estimate to the actual transported insertions and required dense family, retaining normalization, shared tags, generated interactions, and physical units.
 
 ## Active work
 
-No active file ownership. 2026-11-11 handoff: gauge-orbit response reduction and finite controls recorded below. Next bounded task: a dynamical estimate for the required gauge-invariant insertions under distant cycle data.
+No active file ownership. 2026-11-11 handoff: one-step loop-noise transfer and failure controls recorded below. Next bounded task: a controlled expansion or spatial covariance estimate for the actual averaged fine-field prediction observable.
 
 ## Contribution ledger
 
+- 2026-11-11: [Exact one-step SU(2) loop transfer](../general/2026-11-11-T03-loop-noise-transfer/README.md): written source-matched covariance identity, conditional tag factorization for vertex-disjoint loops, rational coefficient enclosures, and exact finite controls. [Perimeter/separation and repeated-link controls](../negative-results/2026-11-11-T03-perimeter-not-separation/README.md) exclude noise-only and unproved iteration shortcuts. No spatial decay, Lean proof, or independent review.
 - 2026-11-11: [Gauge-invariant conditional response](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance and written forest-conditioning identity reduce the target to joint exterior loop orbits. [Finite controls](../negative-results/2026-11-11-T06-gauge-only-mixing/README.md) rule out symmetry-only mixing and loss of joint loop information. Exact non-Abelian enumeration passed; no spatial decay or Lean proof.
 - 2026-11-11: [Buffered posterior and local prediction response](../general/2026-11-11-T03-buffered-posterior/README.md): written source-matched conditional law, two-noise influence bound, and covariance reduction; exact symbolic identities and ten buffered-chain cases passed. No spatial decay, Lean proof, or independent review.
 - 2026-11-11: [External YM3D transfer assessment](../general/2026-11-11-T03-ym3d-transfer-audit/README.md): inspected overlapping source audits and finite-gas comparison; two supplied checkers and 29 tests replayed successfully. Absolute gas bounds, 3D strong-coupling estimates, and conditional spectral criteria do not close the local posterior estimate.

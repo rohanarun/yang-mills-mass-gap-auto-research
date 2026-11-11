@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-loop-noise-transfer/check_loop_noise.py"
+  ],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.133,
+  "exit_code": 0,
+  "source_sha256": "2d55eaba7c3d0944e0522d4ac1be66dd966273738b5e88c6b76ca86cba29bacf",
+  "output_sha256": "8b024c45f3127ed000ba92d2838c237e26dfeb0a4d33b79a47c01548f4bf8aae",
+  "general_analytic_proof_formalized": false,
+  "upstream_replayed": false,
+  "Yang_Mills_spatial_decay_proved": false
+}

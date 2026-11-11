@@ -1,0 +1,60 @@
+{
+  "SU2_fundamental_alpha_enclosures": [
+    {
+      "kappa": "1/2",
+      "lower_numerator": 123717928278,
+      "upper_numerator": 123717928279,
+      "denominator": 1000000000000
+    },
+    {
+      "kappa": "1",
+      "lower_numerator": 240193723870,
+      "upper_numerator": 240193723871,
+      "denominator": 1000000000000
+    },
+    {
+      "kappa": "2",
+      "lower_numerator": 433127426722,
+      "upper_numerator": 433127426723,
+      "denominator": 1000000000000
+    },
+    {
+      "kappa": "5",
+      "lower_numerator": 719340581364,
+      "upper_numerator": 719340581365,
+      "denominator": 1000000000000
+    },
+    {
+      "kappa": "10",
+      "lower_numerator": 854185308323,
+      "upper_numerator": 854185308324,
+      "denominator": 1000000000000
+    }
+  ],
+  "bessel_last_included_index": 40,
+  "Q8_controls": [
+    {
+      "exp_kappa": "2",
+      "mean_quaternion_scalar": "3/17",
+      "edge_distinct_loop_checks": 12,
+      "noise_assignments_per_loop_check": 4096,
+      "same_loop_conditional_variance": "1743995440/6975757441",
+      "disjoint_loop_covariance_hidden_coupling_half": "6561/13951514882",
+      "backtracking_trace_mean": "1",
+      "repeated_edge_square_trace_mean": "-7/17",
+      "incorrect_per_occurrence_factor": "9/289"
+    },
+    {
+      "exp_kappa": "3",
+      "mean_quaternion_scalar": "2/7",
+      "edge_distinct_loop_checks": 12,
+      "noise_assignments_per_loop_check": 4096,
+      "same_loop_conditional_variance": "1442745/5764801",
+      "disjoint_loop_covariance_hidden_coupling_half": "128/5764801",
+      "backtracking_trace_mean": "1",
+      "repeated_edge_square_trace_mean": "-2/7",
+      "incorrect_per_occurrence_factor": "4/49"
+    }
+  ],
+  "scope": "Rational special-function enclosures and finite-group checks; no Yang--Mills spatial decay."
+}

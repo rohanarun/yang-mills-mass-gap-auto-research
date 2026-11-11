@@ -30,6 +30,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-11: [One-step loop-noise transfer](../general/2026-11-11-T03-loop-noise-transfer/README.md): scalar coefficient has a written uniform bound at fixed history/level, but its exponent is loop perimeter, not separation or physical time. Iterating levels needs a proved observable expansion and scale costs; no limit estimate obtained.
 - 2026-11-11: [Buffered posterior reduction](../general/2026-11-11-T03-buffered-posterior/README.md): written two-noise bound remains uniform for fixed link counts but has no spatial rate; cutoff/volume-uniform local posterior covariance remains open.
 - 2026-11-11: [External YM3D transfer assessment](../general/2026-11-11-T03-ym3d-transfer-audit/README.md): 3D fixed-spacing strong-coupling estimates cannot be imported into the 4D continuum target without matching laws and scale dependence; supplied arithmetic/scope tests replayed.
 No contributions recorded yet.
