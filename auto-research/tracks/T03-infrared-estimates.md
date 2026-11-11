@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: conditional coefficient separation decay derived; retained covariance still uncontrolled. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: conditional coefficient decay and exact terminal covariance identified; dynamical mixing estimate remains open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Bound the covariance of the actual normalized one-marker ratios T_alpha/v_j and T_beta/v_j under the selected retained vacuum measure. Also verify the priced localized coefficients sum to the same conditional cumulant, with source anchors and normalizations preserved.
+Derive a uniform mixing bound for the actual level-zero blocked measures and transported insertions, plus summable fluctuation estimates at one physical rate. Retain engineering factors and do not identify the blocked measure with a bare Wilson law from its scalar coupling.
 
 ## Active work
 
@@ -45,6 +45,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-11: [Connected-source bridge](../general/2026-11-11-T03-connected-source-bridge/README.md): cover-budget separation bound passed trust-zero checking; written identity isolates covariance of the actual normalized one-marker ratios under the retained vacuum measure.
 - 2026-11-11: [Log/integration-order control](../negative-results/2026-11-11-T03-log-integration-order/README.md): exact finite Ising-chain calculation shows that a vanishing fixed-field mixed-log derivative does not bound the physical correlation uniformly.
+- 2026-11-11: [Terminal RG covariance](../general/2026-11-11-T03-terminal-covariance/README.md): written recursion preserves source scaling and an explicit level-zero covariance; the coarse lattice still grows with volume. Exact finite-state check passed.
 
 ## Update instructions
 

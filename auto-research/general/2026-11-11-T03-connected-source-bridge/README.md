@@ -124,3 +124,7 @@ lake env lean --trust=0 -j1 -R ../../2026-11-11-T03-connected-source-bridge ../.
 ```
 
 The run exited zero in 21.243 seconds without warnings. Axioms: `propext`, `Classical.choice`, `Quot.sound`. The receipt records the final source/output hashes and dependency revisions; the earlier prerequisite build is identified separately. The code checks the abstract series estimate only. The source application, marking/incidence conditions, covariance identity, and physical reconstruction remain written or open as specified above. No independent review is recorded.
+
+## Follow-up — 11 November 2026
+
+The [terminal covariance audit](../2026-11-11-T03-terminal-covariance/README.md) identifies the normalized reverse blocking kernel, removes the explicit engineering factors, and telescopes the covariance to level zero. The residual coarse measure still has growing volume; neither repeated UV blocking nor its scalar inverse coupling supplies the missing mixing bound.

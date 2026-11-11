@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-terminal-covariance/check_terminal.py"
+  ],
+  "working_directory": "repository root",
+  "exit_code": 0,
+  "elapsed_seconds": 0.44,
+  "python_version": "3.9.6",
+  "sympy_version": "1.14.0",
+  "source": "check_terminal.py",
+  "output": "terminal-check.json",
+  "upstream_replayed": false,
+  "general_recursion_formalized": false,
+  "Yang_Mills_mixing_bound_proved": false,
+  "independently_reviewed": false,
+  "source_sha256": "ed82ac81ccb94c43900951bc5487570f570f1c32a566673a3cf7d1214543f53b",
+  "output_sha256": "a196bb08064e2020364845031c935b7e35ecd10ad8600baa1e4b56f23746de61"
+}

@@ -1,0 +1,16 @@
+{
+  "sympy_version": "1.14.0",
+  "kernel_positivity_domain": "-1 <= q0,q1 <= 1",
+  "fine_variance": "1",
+  "terminal_variance": "q0**2*q1**2",
+  "coarse_increment": "-q1**2*(q0 - 1)*(q0 + 1)",
+  "fine_increment": "-(q1 - 1)*(q1 + 1)",
+  "telescoping_residual": "0",
+  "engineering_degrees_checked": [
+    1,
+    2,
+    3
+  ],
+  "SU2_cited_bare_Wilson_threshold": "1/12",
+  "scope": "Exact finite-state identities and threshold arithmetic; source-matched general derivation is written, no YM mixing bound."
+}
