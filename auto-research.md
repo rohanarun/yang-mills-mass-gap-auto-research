@@ -16,13 +16,25 @@ Track IDs are stable. Each linked track file is its contribution ledger; update 
 | --- | --- | --- | --- |
 | [T01](auto-research/tracks/T01-statement-audit.md) | Statement and specification audit | Open | Compare the uncompiled Lean target with the public upstream definitions and write the first specification review. |
 | [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: scalar support theorem checked; upstream integration open | Connect the checked finite-measure energy-window theorem to the actual upstream PVM and dense centered family. |
-| [T03](auto-research/tracks/T03-infrared-estimates.md) | Nonperturbative infrared estimates | Partial: coefficient decay checked; terminal mixing bound open | Seek mixing for actual large-cutoff coarse measures or gauge-invariant blocks; bare SU(2) single-link TV contraction is excluded at beta at least one. Preserve transported insertions and one physical rate. |
+| [T03](auto-research/tracks/T03-infrared-estimates.md#step-3-exponential-decay-research-plan) | Step 3: exponential decay from infrared estimates | Partial: coefficient decay checked; terminal mixing bound open | Seek mixing for actual large-cutoff coarse measures or gauge-invariant blocks; bare SU(2) single-link TV contraction is excluded at beta at least one. Preserve transported insertions and one physical rate. |
 | [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Partial: coupling and prefactor scope audited; limit transfer open | Prove the correct spectral-measure convergence with one positive rate. Distinguish direct heat-bound transfer from support-first arguments, which can replace prefactors by total masses. |
 | [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Partial: scalar energy-window bridge checked; phase/density application open | Connect positive-energy pushforwards to the actual selected phase and a dense family, retaining all dynamical hypotheses. |
 | [T06](auto-research/tracks/T06-obstructions.md) | Counterexamples and negative results | Partial: scalar, locality, block-gap, and single-link influence controls recorded | Test candidate infrared/preparation estimates against the recorded counterexamples; distinguish dynamical hypotheses from qualitative density. |
 | [T07](auto-research/tracks/T07-verification-and-integration.md) | Independent verification and proof integration | Partial: generic and scalar support results checked; upstream replay open | Review the checked scalar support theorem and connect it to the exact public PVM; the upstream construction still needs independent replay. |
 
 T03 is the central unresolved dynamical problem. T02 supplies a conditional reduction; T04 and T05 address its application to the construction. T01 checks the statement, T06 tests proposed inferences, and T07 checks and integrates evidence. These dependencies do not prohibit independent useful work on any track.
+
+## Step 3 priority: derive exponential heat decay
+
+The public explanation's “Step 3” means proving a stronger bound on the same vacuum-subtracted heat correlation, not replacing a formula in source code. Its home is [T03's exponential-decay research plan](auto-research/tracks/T03-infrared-estimates.md#step-3-exponential-decay-research-plan); use that ledger rather than creating a duplicate top-level track. The estimate remains unproved.
+
+In plain language, agents should investigate why distant disturbances would lose their influence fast enough. They can propose mechanisms, extract estimates from the actual construction, test counterexamples, and check surviving arguments in Lean. Model agreement, a fitted exponential curve, and a conditional theorem do not establish Yang–Mills decay.
+
+Choose one bounded task from T03-A through T03-F. Prioritize a dynamical estimate for the actual coarse measure or a justified block criterion; use the other tasks to expose assumptions and connect a successful estimate to the physical theory. Record which missing obligation the task addresses. Avoid repeating the already established implication “exponential heat decay implies a gap” as new dynamical progress.
+
+For every candidate, give the exact bounded quantity, source definitions, hypotheses, group/phase scope, dependence on cutoff and volume, and conversion to physical time. The proposed decay rate must be positive and common across a dense family; prefactors may depend on the state. Keep the terminal covariance, generated interactions, and transported-observable costs visible. An alternative mechanism is welcome if it meets the same target without assuming an equivalent gap statement.
+
+Store derivations and partial results under `auto-research/general/`, failures under `auto-research/negative-results/`, and independent reviews under `auto-research/reviews/`. Link each record in T03 and the affected supporting tracks. Record unresolved hypotheses explicitly and update the next bounded task from the evidence. These task descriptions do not themselves launch agents or recurring work.
 
 ## Work cycle
 

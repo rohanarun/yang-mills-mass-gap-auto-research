@@ -13,7 +13,7 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 - [T01: Statement and specification audit](tracks/T01-statement-audit.md)
 - [T02: Conditional spectral criterion](tracks/T02-spectral-criterion.md)
-- [T03: Nonperturbative infrared estimates](tracks/T03-infrared-estimates.md)
+- [T03: Nonperturbative infrared estimates](tracks/T03-infrared-estimates.md), including the [Step 3 exponential-decay research plan](tracks/T03-infrared-estimates.md#step-3-exponential-decay-research-plan).
 - [T04: Continuum, volume, and physical scales](tracks/T04-limits-and-scales.md)
 - [T05: Selected phases and dense observable families](tracks/T05-phases-and-density.md)
 - [T06: Counterexamples and negative results](tracks/T06-obstructions.md)
