@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: written SU(2) noise spectrum and spin-j prediction means complement the actual-weight cutoff audit (`0 < predictor_cut <= 1`), sharper geometric remainder below one, and conditional integrated alternative at one. Rate-neutrality holds on bounded finite-spin, link-disjoint classes. The minimizing frame, branch indicators, actual small-ball estimate, spatial covariance, and terminal mixing remain uncontrolled. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: the written SU(2) frame comparison now removes patch-size loss on `usesMin`, assuming `frame_cut < 1/sqrt(2)`. This complements the noise spectrum, spin-j predictor estimates, and cutoff audit. Frame uniqueness/stability, bad-branch probabilities, spatial covariance, and the physical limit remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -78,14 +78,15 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 Determine whether the exact selected kernel has `predictor_cut < 1`. If it equals one, derive a cutoff/volume-uniform small-ball bound for positive connector-mean norm under the actual fine-field/site-tag law; the conditional conversion to integrated approximation error is now written. Then bound connected correlations of masked truncated observables, retaining shared frames, generated interactions, degree-dependent costs, and complete supports. Approximation convergence alone does not bound spatial covariance.
 
-A complementary bounded task is to control the distance between `selected` and the normalised axial frame on `usesMin`, in terms of `frame_cut` and patch size, or exhibit an obstruction. The noise spectrum alone supplies no spatial estimate; preserve the finite-spin/support restrictions in its rate comparison and prove observable-class closure before iterating RG steps. Extend any successful bound to the transported insertions and required dense family in physical units.
+The [frame comparison](../general/2026-11-11-T03-frame-axial-control/README.md) supplies pointwise distance control on `usesMin` without patch-size loss under an explicit small-cutoff assumption. A complementary bounded task is now uniqueness/stability within that neighborhood, or a bound on the actual fine-law probability of leaving the smooth branch. The noise spectrum alone supplies no spatial estimate; preserve the finite-spin/support restrictions in its rate comparison and prove observable-class closure before iterating RG steps. Extend any successful bound to the transported insertions and required dense family in physical units.
 
 ## Active work
 
-No active file ownership. 2026-11-11 integration handoff: the predictor-average, cutoff-endpoint, and Peter–Weyl/spin-j contributions are reconciled here. Choose one of the bounded tasks above and record ownership before editing.
+2026-11-11 handoff: the bounded frame comparison on `research/frame-axial-control` is complete at the written/finite-check level for PR review. No ongoing worker is claimed. Next, investigate uniqueness/stability within the controlled frame neighborhood or actual fine-law bad-branch probabilities; retain the unresolved spatial covariance target.
 
 ## Contribution ledger
 
+- 2026-11-11, proposed for review: [Minimizing-frame/axial-frame control](../general/2026-11-11-T03-frame-axial-control/README.md). Written pointwise SU(2) bound independent of patch size on the smooth branch, a conditional fine-loop replacement, and exact quaternion checks. The proof uses centre reanchoring and local optimality; [small energy alone is insufficient](../negative-results/2026-11-11-T03-frame-energy-only/README.md). Small-cutoff hypothesis, bad-branch probabilities, and spatial covariance remain unresolved for the selected history. No Lean proof or independent review.
 - 2026-11-11: [Spin-$j$ prediction mean and closure audit](../general/2026-11-11-T03-spin-j-prediction-mean/README.md): written SU(2) bond-tag mean for all spins; sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step formula valid for repeated links, conditional on site tags; source audit listing branch indicators, `1/card eligible`, and the minimizing frame as the uncontrolled non-polynomial mechanisms. Requires the unproved `Branches` hypotheses and `predictor_cut ≤ 1`. Exact integer-spin checks passed; AI cross-check only; no covariance bound, Lean proof, or independent review.
 
 - 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): written exact action of the one-step SU(2) noise on all observables (eigenvalues $I_{2j+1}/I_1$), explicit overlap covariance, and a rate-neutrality statement: on bounded finite-spin, link-disjoint classes the noise changes prefactors but preserves separation rates. Two-route rational enclosures and an exact $Q_8$ control passed. Cited Bessel inequalities not re-proved; no spatial decay, Lean proof, or independent review.
