@@ -1,0 +1,6 @@
+{
+  "status": "RESEARCH_EXAMPLE_PASS",
+  "proves_3d_rg": false,
+  "closes_gates": [],
+  "errors": []
+}

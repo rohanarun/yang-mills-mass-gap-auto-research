@@ -15,3 +15,10 @@ Upstream theorem names, definitions, and source locations are attributed in
 the research notes and provenance file. The upstream implementation and its
 third-party dependencies are not redistributed here. MassGapTarget.lean
 imports the upstream ChallengeSpec module and is not a standalone Lean build.
+
+The external YM3D source assessment references and replays selected tests from:
+https://github.com/HiroSakuraba/Yang-Mills-3D-AI-verification-program
+Revision: fc63a83a6cd1746f89f546b9f6bcdf50381ae16d
+External license: MIT. Its README credits Benjamin John Schulz for the design.
+The external implementation is not redistributed here. Attribution, exact
+replay scope, and source hashes appear in the assessment record.

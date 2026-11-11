@@ -30,6 +30,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-11: [Local versus global hidden posterior](../general/2026-11-11-T03-buffered-posterior/README.md): an exact independent-hidden-variable control has zero local response but nonzero whole-posterior TV. Buffered-chain checks isolate the hidden correlation factor from noise amplitude. These are finite probability controls, not Yang–Mills counterexamples.
 - [Polynomial decay without a gap](../negative-results/2026-11-11-T06-polynomial-decay/README.md): scalar obstruction with exact symbolic checks.
 
 - 2026-11-11: [Cyclicity does not control adjoint costs](../negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.

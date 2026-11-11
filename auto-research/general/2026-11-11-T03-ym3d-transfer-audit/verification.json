@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-11",
+  "repository": "https://github.com/HiroSakuraba/Yang-Mills-3D-AI-verification-program",
+  "commit": "fc63a83a6cd1746f89f546b9f6bcdf50381ae16d",
+  "python_version": "3.11.15",
+  "working_directory": "external repository root",
+  "temporary_files": "SSD workspace; removed on completion",
+  "sources": {
+    "README.md": "737d7afb22f9f6566289aa3b2aefc70a4b58df699881bcf11105e6d228c9196f",
+    "AGENTS.md": "cda7880502eccf7f1e969c77b135bb61a273e6649386c6e024bf534fc1631dc2",
+    "LICENSE": "afb80bf15d2ddbf37d50a15d493e1f1ca7efd7a3048af698ac913a14e7cfb3c3",
+    "docs/upstream-4d-lean-audit/SPECTRAL_GAP_BRIDGE_3.md": "14c3d17d6f80cbe425897b49509b0741f55c14341cff649353f6e33c88f7f57f",
+    "docs/upstream-4d-lean-audit/FINITE_GAS_TRANSFER.md": "0ff811bffed30db3667d1edfe27f1a077164777409822a79d9ba88af738807fb",
+    "docs/ym4-wilson-audit/Wilson-comparison-and-gap-lemma.md": "d16248304864c1af71a91e83835ef7b850f74cb1cd98dea495bba81baccbdb67",
+    "lanes/strong_coupling_kp_domain/README.md": "4ad810024e8106032b17c95da37474632d86eb0dddee9af2f18fb7e74b7f454e",
+    "lanes/plaquette_clustering/README.md": "1b4054c69af9dab9e9c2a5c1a404a12569ed23d7890870f4c12275cbda8a2eec",
+    "tools/check_finite_gas_transfer.py": "5e4dde503bcc881652fb6146ac8ae1e8d11fbb783e121541f91796de9f03099c",
+    "tools/build_finite_gas_transfer.py": "033c9d2e91df2392b92fb67ed40ec7e86b1c542df135bd12ca790ba19658c85a",
+    "tests/test_finite_gas_transfer.py": "32fa68a07d7544af9f3fd6146cb5225c10074a22da51fa8a19811251148072fd",
+    "tools/check_mass_gap_obligations.py": "6ad1ab4bb589c4408a814583fd44271e48bad2210703e6fe36122fbae19199bf",
+    "tests/test_mass_gap_obligations.py": "6818064e4da092b93e3064bdc10d7bc4c1b5bf29bc48c0e22f085f4d652e6c33",
+    "docs/upstream-4d-lean-audit/finite_gas_seed.json": "dcacee101ab37ea49ce1fa8499e618b7ccb25fab77a291afa1c91425e881837e",
+    "docs/upstream-4d-lean-audit/mass_gap_obligations.json": "6943f667f81a2c6d2510c14560156bbf4441baff8dff05361bb1af73c5f7a4f4"
+  },
+  "runs": [
+    {
+      "command": [
+        "python3.11",
+        "-B",
+        "tools/check_finite_gas_transfer.py",
+        "docs/upstream-4d-lean-audit/finite_gas_seed.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.053,
+      "log": "check-1.txt",
+      "sha256": "6d1b21846e70accdc9b1a290e30b07a3c41de25876c302741b3a53858a86eea9"
+    },
+    {
+      "command": [
+        "python3.11",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_finite_gas_transfer.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.426,
+      "log": "check-2.txt",
+      "sha256": "27ea6caed2de295f04b525f3ed41bd730ec8cb7f9d566e125d5fd640f0c8a90d"
+    },
+    {
+      "command": [
+        "python3.11",
+        "-B",
+        "tools/check_mass_gap_obligations.py",
+        "docs/upstream-4d-lean-audit/mass_gap_obligations.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.027,
+      "log": "check-3.txt",
+      "sha256": "6174370a8005728a84d69a3efa6d50f740df954126ac15d938b6b2f91ef3ea99"
+    },
+    {
+      "command": [
+        "python3.11",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_mass_gap_obligations.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.377,
+      "log": "check-4.txt",
+      "sha256": "a54c7c4c79844594d677da24fa30e1cd3500eb0bd777e67fea781868e97e9040"
+    }
+  ],
+  "scope": "Replay of repository-provided arithmetic and negative-control tests, not an independent mathematical proof or Lean replay",
+  "all_repository_tests_run": false,
+  "mass_gap_proved": false
+}

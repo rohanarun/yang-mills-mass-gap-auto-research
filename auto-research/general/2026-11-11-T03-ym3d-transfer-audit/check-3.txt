@@ -1,0 +1,8 @@
+{
+  "status": "RESEARCH_SCOPE_PASS",
+  "arithmetical_scope_only": true,
+  "analytic_theorem_verified": false,
+  "proves_continuum_mass_gap": false,
+  "closes_gates": [],
+  "errors": []
+}

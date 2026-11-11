@@ -1,0 +1,17 @@
+test_changed_flags (test_finite_gas_transfer.FiniteGasTests.test_changed_flags) ... ok
+test_different_eligibility (test_finite_gas_transfer.FiniteGasTests.test_different_eligibility) ... ok
+test_eligibility_change_counterexample (test_finite_gas_transfer.FiniteGasTests.test_eligibility_change_counterexample) ... ok
+test_exhaustive_two_label_signed_grid (test_finite_gas_transfer.FiniteGasTests.test_exhaustive_two_label_signed_grid) ... ok
+test_incorrect_support_lift (test_finite_gas_transfer.FiniteGasTests.test_incorrect_support_lift) ... ok
+test_missing_cover (test_finite_gas_transfer.FiniteGasTests.test_missing_cover) ... ok
+test_noncanonical_rational (test_finite_gas_transfer.FiniteGasTests.test_noncanonical_rational) ... ok
+test_seed (test_finite_gas_transfer.FiniteGasTests.test_seed) ... ok
+test_tampered_bound (test_finite_gas_transfer.FiniteGasTests.test_tampered_bound) ... ok
+test_tampered_gas (test_finite_gas_transfer.FiniteGasTests.test_tampered_gas) ... ok
+test_underbounded_signed_activity (test_finite_gas_transfer.FiniteGasTests.test_underbounded_signed_activity) ... ok
+test_wrong_source_pin (test_finite_gas_transfer.FiniteGasTests.test_wrong_source_pin) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.349s
+
+OK

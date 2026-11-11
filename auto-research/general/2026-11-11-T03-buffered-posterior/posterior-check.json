@@ -1,0 +1,74 @@
+{
+  "sympy_version": "1.14.0",
+  "symbolic_domain": "0<c,r<1; c=0 used separately for the independent control",
+  "posterior_reweighting_mean": "1",
+  "response": "-c*r**2",
+  "covariance_identity_residual": "0",
+  "global_hidden_TV": "r",
+  "local_hidden_TV": "c*r",
+  "posterior_event_mixing_coefficient": "-c*(r - 1)*(r + 1)/4",
+  "layer_cake_bound_residual": "0",
+  "buffered_chain_checks": [
+    {
+      "hidden_edges": 1,
+      "hidden_coupling": "1/3",
+      "noise_bias": "1/2",
+      "buffered_influence": "1/12"
+    },
+    {
+      "hidden_edges": 1,
+      "hidden_coupling": "2/3",
+      "noise_bias": "3/4",
+      "buffered_influence": "3/8"
+    },
+    {
+      "hidden_edges": 2,
+      "hidden_coupling": "1/3",
+      "noise_bias": "1/2",
+      "buffered_influence": "1/36"
+    },
+    {
+      "hidden_edges": 2,
+      "hidden_coupling": "2/3",
+      "noise_bias": "3/4",
+      "buffered_influence": "1/4"
+    },
+    {
+      "hidden_edges": 3,
+      "hidden_coupling": "1/3",
+      "noise_bias": "1/2",
+      "buffered_influence": "1/108"
+    },
+    {
+      "hidden_edges": 3,
+      "hidden_coupling": "2/3",
+      "noise_bias": "3/4",
+      "buffered_influence": "1/6"
+    },
+    {
+      "hidden_edges": 4,
+      "hidden_coupling": "1/3",
+      "noise_bias": "1/2",
+      "buffered_influence": "1/324"
+    },
+    {
+      "hidden_edges": 4,
+      "hidden_coupling": "2/3",
+      "noise_bias": "3/4",
+      "buffered_influence": "1/9"
+    },
+    {
+      "hidden_edges": 5,
+      "hidden_coupling": "1/3",
+      "noise_bias": "1/2",
+      "buffered_influence": "1/972"
+    },
+    {
+      "hidden_edges": 5,
+      "hidden_coupling": "2/3",
+      "noise_bias": "3/4",
+      "buffered_influence": "2/27"
+    }
+  ],
+  "scope": "Exact finite probability controls and algebra; no general posterior mixing theorem or Yang--Mills spatial decay."
+}

@@ -1,0 +1,22 @@
+test_canonical_ledger_is_research_only (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_canonical_ledger_is_research_only) ... ok
+test_claiming_uniform_physical_decay_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_claiming_uniform_physical_decay_rejected) ... ok
+test_fake_gate_closure_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_fake_gate_closure_rejected) ... ok
+test_fake_mass_gap_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_fake_mass_gap_rejected) ... ok
+test_falsely_sufficient_weak_regime_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_falsely_sufficient_weak_regime_rejected) ... ok
+test_missing_density_obligation_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_missing_density_obligation_rejected) ... ok
+test_noncanonical_arithmetic_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_noncanonical_arithmetic_rejected) ... ok
+test_one_channel_can_miss_slow_state (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_one_channel_can_miss_slow_state) ... ok
+test_polynomial_lattice_prefactor_cannot_hide_slow_atom_forever (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_polynomial_lattice_prefactor_cannot_hide_slow_atom_forever) ... ok
+test_positive_lattice_gaps_may_collapse_in_physical_units (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_positive_lattice_gaps_may_collapse_in_physical_units) ... ok
+test_toy_improper_promotion_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_toy_improper_promotion_rejected) ... ok
+test_toy_mass_bound_tampering_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_toy_mass_bound_tampering_rejected) ... ok
+test_unknown_success_field_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_unknown_success_field_rejected) ... ok
+test_wrong_alpha_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_wrong_alpha_rejected) ... ok
+test_wrong_beta_at_one_spacing_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_wrong_beta_at_one_spacing_rejected) ... ok
+test_wrong_dimension_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_wrong_dimension_rejected) ... ok
+test_wrong_upstream_pin_rejected (test_mass_gap_obligations.ContinuumMassGapBoundaryTests.test_wrong_upstream_pin_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.339s
+
+OK

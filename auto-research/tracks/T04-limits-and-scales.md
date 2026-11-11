@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-11: [Buffered posterior reduction](../general/2026-11-11-T03-buffered-posterior/README.md): written two-noise bound remains uniform for fixed link counts but has no spatial rate; cutoff/volume-uniform local posterior covariance remains open.
+- 2026-11-11: [External YM3D transfer assessment](../general/2026-11-11-T03-ym3d-transfer-audit/README.md): 3D fixed-spacing strong-coupling estimates cannot be imported into the 4D continuum target without matching laws and scale dependence; supplied arithmetic/scope tests replayed.
 No contributions recorded yet.
 
 - 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.

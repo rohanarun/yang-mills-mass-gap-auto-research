@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Buffered posterior and local hidden predictions](general/2026-11-11-T03-buffered-posterior/README.md): written two-noise bound and exact finite controls identify the local covariance that still needs spatial decay.
+- [External YM3D transfer assessment](general/2026-11-11-T03-ym3d-transfer-audit/README.md): two checkers and 29 supplied tests replayed; finite-gas tools are useful, while normalization, dimension, and continuum bridges remain open.
 - [Coarse block conditional bounds](general/2026-11-11-T03-block-conditional-bounds/README.md) and [normalization/latent-noise controls](negative-results/2026-11-11-T03-conditional-normalization/README.md): written source-derived bound without spatial decay; exact finite checks passed.
 
 - [Checked Laplace support theorem and criterion audit](general/2026-11-11-T02-laplace-support/README.md): scalar support equivalence and energy-window pullback, with the dynamical obligation still explicit.

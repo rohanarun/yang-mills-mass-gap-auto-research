@@ -1,0 +1,16 @@
+{
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "repository_base_commit": "72f573c274bf0a53717bb4a98f0691908a39bc45",
+  "sources": {
+    "YM/RG/Block.lean": "f6c75b9e072cf30c89a7a5974d62584d37e429cc575f0c2203dea0a6a7a3c341",
+    "YM/RG/Push.lean": "df7e045d7ba8d9e8968025fb37b04af9634ed85bca8efbefc1f1032c29b16018",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6",
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Localization.lean": "88026c1e8e6836b95793849e668d73246575a3202413ec35d63fe0a668cbc7b6",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/KernelReads.lean": "a0f58c3bcf54661d9db2470be03756a3f7be8c6da4e3f922c0fc859731187eab",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Service.lean": "d0801ffec84123420204a84bd41b41bbebdcffa03de69b2a94fd9068b15aa4c8",
+    "YM/AnalyticNext/CONNECTED_LOG_IDENTITY/Marginal.lean": "deb764ca1ce9937df659529729583fd6f335f44fb8bc04f84a4836e08923a438"
+  },
+  "upstream_kernel_replay": false
+}

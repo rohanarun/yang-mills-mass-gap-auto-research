@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-buffered-posterior/check_posterior.py"
+  ],
+  "working_directory": "repository root",
+  "exit_code": 0,
+  "elapsed_seconds": 0.406,
+  "python_version": "3.9.6",
+  "sympy_version": "1.14.0",
+  "source": "check_posterior.py",
+  "output": "posterior-check.json",
+  "source_sha256": "f0d9a4ffbf079276f0e508712367389342063483158ad5e3598b746b7d364b45",
+  "output_sha256": "b07adfd1e74ef7fdf678440b1c76c3ab5f8f3dc083f94cad1bee05411f7b5487",
+  "upstream_replayed": false,
+  "general_theorem_formalized": false,
+  "Yang_Mills_exponential_decay_proved": false,
+  "independently_reviewed": false
+}
