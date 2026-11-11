@@ -1,5 +1,7 @@
 # A patch-size-independent SU(2) minimizing-frame estimate
 
+**Correction, 2026-11-11:** [PR #6](https://github.com/rohanarun/yang-mills-mass-gap-auto-research/pull/6) locates and replays the existing upstream branch producers. Uniform frame uniqueness, predictor uniqueness, and axial eligibility are already supplied upstream. Earlier absence claims are retracted; this PR provides an explicit SU(2) calculation to compare with existing results, not the first proof of uniform frame control or branch existence.
+
 ## Metadata and bounded question
 
 - Date / author: 2026-11-11; Rohan Arun, with OpenAI Codex assistance.

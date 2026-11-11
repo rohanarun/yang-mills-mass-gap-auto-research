@@ -1,5 +1,7 @@
 # Yang–Mills Mass Gap Auto-Research
 
+**Correction, 2026-11-11:** [PR #6](https://github.com/rohanarun/yang-mills-mass-gap-auto-research/pull/6) locates and replays the existing upstream branch producers. Uniform frame uniqueness, predictor uniqueness, and axial eligibility are already supplied upstream. Earlier absence claims are retracted; this PR provides an explicit SU(2) calculation to compare with existing results, not the first proof of uniform frame control or branch existence.
+
 An initial investigation of what additional estimate could establish a positive mass gap for the construction in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028).
 
 **This repository does not prove the Yang–Mills mass gap.** It contains a standard conditional spectral argument, an explicit obstruction to inferring a gap from polynomial decay, and an uncompiled Lean specification for a stronger target.

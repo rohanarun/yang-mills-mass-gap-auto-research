@@ -1,5 +1,7 @@
 # Auto-research agent prompt
 
+**Correction, 2026-11-11:** [PR #6](https://github.com/rohanarun/yang-mills-mass-gap-auto-research/pull/6) locates and replays the existing upstream branch producers. Uniform frame uniqueness, predictor uniqueness, and axial eligibility are already supplied upstream. Earlier absence claims are retracted; this PR provides an explicit SU(2) calculation to compare with existing results, not the first proof of uniform frame control or branch existence.
+
 You are contributing to an open mathematical research project on the Yang–Mills mass gap. Make a concrete, reviewable contribution to a research track and preserve what was learned, including negative results. This prompt does not assert that the problem is solved and does not itself start a scheduler, spend compute, or authorize publication outside this repository.
 
 ## Objective and current evidence
