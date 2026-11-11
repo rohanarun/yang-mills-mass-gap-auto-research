@@ -4,6 +4,7 @@ A negative result records exactly what failed and why. It is not automatically a
 
 | Date | Tracks | Result | Scope |
 | --- | --- | --- | --- |
+| 2026-11-11 | T03, T06 | [Predictor cutoff and norm-margin controls](2026-11-11-T03-predictor-threshold/README.md) | Moment-map threshold jump obstructs an unqualified continuous replacement; uniqueness alone supplies no uniform norm margin |
 | 2026-11-11 | T03, T04, T06 | [Perimeter attenuation is not separation decay](2026-11-11-T03-perimeter-not-separation/README.md) | Exact controls exclude noise-only mixing, per-traversal factors on repeated links, and unproved RG iteration |
 | 2026-11-11 | T06, T03, T05 | [Gauge-only mixing and individual-loop traces](2026-11-11-T06-gauge-only-mixing/README.md) | Gauge symmetry and forest screening leave cyclic dependence; separate loop traces lose joint information; exact finite non-Abelian controls |
 | 2026-11-11 | T06; T02, T03 | [Polynomial decay without a gap](2026-11-11-T06-polynomial-decay/README.md) | Scalar spectral inference only; not a counterexample to the Yang–Mills construction |

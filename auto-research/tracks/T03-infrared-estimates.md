@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: a written one-step identity transfers vertex-disjoint fundamental SU(2) loop covariance to explicit averaged fine-field predictions, with a known noise coefficient. The coefficient suppresses perimeter, not separation; spatial decay and terminal mixing remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: an exact written predictor-average formula and cutoff-preserving truncation are proposed for review. The geometric bound needs an extra cutoff margin; correlations of the resulting masked observables remain uncontrolled spatially. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -76,14 +76,15 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-For the explicit averaged prediction observable in the one-step loop-transfer record, derive a weighted expansion with controlled supports or a direct spatial covariance bound under the full fine law. Do not assume it is another simple Wilson loop or multiply perimeter factors across RG steps without a closure theorem. Extend any successful estimate to the actual transported insertions and required dense family, retaining normalization, shared tags, generated interactions, and physical units.
+Establish a predictor-cutoff margin for the exact fixed kernel, or a justified integrated substitute near small connector mean. Then bound connected correlations of the cutoff-preserving truncated observables, with all shared frames, fine-field interactions, degree-dependent costs, and complete supports. A small truncation error does not bound the remaining covariance. Extend any successful estimate to the required transported insertions and dense family.
 
 ## Active work
 
-No active file ownership. 2026-11-11 handoff: one-step loop-noise transfer and failure controls recorded below. Next bounded task: a controlled expansion or spatial covariance estimate for the actual averaged fine-field prediction observable.
+2026-11-11 handoff: derivation and exact checks complete on `research/su2-predictor-average`, submitted for PR review. No active file ownership or automatic merge. Next task: the fixed-kernel cutoff margin and correlations of masked truncated observables.
 
 ## Contribution ledger
 
+- 2026-11-11, proposed for review: [SU(2) predictor average and masked truncation](../general/2026-11-11-T03-predictor-average/README.md). Written exact tag average and uniform truncation under the explicit extra hypothesis `0 < predictor_cut < 1`; 378 scalar rational checks and three noncommuting loop cases passed. [Threshold controls](../negative-results/2026-11-11-T03-predictor-threshold/README.md) preserve the mask and margin obligations. No spatial decay or Lean proof.
 - 2026-11-11: [Exact one-step SU(2) loop transfer](../general/2026-11-11-T03-loop-noise-transfer/README.md): written source-matched covariance identity, conditional tag factorization for vertex-disjoint loops, rational coefficient enclosures, and exact finite controls. [Perimeter/separation and repeated-link controls](../negative-results/2026-11-11-T03-perimeter-not-separation/README.md) exclude noise-only and unproved iteration shortcuts. No spatial decay, Lean proof, or independent review.
 - 2026-11-11: [Gauge-invariant conditional response](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance and written forest-conditioning identity reduce the target to joint exterior loop orbits. [Finite controls](../negative-results/2026-11-11-T06-gauge-only-mixing/README.md) rule out symmetry-only mixing and loss of joint loop information. Exact non-Abelian enumeration passed; no spatial decay or Lean proof.
 - 2026-11-11: [Buffered posterior and local prediction response](../general/2026-11-11-T03-buffered-posterior/README.md): written source-matched conditional law, two-noise influence bound, and covariance reduction; exact symbolic identities and ten buffered-chain cases passed. No spatial decay, Lean proof, or independent review.
