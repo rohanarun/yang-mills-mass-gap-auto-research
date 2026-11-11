@@ -43,6 +43,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-11: [Connected-source bridge](../general/2026-11-11-T03-connected-source-bridge/README.md): cover-budget separation bound passed trust-zero checking; written identity isolates covariance of the actual normalized one-marker ratios under the retained vacuum measure.
 
+- 2026-11-12: [Gap-target specification review](../reviews/2026-11-12-T01-gap-target-specification/README.md): semantic review of the uncompiled target against pinned upstream definitions; upstream blob hashes recomputed and matched. No Lean replay; the target and the review's variant definitions remain uncompiled.
+
 ## Update instructions
 
 Follow [the agent prompt](../../auto-research.md). Append dated links to result records, their exact outcome/evidence level, and any superseded result. Update the next contribution from the evidence, and link cross-track consequences without duplicating results. Preserve concurrent contributions.

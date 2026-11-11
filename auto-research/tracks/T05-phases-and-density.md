@@ -41,6 +41,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
 
+- 2026-11-12: [Gap-target specification review](../reviews/2026-11-12-T01-gap-target-specification/README.md): source inspection records that the proposed target constrains only the selected-phase theory, while the Wilson limit concerns the phase average. No phase or density estimate.
+
 ## Update instructions
 
 Follow [the agent prompt](../../auto-research.md). Append dated links to result records, their exact outcome/evidence level, and any superseded result. Update the next contribution from the evidence, and link cross-track consequences without duplicating results. Preserve concurrent contributions.
