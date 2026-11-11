@@ -1,4 +1,4 @@
-# Yang–Mills mass gap notes
+# Yang–Mills Mass Gap Auto-Research
 
 An initial investigation of what additional estimate could establish a positive mass gap for the construction in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028).
 
