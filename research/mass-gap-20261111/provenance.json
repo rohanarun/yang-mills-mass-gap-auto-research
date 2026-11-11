@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "client_date": "2026-11-11",
+  "lean_toolchain": "leanprover/lean4:v4.32.0",
+  "upstream_kernel_replay_performed": false,
+  "new_target_elaborated": false,
+  "source_sha256": {
+    "PublicTheory.lean": "94111ad258b4218a263fcc0a7136446d5a6eff0e090809b72036fb3a7aecfff8",
+    "ChallengeSpec.lean": "e48b0be2b72d16b9b87c6c1923b3ae814270387bf9312b5cb0661dfa3e243749",
+    "Solution.lean": "1838214ba7159a2babe703000cfd9c43905fb909c1f27b73c46aae48c11ece24",
+    "YM/EveryPhase/Light.lean": "ebe20053122ab974ff779cea297d029c642068667682bda40f9469aad6d75164",
+    "YM/EveryPhase/Decay.lean": "51d2205b300d3727dbfa44a9cc450682ce83cbe35e5438ec4e182a9751b89c94",
+    "YM/EveryPhase/Vacuum.lean": "92e4dc4f4ac9074a00a78605e63b9d246cbde7f1e028f51c0c92ae0d45c3e54e"
+  }
+}

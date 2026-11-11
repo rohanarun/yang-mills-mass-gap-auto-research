@@ -1,0 +1,152 @@
+FIRST MASS-GAP ATTEMPT — 2026-11-11
+
+Status: source-level research, a standard conditional spectral argument, and
+an exactly checked scalar obstruction. No Yang–Mills mass gap has been proved.
+No upstream Lean kernel replay has been performed. MassGapTarget.lean is an
+uncompiled proposed specification, with no claimed proof.
+
+SOURCE AND SCOPE
+
+Repository: https://github.com/yang-mills-group/OpenAI-YM-20261028
+Revision: 3456e5e75cf8d4cd558955a5c7638fba2d68f464
+Pinned upstream toolchain: Lean 4.32.0. The target has not been compiled.
+The repository README explicitly excludes positive mass gap from its claim.
+Its recorded verification results are upstream reports, not independently
+reproduced results of this investigation. Reading proof source does not audit
+the whole construction or its correspondence to the Clay problem.
+
+The public W0 definition (PublicTheory.lean:246) states spectral representation,
+positive energy, and uniqueness of the invariant vacuum. JointExistence
+(ChallengeSpec.lean) combines Wilson origin, reconstruction, OPE, and a trace
+test. A gap is not one of those conclusions.
+
+A CONCRETE EXISTING ESTIMATE
+
+YM/EveryPhase/Light.lean:221, light_bound, bounds the diagonal spectral measure
+of a finite word state by
+
+    mu_w,i({0 < E <= u}) <= M_w u^2,       0 < u <= 1,
+
+uniformly over the characters i, with M_w depending on the word.
+YM/EveryPhase/Decay.lean:173, inverse_square, gives the residual heat pairing
+
+    0 <= <w, (T(t) - P_zero) w> <= M'_w / t^2,       t >= 1.
+
+Here P_zero is initially the FULL zero-energy projection.
+YM/EveryPhase/Vacuum.lean:51 extends the vacuum-subtracted bound to every
+character; all_plant at line 115 identifies the zero-energy projection with
+the vacuum line. These source statements provide useful attachment points.
+Their local proof replay and complete dependency audit remain outstanding.
+
+WHY THIS ESTIMATE DOES NOT YET GIVE A GAP
+
+Take the finite measure dmu(E) = E exp(-E) dE on (0,infinity). Directly,
+
+    mu((0,u]) = 1 - (1+u) exp(-u),
+    0 < mu((0,u]) <= integral_0^u E dE = u^2/2  for every u > 0,
+    integral_0^infinity exp(-tE) dmu(E) = 1/(1+t)^2.
+
+The upper bound follows from exp(-E) <= 1; strict positivity follows from
+strict positivity of the density on every interval inside (0,u).
+Thus precisely quadratic low-energy control and inverse-square heat decay
+coexist with spectral weight arbitrarily close to zero.
+
+For an operator realization let K = C direct-sum L2((0,infinity),mu), with
+Omega = (1,0), and H(c,f) = (0,E f(E)) on the multiplication-operator domain.
+H is nonnegative and self-adjoint. Its kernel is exactly C Omega, since E>0
+mu-almost everywhere. Every interval (0,u) has a nonzero spectral projection;
+there is no positive gap. The centered unit vector (0,1) has heat pairing
+1/(1+t)^2. Bounded compactly supported functions are dense in the L2 part,
+and satisfy the same type of quadratic/heat estimate with vector-dependent
+constants. This also addresses the fact that the repository constants depend
+on the word rather than only on its Hilbert norm.
+
+This is a counterexample to the proposed SPECTRAL INFERENCE, not to the full
+Yang–Mills construction. It is not a four-dimensional Wightman theory with
+the repository's Wilson, OPE, or trace properties. It does not establish
+logical independence of mass gap from all those stronger properties.
+
+check_obstruction.py, using SymPy 1.14.0, exactly checked the two integrals,
+the total mass 1, and exp(mt)/(1+t)^2 -> infinity for symbolic m>0.
+These are algebraic checks, not formal verification of the operator model.
+
+A PRECISE SUFFICIENT LEMMA, WITH PROOF
+
+Let H>=0 be a self-adjoint Hamiltonian, with spectral PVM P, and normalized
+vacuum Omega satisfying ker H = C Omega. Let D be a dense subset of
+Omega-perpendicular. Suppose that there exists ONE m>0 such that for each
+psi in D there is a finite C_psi>=0 with
+
+    0 <= <psi, exp(-tH) psi> <= C_psi exp(-m t),       t>=1.       (*)
+
+Then P((0,m))=0, hence spec(H) is contained in {0} union [m,infinity).
+The constants C_psi need not be uniform over D. The rate m MUST be uniform.
+
+Proof. Set mu_psi(B)=<psi,P(B)psi>. For 0<a<m and t>=1, positivity yields
+
+    exp(-a t) mu_psi((0,a])
+      <= integral exp(-tE) dmu_psi(E)
+      <= C_psi exp(-m t).
+
+Thus mu_psi((0,a]) <= C_psi exp(-(m-a)t). Taking t to infinity gives zero.
+Taking an increasing countable sequence a approaching m gives
+mu_psi((0,m))=0. Since P((0,m)) is an orthogonal projection,
+||P((0,m))psi||^2 = mu_psi((0,m))=0. Boundedness and density imply that it
+annihilates all of Omega-perpendicular. It also annihilates Omega, whose
+spectral measure is concentrated at zero. Therefore P((0,m))=0.
+The spectral theorem gives the stated exclusion of the open interval. End.
+
+This is a standard spectral reduction, not a new Yang–Mills theorem.
+For the repository, use its spectral measure and heat operator, center the
+cyclic word vectors, and establish the required density for the particular
+finite-word class. The public file MassGapTarget.lean expresses the gap using
+the existing joint energy-momentum PVM, avoiding an extra Hamiltonian object.
+The target asks for one common m per chosen Wilson family across all volume
+refinements, which is stronger than permitting a separate gap in each limit.
+
+THE ACTUAL REMAINING YANG–MILLS PROBLEM
+
+Prove (*) for the SAME selected hierarchy as the construction, with a positive
+rate that survives both cutoff removal and infinite volume. Short-distance
+OPE asymptotics, exclusion of the specified free-field profiles, finite-volume
+positivity, and the displayed polynomial estimate do not supply that proof.
+
+A useful concrete intermediate target is a strict contraction at a fixed
+physical Euclidean time tau>0 on the centered subspace:
+
+    ||T(tau)|_(Omega-perpendicular)|| <= q < 1.
+
+For a positive self-adjoint heat semigroup this would give
+m >= -log(q)/tau. It is a reformulation of the gap at continuum level, not an
+independent argument. Its potential use is to derive q from quantitative
+finite-cutoff Yang–Mills estimates and pass the bound through the construction.
+One must control the vacuum subtraction, operator/state identification, and
+both limits; a finite-lattice gap whose q approaches 1 is insufficient.
+A proof just for the stress-trace two-point function does not cover the whole
+Hilbert space without a separate density/cyclicity argument for that channel.
+
+Do not transfer an averaged unselected correlation estimate to a selected
+phase without proof. Centering can differ by phase. Uniform all-phase heat
+bounds, or an appropriate positive spectral disintegration plus continuity
+argument, would resolve this additional issue; raw averaged cancellation does
+not. The repository's full-support/continuity machinery is a potential aid,
+not an already supplied exponential estimate.
+
+NEXT MATHEMATICAL ATTACK
+
+Trace the quantitative constants preceding Light.light_bound and the Wilson
+blocking estimates to look for a strict contraction at a nonzero physical
+scale. The currently inspected locality-based argument only gives a power
+of u; improving its coefficient does not create an empty spectral interval.
+A new nonperturbative infrared estimate is needed. No such estimate has been
+established in this first pass.
+
+REPRODUCTION
+
+From the checkout root:
+    python3 research/mass-gap-20261111/check_obstruction.py
+
+See provenance.json for exact source hashes and verification status.
+These notes are published separately from upstream. No existing upstream files
+were modified during this investigation. Publication does not change the
+verification status above.

@@ -1,0 +1,10 @@
+{
+  "scope": "Scalar spectral example only; not a Yang--Mills model or Lean proof",
+  "sympy_version": "1.14.0",
+  "density": "E*exp(-E)",
+  "total_mass": "1",
+  "heat": "(t + 1)**(-2)",
+  "low_energy_mass": "(-u + exp(u) - 1)*exp(-u)",
+  "exponentially_rescaled_limit_for_every_m_positive": "infinity",
+  "passed": true
+}

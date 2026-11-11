@@ -1,0 +1,15 @@
+Yang–Mills mass gap notes
+
+An independent, AI-assisted research notebook by rohanarun, prepared with
+OpenAI Codex. It is not an official OpenAI publication and is not endorsed
+by the upstream repository's authors.
+
+This project analyzes the public definitions and source statements in:
+https://github.com/yang-mills-group/OpenAI-YM-20261028
+Revision: 3456e5e75cf8d4cd558955a5c7638fba2d68f464
+Upstream license: Apache-2.0.
+
+Upstream theorem names, definitions, and source locations are attributed in
+the research notes and provenance file. The upstream implementation and its
+third-party dependencies are not redistributed here. MassGapTarget.lean
+imports the upstream ChallengeSpec module and is not a standalone Lean build.
