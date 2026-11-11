@@ -1,0 +1,100 @@
+{
+  "geometry": [
+    {
+      "side": 3,
+      "dimension": 4,
+      "rows": [
+        {
+          "axis": 0,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 1,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 2,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 3,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        }
+      ]
+    },
+    {
+      "side": 4,
+      "dimension": 4,
+      "rows": [
+        {
+          "axis": 0,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 1,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 2,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 3,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        }
+      ]
+    },
+    {
+      "side": 5,
+      "dimension": 4,
+      "rows": [
+        {
+          "axis": 0,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 1,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 2,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        },
+        {
+          "axis": 3,
+          "incident_faces": 6,
+          "distinct_neighbors": 18,
+          "boundary_pairs": 18
+        }
+      ]
+    }
+  ],
+  "cosh_2_upper": "2201/585",
+  "influence_lower_from_written_argument": "585/8804",
+  "row_lower_from_written_argument": "5265/4402",
+  "coarser_strict_row_lower": "9/8",
+  "conditional_TV_perturbation_radius": "1/288",
+  "scope": "Exact finite geometry and rational arithmetic only; the all-volume SU(2) argument is written, not formalized."
+}

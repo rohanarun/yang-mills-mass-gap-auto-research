@@ -111,3 +111,7 @@ python3 auto-research/general/2026-11-11-T03-terminal-covariance/check_terminal.
 Attempt a uniform mixing estimate for the actual level-zero measures $P_{0,N,p}$ and the transported observables $f_{0,N,p},g_{0,N,p}$. Track their localization and normalization; they need not remain strictly local after transport. Combine it with an absolutely summable bound for the fluctuation terms, at one positive physical rate, and then prove the required limits and reconstruction bridge. Alternatively derive a justified continuation to larger physical blocking scales, with those same observables and complete generated interactions.
 
 Do not infer that iterating an exact UV recursion removes the terminal covariance. Do not replace the blocked law by a bare Wilson measure from knowledge of its scalar coupling. This record identifies necessary work for this route; it does not prove that such work is feasible or that every mass-gap proof must follow it. No independent review is recorded.
+
+## Follow-up — 11 November 2026
+
+The [single-link influence audit](../../negative-results/2026-11-11-T03-single-link-influence/README.md) excludes one simple route: the bare SU(2) single-link total-variation contraction test fails at beta at least one. This covers the selected N=0 endpoint, but does not determine the large-N coarse measures. Block criteria and the actual generated interactions still require analysis.

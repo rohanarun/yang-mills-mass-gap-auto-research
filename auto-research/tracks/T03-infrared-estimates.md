@@ -22,7 +22,7 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Derive a uniform mixing bound for the actual level-zero blocked measures and transported insertions, plus summable fluctuation estimates at one physical rate. Retain engineering factors and do not identify the blocked measure with a bare Wilson law from its scalar coupling.
+Derive a mixing estimate for the actual large-cutoff coarse measures or gauge-invariant blocks, with quantitative localization of transported insertions and summable fluctuation terms at one physical rate. The bare SU(2) single-link TV criterion at beta at least one is excluded by a lower bound; do not spend further effort sharpening its upper estimates. Preserve complete generated interactions and source scaling.
 
 ## Active work
 
@@ -46,6 +46,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Connected-source bridge](../general/2026-11-11-T03-connected-source-bridge/README.md): cover-budget separation bound passed trust-zero checking; written identity isolates covariance of the actual normalized one-marker ratios under the retained vacuum measure.
 - 2026-11-11: [Log/integration-order control](../negative-results/2026-11-11-T03-log-integration-order/README.md): exact finite Ising-chain calculation shows that a vanishing fixed-field mixed-log derivative does not bound the physical correlation uniformly.
 - 2026-11-11: [Terminal RG covariance](../general/2026-11-11-T03-terminal-covariance/README.md): written recursion preserves source scaling and an explicit level-zero covariance; the coarse lattice still grows with volume. Exact finite-state check passed.
+- 2026-11-11: [Single-link influence obstruction](../negative-results/2026-11-11-T03-single-link-influence/README.md): written all-volume SU(2) argument gives a row sum above 9/8 at beta at least one; 216 boundary pairs and rational arithmetic checked. This excludes the specified bare-law contraction test, not a mass gap or arbitrary coarse measures.
 
 ## Update instructions
 

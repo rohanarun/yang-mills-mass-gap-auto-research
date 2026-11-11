@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/negative-results/2026-11-11-T03-single-link-influence/check_influence.py"
+  ],
+  "working_directory": "repository root",
+  "exit_code": 0,
+  "elapsed_seconds": 0.037,
+  "python_version": "3.9.6",
+  "dependencies": "Python standard library only",
+  "source": "check_influence.py",
+  "output": "influence-check.json",
+  "source_sha256": "06ef39d4d6f744a378f84fc248b7e0805115f198a67dc667418dd231d5bb36c6",
+  "output_sha256": "77e17ebee59750cffc9af87defffbb76d324cacf4c548953d6fe94194e455624",
+  "analytic_inequalities_formalized": false,
+  "upstream_replayed": false,
+  "mass_gap_proved": false,
+  "independently_reviewed": false
+}
