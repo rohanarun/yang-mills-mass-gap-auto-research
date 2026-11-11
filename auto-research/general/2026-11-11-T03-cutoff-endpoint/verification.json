@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-cutoff-endpoint/check_endpoint.py"
+  ],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.052,
+  "exit_code": 0,
+  "source_sha256": "8fe86d543177b5e57d93a8147c5db3ecc973a9dfd512320d69f475863535f94b",
+  "output_sha256": "d634403502164a6ab45a71e237f700db7aff2c8af8ad92310eb11986e4f9842e",
+  "general_theorems_formalized": false,
+  "upstream_replayed": false,
+  "fine_law_small_ball_bound_proved": false,
+  "mass_gap_proved": false
+}
