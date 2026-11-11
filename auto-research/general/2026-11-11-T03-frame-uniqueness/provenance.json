@@ -1,0 +1,11 @@
+{
+  "base_commit": "566f44c322142ebd14f8fc3a86f82341a3d61ac4",
+  "dependency_pr": "https://github.com/rohanarun/yang-mills-mass-gap-auto-research/pull/4",
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sources": {
+    "YM/RG/Patch.lean": "c85cca3ad0fe6c6394a1396f076121f38e254a45b1573126c9560d4c39577e2a",
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8",
+    "YM/Lattice/Box.lean": "2fe61e41702ff103276c053d763b4e53e103366df8e1d050793a5dc35d2fd524"
+  }
+}
