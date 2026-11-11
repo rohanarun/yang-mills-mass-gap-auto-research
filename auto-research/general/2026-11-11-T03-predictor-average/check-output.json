@@ -1,0 +1,140 @@
+{
+  "scalar_truncation_checks": 378,
+  "bond_tag_configurations_per_loop": 16,
+  "loop_results": [
+    {
+      "orientations": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "exact_mean": "-3/13",
+      "connector_only_mean": "-144/845",
+      "truncations": [
+        {
+          "degree": 0,
+          "error": "51/845",
+          "bound": "7/3"
+        },
+        {
+          "degree": 1,
+          "error": "52863/3570125",
+          "bound": "49/48"
+        },
+        {
+          "degree": 2,
+          "error": "253058019/60335112500",
+          "bound": "343/768"
+        },
+        {
+          "degree": 4,
+          "error": "22911174912078291/55143396739600000000",
+          "bound": "16807/196608"
+        },
+        {
+          "degree": 8,
+          "error": "468840930177136801117246994326287/88580259014464900433920000000000000000",
+          "bound": "40353607/12884901888"
+        }
+      ]
+    },
+    {
+      "orientations": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "exact_mean": "3/13",
+      "connector_only_mean": "144/845",
+      "truncations": [
+        {
+          "degree": 0,
+          "error": "51/845",
+          "bound": "7/3"
+        },
+        {
+          "degree": 1,
+          "error": "52863/3570125",
+          "bound": "49/48"
+        },
+        {
+          "degree": 2,
+          "error": "253058019/60335112500",
+          "bound": "343/768"
+        },
+        {
+          "degree": 4,
+          "error": "22911174912078291/55143396739600000000",
+          "bound": "16807/196608"
+        },
+        {
+          "degree": 8,
+          "error": "468840930177136801117246994326287/88580259014464900433920000000000000000",
+          "bound": "40353607/12884901888"
+        }
+      ]
+    },
+    {
+      "orientations": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "exact_mean": "-3/13",
+      "connector_only_mean": "-144/845",
+      "truncations": [
+        {
+          "degree": 0,
+          "error": "51/845",
+          "bound": "7/3"
+        },
+        {
+          "degree": 1,
+          "error": "52863/3570125",
+          "bound": "49/48"
+        },
+        {
+          "degree": 2,
+          "error": "253058019/60335112500",
+          "bound": "343/768"
+        },
+        {
+          "degree": 4,
+          "error": "22911174912078291/55143396739600000000",
+          "bound": "16807/196608"
+        },
+        {
+          "degree": 8,
+          "error": "468840930177136801117246994326287/88580259014464900433920000000000000000",
+          "bound": "40353607/12884901888"
+        }
+      ]
+    }
+  ],
+  "strict_threshold_control": [
+    {
+      "n": 8,
+      "radial_separation": "1/4",
+      "mean_separation": "3/8"
+    },
+    {
+      "n": 16,
+      "radial_separation": "1/8",
+      "mean_separation": "5/16"
+    },
+    {
+      "n": 32,
+      "radial_separation": "1/16",
+      "mean_separation": "9/32"
+    },
+    {
+      "n": 64,
+      "radial_separation": "1/32",
+      "mean_separation": "17/64"
+    }
+  ],
+  "scope": "Exact rational finite controls; no spatial covariance estimate or Lean proof."
+}

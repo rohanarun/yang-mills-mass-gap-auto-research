@@ -21,6 +21,7 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- Proposed for review: [SU(2) predictor average and masked truncation](general/2026-11-11-T03-predictor-average/README.md), with [cutoff/margin controls](negative-results/2026-11-11-T03-predictor-threshold/README.md). Written tag average and a conditional geometric approximation bound; exact rational checks passed, spatial covariance remains open.
 - [One-step SU(2) loop-noise transfer](general/2026-11-11-T03-loop-noise-transfer/README.md) and [failure controls](negative-results/2026-11-11-T03-perimeter-not-separation/README.md): written exact covariance transfer to averaged fine-field predictions; rational and finite checks passed, spatial estimate open.
 - [Gauge-invariant response](general/2026-11-11-T03-gauge-orbit-response/README.md) and [symmetry-only mixing controls](negative-results/2026-11-11-T06-gauge-only-mixing/README.md): written forest identity narrows the target to joint loop information; exact finite non-Abelian checks passed, spatial decay remains open.
 - [Buffered posterior and local hidden predictions](general/2026-11-11-T03-buffered-posterior/README.md): written two-noise bound and exact finite controls identify the local covariance that still needs spatial decay.

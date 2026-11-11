@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-predictor-average/check_predictor.py"
+  ],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.044,
+  "exit_code": 0,
+  "source_sha256": "0a7d3e4c89fc685608e23ea864ef450005e2e947ed9916df282644588e4ff978",
+  "output_sha256": "b37d93ef92ceb3b87d831645da33a9493e1b1ebb26832677c01fdea94171ecc8",
+  "general_theorem_formalized": false,
+  "upstream_replayed": false,
+  "Yang_Mills_decay_proved": false
+}
