@@ -30,6 +30,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-11: [Gauge-orbit response audit](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance of transported insertions and written orbit reduction. Individual fundamental-loop traces can omit relative non-Abelian information; no dense-family or continuum phase identification was proved.
 - [Initial source inspection and conditional argument](../general/2026-11-11-T02-initial-reduction/README.md): inherited baseline; no Lean replay.
 
 - 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.

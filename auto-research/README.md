@@ -21,6 +21,7 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Gauge-invariant response](general/2026-11-11-T03-gauge-orbit-response/README.md) and [symmetry-only mixing controls](negative-results/2026-11-11-T06-gauge-only-mixing/README.md): written forest identity narrows the target to joint loop information; exact finite non-Abelian checks passed, spatial decay remains open.
 - [Buffered posterior and local hidden predictions](general/2026-11-11-T03-buffered-posterior/README.md): written two-noise bound and exact finite controls identify the local covariance that still needs spatial decay.
 - [External YM3D transfer assessment](general/2026-11-11-T03-ym3d-transfer-audit/README.md): two checkers and 29 supplied tests replayed; finite-gas tools are useful, while normalization, dimension, and continuum bridges remain open.
 - [Coarse block conditional bounds](general/2026-11-11-T03-block-conditional-bounds/README.md) and [normalization/latent-noise controls](negative-results/2026-11-11-T03-conditional-normalization/README.md): written source-derived bound without spatial decay; exact finite checks passed.

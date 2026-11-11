@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "repository_base_commit": "d95fa752e993c81ce2e01008efb75862aaf39ab6",
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sources": {
+    "YM/Wilson/Law.lean": "8ed074914398a6fe8202cd4bf6ed72e1d8d5263375269c67dc7da1df91bd365c",
+    "YM/Wilson/Symmetry.lean": "c1b6a53dbebaddc3cbc95a71af75b327d33044930c1184c7a0f947e471c4d188",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6",
+    "YM/RG/Activities.lean": "211d39efa8b42d83ac10953da13ff83de8a7540b0555938d6beda2e72563c1ce",
+    "YM/RG/Masks.lean": "4f2a9b761b1a170ec4527dad7c1cc0062c0385d871c8831c54e684a13ef87a5f",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Block.lean": "ace19e95b77501e9964e4c53a1ce3a088f1bb2a092c988df44cbc40cb9cb9215",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Signals.lean": "924db9c313e71dd2deb8b8e70387a5729151d840e91c67e677aa65e68a0ee7c0",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Localization.lean": "88026c1e8e6836b95793849e668d73246575a3202413ec35d63fe0a668cbc7b6"
+  },
+  "upstream_kernel_replay": false
+}

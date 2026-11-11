@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: a written buffered-posterior reduction improves singleton noise influence to two noise factors and isolates the local hidden-prediction covariance; spatial decay and terminal mixing remain open. An external 3D program supplies useful finite checks but no imported decay estimate. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: buffered-posterior and gauge-orbit reductions isolate the gauge-invariant response to distant cycle data; spatial decay and terminal mixing remain open. Forest observations alone have zero response, but cyclic exterior information remains uncontrolled. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -76,14 +76,15 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Bound the local hidden-prediction covariance with a distant likelihood ratio under the actual buffered posterior, preferably for the required gauge-invariant observable class. Preserve shared branch choices, generated interactions, and transported insertions. Do not require the entire hidden posterior to remain unchanged. An imported finite gas estimate must control relative normalization and any changed eligibility; the two-noise influence bound still has no distance decay.
+Choose the actual gauge-invariant transported insertions and bound their conditional response to distant changes of joint cycle data, or the corresponding buffered-posterior covariance. Gauge-equivalent changes have zero response; forest screening does not apply once the exterior contains cycles. Preserve generated interactions, shared branch choices, complete tree/observable supports, relative normalization, and any eligibility changes. Spatial smallness remains to be derived from dynamics.
 
 ## Active work
 
-No active file ownership. 2026-11-11 handoff: buffered-posterior derivation and external 3D transfer assessment recorded below; the next bounded task is the local posterior spatial estimate.
+No active file ownership. 2026-11-11 handoff: gauge-orbit response reduction and finite controls recorded below. Next bounded task: a dynamical estimate for the required gauge-invariant insertions under distant cycle data.
 
 ## Contribution ledger
 
+- 2026-11-11: [Gauge-invariant conditional response](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance and written forest-conditioning identity reduce the target to joint exterior loop orbits. [Finite controls](../negative-results/2026-11-11-T06-gauge-only-mixing/README.md) rule out symmetry-only mixing and loss of joint loop information. Exact non-Abelian enumeration passed; no spatial decay or Lean proof.
 - 2026-11-11: [Buffered posterior and local prediction response](../general/2026-11-11-T03-buffered-posterior/README.md): written source-matched conditional law, two-noise influence bound, and covariance reduction; exact symbolic identities and ten buffered-chain cases passed. No spatial decay, Lean proof, or independent review.
 - 2026-11-11: [External YM3D transfer assessment](../general/2026-11-11-T03-ym3d-transfer-audit/README.md): inspected overlapping source audits and finite-gas comparison; two supplied checkers and 29 tests replayed successfully. Absolute gas bounds, 3D strong-coupling estimates, and conditional spectral criteria do not close the local posterior estimate.
 

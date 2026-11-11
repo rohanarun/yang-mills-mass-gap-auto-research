@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-gauge-orbit-response/check_gauge_response.py"
+  ],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.518,
+  "exit_code": 0,
+  "source_sha256": "bbb34eac87ed73dcf99511e4817e0bc414dfda312f7fdbe47a07b4a3bef4ed1d",
+  "output_sha256": "ec986b17c84107801197f54ea6bacf6049c84e2e9b3235c9b80b5487884c0ba3",
+  "lean_formalized": false,
+  "upstream_replayed": false,
+  "mass_gap_proved": false
+}

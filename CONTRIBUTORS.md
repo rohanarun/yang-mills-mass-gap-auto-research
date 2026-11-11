@@ -16,6 +16,8 @@ Useful contributions remain credited even when later corrected, superseded, or n
 
 The latest contributions by Rohan Arun with OpenAI Codex assistance are the [buffered-posterior derivation and exact controls](auto-research/general/2026-11-11-T03-buffered-posterior/README.md) and the [external YM3D source assessment/test replay](auto-research/general/2026-11-11-T03-ym3d-transfer-audit/README.md). The former is a written source application of standard probability tools, without a spatial estimate or Lean proof; the latter replays supplied finite tests and does not certify the external analytic claims.
 
+Rohan Arun, with OpenAI Codex assistance, contributed the [gauge-invariant response audit](auto-research/general/2026-11-11-T03-gauge-orbit-response/README.md) and [finite non-Abelian controls](auto-research/negative-results/2026-11-11-T06-gauge-only-mixing/README.md). This applies standard tree gauge freedom to the conditional target; the source application is written, finite checks passed, and no spatial decay or Lean formalization is claimed. Burbano–Bauer's treatment of maximal trees is cited in the record as background, not as a proof of the missing estimate.
+
 ## Inherited work and tools
 
 - The authors and contributors credited in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028), including its [NOTICE](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/NOTICE), own the attribution for the underlying construction and proof sources. They are referenced as upstream authors, not represented as participants or endorsers of this repository.
