@@ -1,0 +1,77 @@
+{
+  "sympy_version": "1.14.0",
+  "parameter_domains": "alpha>0; 0<q,r<1; b>a>0; a^2<=t<=b^2",
+  "TV_bound_algebra_residual": "0",
+  "flag_model_partition": "alpha/2 + 1/2",
+  "flag_model_bad_probability": "alpha/(alpha + 1)",
+  "flag_model_covariance": "alpha*q/(alpha + 1)",
+  "flag_model_bad_conditional_TV": "q",
+  "flag_model_cross_ratio": "(q + 1)**2/(q - 1)**2",
+  "latent_model_covariance": "r**2",
+  "rational_enumerations": [
+    {
+      "sites": 4,
+      "noise_bias": "1/5",
+      "whole_boundary_TV": "19/175",
+      "single_neighbor_influence": "1/25",
+      "row_sum": "3/25"
+    },
+    {
+      "sites": 4,
+      "noise_bias": "1/2",
+      "whole_boundary_TV": "13/28",
+      "single_neighbor_influence": "1/4",
+      "row_sum": "3/4"
+    },
+    {
+      "sites": 4,
+      "noise_bias": "3/4",
+      "whole_boundary_TV": "513/688",
+      "single_neighbor_influence": "9/16",
+      "row_sum": "27/16"
+    },
+    {
+      "sites": 6,
+      "noise_bias": "1/5",
+      "whole_boundary_TV": "211/1375",
+      "single_neighbor_influence": "1/25",
+      "row_sum": "1/5"
+    },
+    {
+      "sites": 6,
+      "noise_bias": "1/2",
+      "whole_boundary_TV": "121/244",
+      "single_neighbor_influence": "1/4",
+      "row_sum": "5/4"
+    },
+    {
+      "sites": 6,
+      "noise_bias": "3/4",
+      "whole_boundary_TV": "25209/33616",
+      "single_neighbor_influence": "9/16",
+      "row_sum": "45/16"
+    },
+    {
+      "sites": 8,
+      "noise_bias": "1/5",
+      "whole_boundary_TV": "2059/11575",
+      "single_neighbor_influence": "1/25",
+      "row_sum": "7/25"
+    },
+    {
+      "sites": 8,
+      "noise_bias": "1/2",
+      "whole_boundary_TV": "1093/2188",
+      "single_neighbor_influence": "1/4",
+      "row_sum": "7/4"
+    },
+    {
+      "sites": 8,
+      "noise_bias": "3/4",
+      "whole_boundary_TV": "1235313/1647088",
+      "single_neighbor_influence": "9/16",
+      "row_sum": "63/16"
+    }
+  ],
+  "scope": "Exact finite controls and optimization algebra; no Yang--Mills decay, Lean formalization, or upstream replay."
+}

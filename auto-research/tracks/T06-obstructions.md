@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: scalar, cyclicity, massless-locality, block-gap, and bare SU(2) single-link influence obstructions recorded. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: scalar, cyclicity, massless-locality, block-gap, and bare SU(2) single-link influence, and conditional-normalization obstructions recorded. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -44,6 +44,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Log/integration-order control](../negative-results/2026-11-11-T03-log-integration-order/README.md): exact finite Ising-chain calculation shows that a vanishing fixed-field mixed-log derivative does not bound the physical correlation uniformly.
 - 2026-11-11: [Terminal RG covariance](../general/2026-11-11-T03-terminal-covariance/README.md): written recursion preserves source scaling and an explicit level-zero covariance; the coarse lattice still grows with volume. Exact finite-state check passed.
 - 2026-11-11: [Single-link influence obstruction](../negative-results/2026-11-11-T03-single-link-influence/README.md): written all-volume SU(2) argument gives a row sum above 9/8 at beta at least one; 216 boundary pairs and rational arithmetic checked. This excludes the specified bare-law contraction test, not a mass gap or arbitrary coarse measures.
+- 2026-11-11: [Coarse block conditional bounds](../general/2026-11-11-T03-block-conditional-bounds/README.md): written noise-kernel bound is uniform in cutoff and volume for a fixed link block, but has no distance decay. [Normalization and latent-noise controls](../negative-results/2026-11-11-T03-conditional-normalization/README.md) passed exact checks; relative spatial estimates remain open.
 
 ## Update instructions
 

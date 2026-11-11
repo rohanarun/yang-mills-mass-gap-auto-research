@@ -1,0 +1,18 @@
+{
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "repository_base_commit": "2c86f4fca925a7c64973e6573059329e446af56a",
+  "sources": {
+    "YM/RG/Block.lean": "f6c75b9e072cf30c89a7a5974d62584d37e429cc575f0c2203dea0a6a7a3c341",
+    "YM/RG/Push.lean": "df7e045d7ba8d9e8968025fb37b04af9634ed85bca8efbefc1f1032c29b16018",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6",
+    "YM/RG/Activities.lean": "211d39efa8b42d83ac10953da13ff83de8a7540b0555938d6beda2e72563c1ce",
+    "YM/RG/ActivityBounds.lean": "e41d2193c853a2bcfe61a89877e6fddd7df16ac40906cb588c449b5610627228",
+    "YM/RG/Masks.lean": "4f2a9b761b1a170ec4527dad7c1cc0062c0385d871c8831c54e684a13ef87a5f",
+    "YM/RG/PathActions.lean": "ee960e9ac23b6aa3b1326d7cfe9beb7aa38921f2531401d63d7e920644448805",
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Signals.lean": "924db9c313e71dd2deb8b8e70387a5729151d840e91c67e677aa65e68a0ee7c0"
+  },
+  "external_comparison_source": "https://arxiv.org/html/2309.02413v2#S5.SS2",
+  "upstream_kernel_replay": false
+}

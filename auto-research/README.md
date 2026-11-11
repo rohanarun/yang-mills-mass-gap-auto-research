@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Coarse block conditional bounds](general/2026-11-11-T03-block-conditional-bounds/README.md) and [normalization/latent-noise controls](negative-results/2026-11-11-T03-conditional-normalization/README.md): written source-derived bound without spatial decay; exact finite checks passed.
+
 - [Checked Laplace support theorem and criterion audit](general/2026-11-11-T02-laplace-support/README.md): scalar support equivalence and energy-window pullback, with the dynamical obligation still explicit.
 
 - [Lean-checked conditional criteria](general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.

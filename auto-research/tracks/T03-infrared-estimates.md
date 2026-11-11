@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: conditional coefficient decay and exact terminal covariance identified; dynamical mixing estimate remains open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: a written coarse block conditional bound is uniform in cutoff and volume for fixed block size; spatial decay and the terminal mixing estimate remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -76,11 +76,11 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Derive a mixing estimate for the actual large-cutoff coarse measures or gauge-invariant blocks, with quantitative localization of transported insertions and summable fluctuation terms at one physical rate. The bare SU(2) single-link TV criterion at beta at least one is excluded by a lower bound; do not spend further effort sharpening its upper estimates. Preserve complete generated interactions and source scaling.
+Derive a relative mixed-boundary estimate for the actual normalized block law across a spatial buffer, or a justified probability-weighted treatment of exceptional flagged sectors. In the noise representation, control the conditional hidden fine field and branch choices under distant coarse data. Preserve generated interactions and transported insertions. The uniform local-noise bound has no distance decay; absolute activity smallness does not alone control normalized conditionals.
 
 ## Active work
 
-No active contributor recorded. When coordinating a session, add its owner/session, date, bounded question, branch or work area, and handoff condition. A stale entry is not evidence that a worker is still running.
+No active contributor recorded. The 2026-11-11 T03-B conditional-law audit is recorded below; its remaining spatial estimate is handed off in Next contribution. Claim a bounded task here before substantive work and clear or hand off the entry when finished.
 
 ## Contribution ledger
 
@@ -103,6 +103,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Log/integration-order control](../negative-results/2026-11-11-T03-log-integration-order/README.md): exact finite Ising-chain calculation shows that a vanishing fixed-field mixed-log derivative does not bound the physical correlation uniformly.
 - 2026-11-11: [Terminal RG covariance](../general/2026-11-11-T03-terminal-covariance/README.md): written recursion preserves source scaling and an explicit level-zero covariance; the coarse lattice still grows with volume. Exact finite-state check passed.
 - 2026-11-11: [Single-link influence obstruction](../negative-results/2026-11-11-T03-single-link-influence/README.md): written all-volume SU(2) argument gives a row sum above 9/8 at beta at least one; 216 boundary pairs and rational arithmetic checked. This excludes the specified bare-law contraction test, not a mass gap or arbitrary coarse measures.
+- 2026-11-11: [Coarse block conditional bounds](../general/2026-11-11-T03-block-conditional-bounds/README.md): written noise-kernel bound is uniform in cutoff and volume for a fixed link block, but has no distance decay. [Normalization and latent-noise controls](../negative-results/2026-11-11-T03-conditional-normalization/README.md) passed exact checks; relative spatial estimates remain open.
 
 ## Update instructions
 

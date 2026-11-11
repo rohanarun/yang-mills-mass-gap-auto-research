@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-block-conditional-bounds/check_conditionals.py"
+  ],
+  "working_directory": "repository root",
+  "exit_code": 0,
+  "elapsed_seconds": 0.528,
+  "python_version": "3.9.6",
+  "sympy_version": "1.14.0",
+  "source": "check_conditionals.py",
+  "output": "conditional-check.json",
+  "source_sha256": "7fb1527915f5a16e2244c7aa2ce8b3c11a031ac93d9c73d6c4f0b196cc382821",
+  "output_sha256": "105860f788cf1fc59c4afdd6cbd359ff2fdc441b27acfa78c93bea7dd8e92e9d",
+  "general_inequalities_formalized": false,
+  "upstream_replayed": false,
+  "Yang_Mills_exponential_decay_proved": false,
+  "independently_reviewed": false
+}
