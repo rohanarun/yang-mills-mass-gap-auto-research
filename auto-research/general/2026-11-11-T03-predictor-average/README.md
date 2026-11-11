@@ -1,5 +1,7 @@
 # Fundamental SU(2) predictor average with cutoff-preserving truncation
 
+Follow-up, 2026-11-11: the [actual-weight cutoff audit](../2026-11-11-T03-cutoff-endpoint/README.md) derives `c <= 1` from predictor uniqueness, but leaves the strict margin open. It improves the remainder below to `q^(K+1)` without the prefactor and gives a conditional integrated alternative at `c=1`. This original record is retained as the derivation history; no spatial estimate follows from either approximation bound.
+
 ## Metadata and bounded question
 
 - Date / author: 2026-11-11; Rohan Arun, with OpenAI Codex assistance.

@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: an exact written predictor-average formula and cutoff-preserving truncation are proposed for review. The geometric bound needs an extra cutoff margin; correlations of the resulting masked observables remain uncontrolled spatially. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: a written actual-weight SU(2) audit derives `0 < predictor_cut <= 1`, sharpens the geometric remainder below one, and gives a conditional integrated alternative at one. The actual small-ball estimate and spatial correlations remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -76,14 +76,15 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Establish a predictor-cutoff margin for the exact fixed kernel, or a justified integrated substitute near small connector mean. Then bound connected correlations of the cutoff-preserving truncated observables, with all shared frames, fine-field interactions, degree-dependent costs, and complete supports. A small truncation error does not bound the remaining covariance. Extend any successful estimate to the required transported insertions and dense family.
+Determine whether the exact selected kernel has `predictor_cut < 1`. If it equals one, derive a cutoff/volume-uniform small-ball bound for positive connector-mean norm under the actual fine-field/site-tag law; the conditional conversion to integrated approximation error is now written. Then bound connected correlations of masked truncated observables, retaining shared frames, generated interactions, degree-dependent costs, and complete supports. Approximation convergence alone does not bound spatial covariance.
 
 ## Active work
 
-2026-11-11 handoff: derivation and exact checks complete on `research/su2-predictor-average`, submitted for PR review. No active file ownership or automatic merge. Next task: the fixed-kernel cutoff margin and correlations of masked truncated observables.
+2026-11-11 handoff: bounded cutoff audit completed on `research/su2-cutoff-endpoint`, based on merged PR #1, for a separate PR without merging. No ongoing worker is claimed. The next question is the actual fine-law small-ball bound or a strict margin for the selected kernel; coordinate separately with the Peter–Weyl/spin-j branch.
 
 ## Contribution ledger
 
+- 2026-11-11, proposed for review: [Actual-weight cutoff endpoint audit](../general/2026-11-11-T03-cutoff-endpoint/README.md). Written predictor-uniqueness characterization `c <= 1`, improved remainder, and conditional integrated bound; twelve integer convolution certificates, 792 rational remainder cases, and twelve exact radial integrals passed. [Endpoint controls](../negative-results/2026-11-11-T03-cutoff-endpoint/README.md) exclude a uniform norm margin at `c=1`. No actual fine-law small-ball or spatial estimate, Lean proof, or independent review.
 - 2026-11-11, proposed for review: [SU(2) predictor average and masked truncation](../general/2026-11-11-T03-predictor-average/README.md). Written exact tag average and uniform truncation under the explicit extra hypothesis `0 < predictor_cut < 1`; 378 scalar rational checks and three noncommuting loop cases passed. [Threshold controls](../negative-results/2026-11-11-T03-predictor-threshold/README.md) preserve the mask and margin obligations. No spatial decay or Lean proof.
 - 2026-11-11: [Exact one-step SU(2) loop transfer](../general/2026-11-11-T03-loop-noise-transfer/README.md): written source-matched covariance identity, conditional tag factorization for vertex-disjoint loops, rational coefficient enclosures, and exact finite controls. [Perimeter/separation and repeated-link controls](../negative-results/2026-11-11-T03-perimeter-not-separation/README.md) exclude noise-only and unproved iteration shortcuts. No spatial decay, Lean proof, or independent review.
 - 2026-11-11: [Gauge-invariant conditional response](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance and written forest-conditioning identity reduce the target to joint exterior loop orbits. [Finite controls](../negative-results/2026-11-11-T06-gauge-only-mixing/README.md) rule out symmetry-only mixing and loss of joint loop information. Exact non-Abelian enumeration passed; no spatial decay or Lean proof.

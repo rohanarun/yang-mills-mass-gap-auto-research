@@ -22,6 +22,8 @@ Rohan Arun, with OpenAI Codex assistance, contributed the [one-step fundamental 
 
 Proposed for PR review: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) predictor-average and masked-truncation derivation](auto-research/general/2026-11-11-T03-predictor-average/README.md) and [threshold controls](auto-research/negative-results/2026-11-11-T03-predictor-threshold/README.md). The general source application is written; finite rational checks passed. The additional cutoff-margin hypothesis and the physical spatial estimate remain open. The binomial identity is standard and attributed to NIST DLMF.
 
+Proposed for PR review: Rohan Arun, with OpenAI Codex assistance, contributed the [actual-weight cutoff endpoint audit](auto-research/general/2026-11-11-T03-cutoff-endpoint/README.md) and [endpoint failure controls](auto-research/negative-results/2026-11-11-T03-cutoff-endpoint/README.md). The source application, improved remainder, and conditional small-ball conversion are written; integer convolution and rational checks passed. No actual fine-law small-ball estimate, spatial decay, Lean formalization, or independent review is claimed. The Gamma integral is standard and attributed to NIST DLMF.
+
 ## Inherited work and tools
 
 - The authors and contributors credited in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028), including its [NOTICE](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/NOTICE), own the attribution for the underlying construction and proof sources. They are referenced as upstream authors, not represented as participants or endorsers of this repository.
