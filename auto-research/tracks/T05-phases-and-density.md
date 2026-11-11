@@ -31,6 +31,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 ## Contribution ledger
 
 - 2026-11-11: [One-step loop-noise transfer](../general/2026-11-11-T03-loop-noise-transfer/README.md): averaged predictions are gauge invariant by the integrated kernel identity; the scalar formula is restricted to fundamental SU(2), and simple edge-distinct loops are not proved sufficient for the continuum dense family. The transformed observable class is not shown closed under iteration.
+- 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): spin-network functions form a dense gauge-invariant family on which one step of SU(2) noise is explicit. Density in the reconstructed Hilbert space and the prediction half are not addressed.
 - 2026-11-11: [Gauge-orbit response audit](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance of transported insertions and written orbit reduction. Individual fundamental-loop traces can omit relative non-Abelian information; no dense-family or continuum phase identification was proved.
 - [Initial source inspection and conditional argument](../general/2026-11-11-T02-initial-reduction/README.md): inherited baseline; no Lean replay.
 

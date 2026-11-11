@@ -30,6 +30,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): the noise-only obstruction extends from simple loops to every observable; noise eigenvalues depend on spin content, never on separation. Written argument with exact checks; not a Yang–Mills counterexample.
 - 2026-11-11: [Perimeter/separation and repeated-link controls](../negative-results/2026-11-11-T03-perimeter-not-separation/README.md): exact finite non-Abelian noise leaves correlated loop signals, repeated-link factors fail, and overlapping loops retain conditional variance. No Yang–Mills counterexample; actual fine-law mixing remains open.
 - 2026-11-11: [Gauge-only mixing and individual-trace controls](../negative-results/2026-11-11-T06-gauge-only-mixing/README.md): exact non-Abelian finite examples show that forest screening does not remove loop correlations and individual fundamental-loop traces need not determine a joint orbit. No Yang–Mills counterexample or mass-gap estimate.
 - 2026-11-11: [Local versus global hidden posterior](../general/2026-11-11-T03-buffered-posterior/README.md): an exact independent-hidden-variable control has zero local response but nonzero whole-posterior TV. Buffered-chain checks isolate the hidden correlation factor from noise amplitude. These are finite probability controls, not Yang–Mills counterexamples.

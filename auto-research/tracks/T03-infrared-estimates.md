@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: a written one-step identity transfers vertex-disjoint fundamental SU(2) loop covariance to explicit averaged fine-field predictions, with a known noise coefficient. The coefficient suppresses perimeter, not separation; spatial decay and terminal mixing remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: the noise half of one SU(2) blocking step is diagonalized in writing on all observables and shown rate-neutral; the earlier loop identity is its simplest case. Spatial decay must come from the fine law and the prediction map; it and terminal mixing remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -76,13 +76,15 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-For the explicit averaged prediction observable in the one-step loop-transfer record, derive a weighted expansion with controlled supports or a direct spatial covariance bound under the full fine law. Do not assume it is another simple Wilson loop or multiply perimeter factors across RG steps without a closure theorem. Extend any successful estimate to the actual transported insertions and required dense family, retaining normalization, shared tags, generated interactions, and physical units.
+The [noise spectrum record](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md) shows the noise cannot supply separation decay for any observable. For the explicit averaged prediction observable in the one-step loop-transfer record, derive a weighted expansion with controlled supports or a direct spatial covariance bound under the full fine law. Do not assume it is another simple Wilson loop or multiply perimeter factors across RG steps without a closure theorem. Extend any successful estimate to the actual transported insertions and required dense family, retaining normalization, shared tags, generated interactions, and physical units.
 
 ## Active work
 
-No active file ownership. 2026-11-11 handoff: one-step loop-noise transfer and failure controls recorded below. Next bounded task: a controlled expansion or spatial covariance estimate for the actual averaged fine-field prediction observable.
+No active file ownership. 2026-11-11 handoff: Peter–Weyl noise spectrum recorded below. Next bounded task: read `Patch.predict`, `frame`, `frameMass`, and `predictorMass` at the pin and determine the read footprint and fine-link sector expansion of the averaged fundamental character of one predicted coarse link.
 
 ## Contribution ledger
+
+- 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): written exact action of the one-step SU(2) noise on all observables (eigenvalues $I_{2j+1}/I_1$), explicit overlap covariance, and a rate-neutrality statement: the noise changes prefactors, never the separation rate. Two-route rational enclosures and an exact $Q_8$ control passed. Cited Bessel inequalities not re-proved; no spatial decay, Lean proof, or independent review.
 
 - 2026-11-11: [Exact one-step SU(2) loop transfer](../general/2026-11-11-T03-loop-noise-transfer/README.md): written source-matched covariance identity, conditional tag factorization for vertex-disjoint loops, rational coefficient enclosures, and exact finite controls. [Perimeter/separation and repeated-link controls](../negative-results/2026-11-11-T03-perimeter-not-separation/README.md) exclude noise-only and unproved iteration shortcuts. No spatial decay, Lean proof, or independent review.
 - 2026-11-11: [Gauge-invariant conditional response](../general/2026-11-11-T03-gauge-orbit-response/README.md): source-matched invariance and written forest-conditioning identity reduce the target to joint exterior loop orbits. [Finite controls](../negative-results/2026-11-11-T06-gauge-only-mixing/README.md) rule out symmetry-only mixing and loss of joint loop information. Exact non-Abelian enumeration passed; no spatial decay or Lean proof.
