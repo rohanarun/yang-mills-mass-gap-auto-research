@@ -9,3 +9,4 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 | 2026-11-11 | T03, T02, T04, T05, T06, T07 | [Infrared cost audit](2026-11-11-T03-infrared-cost-audit/README.md) | Written conditional criterion and source inspection; scalar coefficient checked |
 | 2026-11-11 | T02, T03, T04, T05, T07 | [Laplace support theorem and criterion audit](2026-11-11-T02-laplace-support/README.md) | Trust-zero checks passed; standard scalar equivalence and logical audit, no new YM estimate |
 | 2026-11-11 | T03, T04, T06, T07 | [Variable-time averaging](2026-11-11-T03-variable-time-average/README.md) | Written measure rescaling improves radius cost; scalar optimization passed trust-zero checking; no gap |
+| 2026-11-11 | T03, T02, T04, T06, T07 | [Connected-source bridge](2026-11-11-T03-connected-source-bridge/README.md) | Conditional coefficient separation bound checked in Lean; source-matched retained covariance remains unbounded |

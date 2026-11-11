@@ -1,0 +1,30 @@
+{
+  "sympy_version": "1.14.0",
+  "transfer_matrix_decomposition": "Exact complementary projections; eigenvalues z+1/z and z-1/z",
+  "enumerated_chains": [
+    {
+      "edges": 1,
+      "covariance": "(z - 1)*(z + 1)/(z**2 + 1)"
+    },
+    {
+      "edges": 2,
+      "covariance": "(z - 1)**2*(z + 1)**2/(z**2 + 1)**2"
+    },
+    {
+      "edges": 3,
+      "covariance": "(z - 1)**3*(z + 1)**3/(z**2 + 1)**3"
+    },
+    {
+      "edges": 4,
+      "covariance": "(z - 1)**4*(z + 1)**4/(z**2 + 1)**4"
+    },
+    {
+      "edges": 5,
+      "covariance": "(z - 1)**5*(z + 1)**5/(z**2 + 1)**5"
+    }
+  ],
+  "mixed_log_density_derivative": "0",
+  "covariance_limit_at_J_R_equal_half_log_R": "exp(-2)",
+  "conditional_scale_contraction_identity": "1/(L1**(2/5)*L2**(2/5)*L3**(2/5)) = (L1*L2*L3)^(-2/5)",
+  "scope": "Exact algebra and finite enumeration; general chain formula has a written transfer-matrix proof. Not a Yang--Mills model."
+}

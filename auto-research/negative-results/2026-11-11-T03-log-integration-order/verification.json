@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/negative-results/2026-11-11-T03-log-integration-order/check_ising.py"
+  ],
+  "working_directory": "repository root",
+  "exit_code": 0,
+  "elapsed_seconds": 0.58,
+  "python_version": "3.9.6",
+  "sympy_version": "1.14.0",
+  "source": "check_ising.py",
+  "output": "ising-check.json",
+  "scope": "Exact finite-chain algebra, symbolic limit and scale-product identity; written general transfer-matrix proof.",
+  "independent_review": false,
+  "Yang_Mills_model": false,
+  "source_sha256": "17a51489da771727ac9db8108a689fbb2cf7ee8244b165c97637616630225683",
+  "output_sha256": "42cf6ba05ea2a45a9a62dca5dace4f78e326f49c9790cd0f5a8d62b692073845"
+}

@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: time-average localization cost refined; retained-field dynamical estimate still open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: conditional coefficient separation decay derived; retained covariance still uncontrolled. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Audit connected-source RG estimates for retained-field mixed derivatives at separated supports. Require an identity with physical connected correlations and a common positive physical rate; block covariance gaps alone are insufficient.
+Bound the covariance of the actual normalized one-marker ratios T_alpha/v_j and T_beta/v_j under the selected retained vacuum measure. Also verify the priced localized coefficients sum to the same conditional cumulant, with source anchors and normalizations preserved.
 
 ## Active work
 
@@ -42,6 +42,9 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Variable-time averaging](../general/2026-11-11-T03-variable-time-average/README.md): written rescaling gives quadratic localization cost; scalar optimization checked, physical bridge not formalized.
 - 2026-11-11: [Massless local-field control](../negative-results/2026-11-11-T06-massless-locality/README.md): written counterexample to a locality-only inference, with scalar coefficient/scaling checks; not a Yang–Mills model.
 - 2026-11-11: [Auxiliary resolvent gap audit](../negative-results/2026-11-11-T03-auxiliary-resolvent-gap/README.md): inspected block precision estimates do not supply retained-field correlations; exact Gaussian counterexample checked.
+
+- 2026-11-11: [Connected-source bridge](../general/2026-11-11-T03-connected-source-bridge/README.md): cover-budget separation bound passed trust-zero checking; written identity isolates covariance of the actual normalized one-marker ratios under the retained vacuum measure.
+- 2026-11-11: [Log/integration-order control](../negative-results/2026-11-11-T03-log-integration-order/README.md): exact finite Ising-chain calculation shows that a vanishing fixed-field mixed-log derivative does not bound the physical correlation uniformly.
 
 ## Update instructions
 

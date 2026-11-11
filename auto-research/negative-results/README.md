@@ -9,3 +9,4 @@ A negative result records exactly what failed and why. It is not automatically a
 | 2026-11-11 | T04, T03, T06 | [Strong-coupling scope](2026-11-11-T04-strong-coupling-scope/README.md) | Direct application of a cited bounded-coupling theorem fails its regime requirement |
 | 2026-11-11 | T06, T03, T04 | [Massless local-field control](2026-11-11-T06-massless-locality/README.md) | Locality, a unique vacuum, and quadratic low-energy weight coexist without a gap; written field argument and scalar checks |
 | 2026-11-11 | T03, T04, T06, T07 | [Auxiliary resolvent gap](2026-11-11-T03-auxiliary-resolvent-gap/README.md) | Source audit and exact Gaussian block counterexample; retained-field control remains missing |
+| 2026-11-11 | T03, T04, T06 | [Logarithm and integration order](2026-11-11-T03-log-integration-order/README.md) | Exact local Ising-chain control: fixed-field mixed-log bounds omit a covariance; no YM model |

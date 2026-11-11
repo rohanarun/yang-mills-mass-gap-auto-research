@@ -1,0 +1,19 @@
+{
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "repository_base_commit": "1fac2ea99ebdfe40ca8c2a51d42b522d9f54e77b",
+  "sources": {
+    "YM/Lattice/Support.lean": "19e62f803b78e583503cab5c5074f1b2b883a5ef6e282eedee409b60eecc1cfe",
+    "YM/Corona/Fit.lean": "f54242a07c2d8372ae59fa15b6473b9774f1303ecd58008c54e2158d515c9e12",
+    "YM/Ac/Tree.lean": "f381388e580ae35f5ab93517e01677de1f28bdeea9fa1170695e1c3903776d43",
+    "YM/AnalyticNext/CONNECTED_LOG_IDENTITY/Prices.lean": "353080f2dbad32ad2745ef70be945acde87a4d6626fe79b4c3afd05f5b2eaac2",
+    "YM/AnalyticNext/CONNECTED_LOG_IDENTITY/Emitter.lean": "c678054e8cd69f387688f3bf059857395d145db87e51b536d409b4a0d8ca1e19",
+    "YM/Extra/MULTISOURCE_BOUNDS/Layers.lean": "43e2998eaf2121428b24ebe7d4808a356c26f7e486f23b83d733caf2e835750a",
+    "YM/Extra/MULTISOURCE_BOUNDS/LogTerms.lean": "a95c1faabcf385b02c9cff3a3d482f8b70dbc31d2e72211c6b1b14f39f96bb71",
+    "YM/Extra/MULTISOURCE_BOUNDS/Merger.lean": "ad0095bbb4b7fcb734e9c2da017b4be3e9eb26429ccee620148d553f93776639",
+    "YM/Extra/SOURCE_HISTORIES/Reserve.lean": "652a96a354772de98cec1386e3a893024011d93c34492848fefab30d4572930a",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Signals.lean": "924db9c313e71dd2deb8b8e70387a5729151d840e91c67e677aa65e68a0ee7c0",
+    "YM/Extra/MULTISOURCE_TRAJECTORIES/Algebra.lean": "c0419f3680f713d3ba2be3b074e193d3ef3813f96bb291f3838bf197c9c37c4b"
+  },
+  "upstream_kernel_replay": false
+}
