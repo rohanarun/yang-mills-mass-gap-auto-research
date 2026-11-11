@@ -1,0 +1,11 @@
+{
+  "repository_base_commit": "3699c4d41ed1bbd95d719976651bd75b979e8c18",
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sources_read_this_session": {
+    "YM/RG/Block.lean": {"git_blob_sha1": "b5b53828c5fb3fe94e1a69a4b0a24625371290ad", "retrieved_via": "GitHub contents API at the pinned commit"}
+  },
+  "sources_inherited_not_reread": ["YM/Gauge/MatrixGroup.lean", "YM/RG/Patch.lean", "YM/RG/Push.lean", "YM/RG/History.lean"],
+  "inherited_from": "auto-research/general/2026-11-11-T03-loop-noise-transfer/provenance.json",
+  "upstream_replayed": false
+}

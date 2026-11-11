@@ -1,0 +1,90 @@
+{
+  "scope": "exact rational checks of the SU(2) bond-tag prediction mean for integer spins; no spatial covariance bound, no upstream replay, no Lean proof",
+  "seed": 20261111,
+  "constant_(2j)^2": {
+    "1/2": "1",
+    "1": "4",
+    "3/2": "9",
+    "2": "16"
+  },
+  "cost_identity": {
+    "cases": 200,
+    "passed": 200,
+    "claim": "bondCost(Y,u) = 1 - <M,u> and <M,u>^2 <= |M|^2"
+  },
+  "fallback_mean_not_a_function_of_M": {
+    "a": {
+      "mean": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "D_1_diagonal": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "b": {
+      "mean": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "D_1_diagonal": [
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    "same_mean_different_D_1": true
+  },
+  "truncation_bound": {
+    "j=1": {
+      "constant_(2j)^2": "4",
+      "cases": 360,
+      "bound_holds": 360,
+      "skipped_small_mean": 0
+    },
+    "j=2": {
+      "constant_(2j)^2": "16",
+      "cases": 360,
+      "bound_holds": 360,
+      "skipped_small_mean": 0
+    }
+  },
+  "sharpness_spin_1": [
+    {
+      "tan_half_t": "1/10",
+      "ratio": "3.960396039604",
+      "equals_2(1+cos t)_and_below_4": true
+    },
+    {
+      "tan_half_t": "1/1000",
+      "ratio": "3.999996000004",
+      "equals_2(1+cos t)_and_below_4": true
+    },
+    {
+      "tan_half_t": "1/100000",
+      "ratio": "3.999999999600",
+      "equals_2(1+cos t)_and_below_4": true
+    }
+  ],
+  "repeated_link": {
+    "cases": 60,
+    "passed": 60,
+    "branch_pairs_seen": [
+      "(False, False)",
+      "(False, True)",
+      "(True, False)",
+      "(True, True)"
+    ],
+    "naive_fundamental_mean_rule_differs": true,
+    "example_direct": "-14534919908228015307838431028747027880354991108191/85147531028282701119324395815238426378034249742500",
+    "example_naive": "114176653707744059420939100773854263404938435909/436348866205967720620809855097890840977580595000"
+  },
+  "failures": [],
+  "all_passed": true
+}

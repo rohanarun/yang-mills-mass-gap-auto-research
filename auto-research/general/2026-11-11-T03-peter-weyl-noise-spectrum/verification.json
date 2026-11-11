@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-11",
+  "command": ["python3", "auto-research/general/2026-11-11-T03-peter-weyl-noise-spectrum/check_noise_spectrum.py"],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.88,
+  "exit_code": 0,
+  "source_sha256": "dfd2d7f00a21e930589ed2ba974d52544798cee1854420be7fabea94ff0e5416",
+  "output_sha256": "381df5a10b81ea2fe9e39c2140be209fe208775d4e8108fb7866c9f9f7d4cc1b",
+  "general_analytic_proof_formalized": false,
+  "cited_bessel_inequalities_reproved": false,
+  "upstream_replayed": false,
+  "independent_review": false,
+  "Yang_Mills_spatial_decay_proved": false
+}

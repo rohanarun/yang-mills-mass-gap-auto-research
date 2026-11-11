@@ -1,0 +1,949 @@
+{
+  "scope": "exact rational enclosures of SU(2) noise eigenvalues and a finite Q_8 control; no spatial covariance bound, no upstream replay, no Lean proof",
+  "su2": {
+    "1/2": {
+      "c0_is_one": true,
+      "coefficients": [
+        {
+          "two_j": 0,
+          "bessel": [
+            "1",
+            "1"
+          ],
+          "moments": [
+            "1",
+            "1"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 1,
+          "bessel": [
+            "0.123717928278321",
+            "0.123717928278321"
+          ],
+          "moments": [
+            "0.123717928278321",
+            "0.123717928278321"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 2,
+          "bessel": [
+            "0.0102565737734342",
+            "0.0102565737734342"
+          ],
+          "moments": [
+            "0.0102565737734342",
+            "0.0102565737734342"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 3,
+          "bessel": [
+            "0.000639042997110867",
+            "0.000639042997110867"
+          ],
+          "moments": [
+            "0.000639042997110867",
+            "0.000639042997110867"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 4,
+          "bessel": [
+            "3.18858196602876e-05",
+            "3.18858196602876e-05"
+          ],
+          "moments": [
+            "3.18858196602876e-05",
+            "3.18858196602876e-05"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 5,
+          "bessel": [
+            "1.32660390511412e-06",
+            "1.32660390511412e-06"
+          ],
+          "moments": [
+            "1.32660390511412e-06",
+            "1.32660390511412e-06"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 6,
+          "bessel": [
+            "4.73259375486303e-08",
+            "4.73259375486303e-08"
+          ],
+          "moments": [
+            "4.73259375486303e-08",
+            "4.73259375486303e-08"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        }
+      ],
+      "twice_used_link": {
+        "direct_E[2x^2-1]": [
+          "-0.484615139339849",
+          "-0.484615139339849"
+        ],
+        "predicted_(3c_1-1)/2": [
+          "-0.484615139339849",
+          "-0.484615139339849"
+        ],
+        "agree": true,
+        "naive_a^2": [
+          "0.0153061257774797",
+          "0.0153061257774797"
+        ],
+        "naive_rule_fails": true
+      }
+    },
+    "1": {
+      "c0_is_one": true,
+      "coefficients": [
+        {
+          "two_j": 0,
+          "bessel": [
+            "1",
+            "1"
+          ],
+          "moments": [
+            "1",
+            "1"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 1,
+          "bessel": [
+            "0.24019372387009",
+            "0.24019372387009"
+          ],
+          "moments": [
+            "0.24019372387009",
+            "0.24019372387009"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 2,
+          "bessel": [
+            "0.039225104519641",
+            "0.039225104519641"
+          ],
+          "moments": [
+            "0.039225104519641",
+            "0.039225104519641"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 3,
+          "bessel": [
+            "0.00484309675224353",
+            "0.00484309675224353"
+          ],
+          "moments": [
+            "0.00484309675224353",
+            "0.00484309675224353"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 4,
+          "bessel": [
+            "0.000480330501692815",
+            "0.000480330501692815"
+          ],
+          "moments": [
+            "0.000480330501692815",
+            "0.000480330501692815"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 5,
+          "bessel": [
+            "3.97917353153823e-05",
+            "3.97917353153823e-05"
+          ],
+          "moments": [
+            "3.97917353153823e-05",
+            "3.97917353153823e-05"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 6,
+          "bessel": [
+            "2.82967790822717e-06",
+            "2.82967790822717e-06"
+          ],
+          "moments": [
+            "2.82967790822717e-06",
+            "2.82967790822717e-06"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        }
+      ],
+      "twice_used_link": {
+        "direct_E[2x^2-1]": [
+          "-0.441162343220538",
+          "-0.441162343220538"
+        ],
+        "predicted_(3c_1-1)/2": [
+          "-0.441162343220538",
+          "-0.441162343220538"
+        ],
+        "agree": true,
+        "naive_a^2": [
+          "0.0576930249865809",
+          "0.0576930249865809"
+        ],
+        "naive_rule_fails": true
+      }
+    },
+    "2": {
+      "c0_is_one": true,
+      "coefficients": [
+        {
+          "two_j": 0,
+          "bessel": [
+            "1",
+            "1"
+          ],
+          "moments": [
+            "1",
+            "1"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 1,
+          "bessel": [
+            "0.433127426722312",
+            "0.433127426722312"
+          ],
+          "moments": [
+            "0.433127426722312",
+            "0.433127426722312"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 2,
+          "bessel": [
+            "0.133745146555376",
+            "0.133745146555376"
+          ],
+          "moments": [
+            "0.133745146555376",
+            "0.133745146555376"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 3,
+          "bessel": [
+            "0.0318919870561823",
+            "0.0318919870561823"
+          ],
+          "moments": [
+            "0.0318919870561823",
+            "0.0318919870561823"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 4,
+          "bessel": [
+            "0.00617719833064725",
+            "0.00617719833064725"
+          ],
+          "moments": [
+            "0.00617719833064725",
+            "0.00617719833064725"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 5,
+          "bessel": [
+            "0.00100599540294606",
+            "0.00100599540294606"
+          ],
+          "moments": [
+            "0.00100599540294606",
+            "0.00100599540294606"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 6,
+          "bessel": [
+            "0.000141225912970916",
+            "0.000141225912970916"
+          ],
+          "moments": [
+            "0.000141225912970916",
+            "0.000141225912970916"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        }
+      ],
+      "twice_used_link": {
+        "direct_E[2x^2-1]": [
+          "-0.299382280166935",
+          "-0.299382280166935"
+        ],
+        "predicted_(3c_1-1)/2": [
+          "-0.299382280166935",
+          "-0.299382280166935"
+        ],
+        "agree": true,
+        "naive_a^2": [
+          "0.187599367779092",
+          "0.187599367779092"
+        ],
+        "naive_rule_fails": true
+      }
+    },
+    "5": {
+      "c0_is_one": true,
+      "coefficients": [
+        {
+          "two_j": 0,
+          "bessel": [
+            "1",
+            "1"
+          ],
+          "moments": [
+            "1",
+            "1"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 1,
+          "bessel": [
+            "0.719340581364313",
+            "0.719340581364313"
+          ],
+          "moments": [
+            "0.719340581364313",
+            "0.719340581364313"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 2,
+          "bessel": [
+            "0.42452753490855",
+            "0.42452753490855"
+          ],
+          "moments": [
+            "0.42452753490855",
+            "0.42452753490855"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 3,
+          "bessel": [
+            "0.209907539474053",
+            "0.209907539474053"
+          ],
+          "moments": [
+            "0.209907539474053",
+            "0.209907539474053"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 4,
+          "bessel": [
+            "0.0886754717500643",
+            "0.0886754717500643"
+          ],
+          "moments": [
+            "0.0886754717500643",
+            "0.0886754717500643"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 5,
+          "bessel": [
+            "0.0325565959739247",
+            "0.0325565959739247"
+          ],
+          "moments": [
+            "0.0325565959739247",
+            "0.0325565959739247"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 6,
+          "bessel": [
+            "0.010539641412645",
+            "0.010539641412645"
+          ],
+          "moments": [
+            "0.010539641412645",
+            "0.010539641412645"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        }
+      ],
+      "twice_used_link": {
+        "direct_E[2x^2-1]": [
+          "0.136791302362824",
+          "0.136791302362824"
+        ],
+        "predicted_(3c_1-1)/2": [
+          "0.136791302362824",
+          "0.136791302362824"
+        ],
+        "agree": true,
+        "naive_a^2": [
+          "0.517450871997548",
+          "0.517450871997548"
+        ],
+        "naive_rule_fails": true
+      }
+    },
+    "10": {
+      "c0_is_one": true,
+      "coefficients": [
+        {
+          "two_j": 0,
+          "bessel": [
+            "1",
+            "1"
+          ],
+          "moments": [
+            "1",
+            "1"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 1,
+          "bessel": [
+            "0.854185308323682",
+            "0.854185308323682"
+          ],
+          "moments": [
+            "0.854185308323682",
+            "0.854185308323682"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 2,
+          "bessel": [
+            "0.658325876670527",
+            "0.658325876670527"
+          ],
+          "moments": [
+            "0.658325876670527",
+            "0.658325876670527"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 3,
+          "bessel": [
+            "0.459189782321365",
+            "0.459189782321365"
+          ],
+          "moments": [
+            "0.459189782321365",
+            "0.459189782321365"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 4,
+          "bessel": [
+            "0.290974050813435",
+            "0.290974050813435"
+          ],
+          "moments": [
+            "0.290974050813435",
+            "0.290974050813435"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 5,
+          "bessel": [
+            "0.16821573150793",
+            "0.16821573150793"
+          ],
+          "moments": [
+            "0.16821573150793",
+            "0.16821573150793"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 6,
+          "bessel": [
+            "0.0891151730039192",
+            "0.0891151730039192"
+          ],
+          "moments": [
+            "0.0891151730039192",
+            "0.0891151730039192"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        }
+      ],
+      "twice_used_link": {
+        "direct_E[2x^2-1]": [
+          "0.487488815005791",
+          "0.487488815005791"
+        ],
+        "predicted_(3c_1-1)/2": [
+          "0.487488815005791",
+          "0.487488815005791"
+        ],
+        "agree": true,
+        "naive_a^2": [
+          "0.729632540956023",
+          "0.729632540956023"
+        ],
+        "naive_rule_fails": true
+      }
+    },
+    "40": {
+      "c0_is_one": true,
+      "coefficients": [
+        {
+          "two_j": 0,
+          "bessel": [
+            "1",
+            "1"
+          ],
+          "moments": [
+            "1",
+            "1"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 1,
+          "bessel": [
+            "0.962740435361947",
+            "0.962740435361947"
+          ],
+          "moments": [
+            "0.962740435361947",
+            "0.962740435361947"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 2,
+          "bessel": [
+            "0.903725956463805",
+            "0.903725956463805"
+          ],
+          "moments": [
+            "0.903725956463805",
+            "0.903725956463805"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 3,
+          "bessel": [
+            "0.827181541892376",
+            "0.827181541892376"
+          ],
+          "moments": [
+            "0.827181541892376",
+            "0.827181541892376"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 4,
+          "bessel": [
+            "0.73828964808533",
+            "0.73828964808533"
+          ],
+          "moments": [
+            "0.73828964808533",
+            "0.73828964808533"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 5,
+          "bessel": [
+            "0.642609129871043",
+            "0.642609129871043"
+          ],
+          "moments": [
+            "0.642609129871043",
+            "0.642609129871043"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        },
+        {
+          "two_j": 6,
+          "bessel": [
+            "0.545506909124017",
+            "0.545506909124017"
+          ],
+          "moments": [
+            "0.545506909124017",
+            "0.545506909124017"
+          ],
+          "routes_agree": true,
+          "positive": true,
+          "below_previous": true,
+          "at_most_a_power_2j": true
+        }
+      ],
+      "twice_used_link": {
+        "direct_E[2x^2-1]": [
+          "0.855588934695708",
+          "0.855588934695708"
+        ],
+        "predicted_(3c_1-1)/2": [
+          "0.855588934695708",
+          "0.855588934695708"
+        ],
+        "agree": true,
+        "naive_a^2": [
+          "0.926869145880911",
+          "0.926869145880911"
+        ],
+        "naive_rule_fails": true
+      }
+    }
+  },
+  "q8": [
+    {
+      "noise_parameter_exp_kappa": "2",
+      "character_orthogonality": true,
+      "eigenvalues": {
+        "trivial": "1",
+        "sign_i": "1/17",
+        "sign_j": "1/17",
+        "sign_k": "1/17",
+        "fundamental": "3/17"
+      },
+      "eigenvalues_positive_and_below_one": true,
+      "observables": {
+        "edge1_twice_edge2_back_and_forth": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x trivial": "1",
+            "trivial x sign_i": "1/17",
+            "trivial x sign_j": "1/17",
+            "trivial x sign_k": "1/17",
+            "sign_i x trivial": "1/17",
+            "sign_i x sign_i": "1/289",
+            "sign_i x sign_j": "1/289",
+            "sign_i x sign_k": "1/289",
+            "sign_j x trivial": "1/17",
+            "sign_j x sign_i": "1/289",
+            "sign_j x sign_j": "1/289",
+            "sign_j x sign_k": "1/289",
+            "sign_k x trivial": "1/17",
+            "sign_k x sign_i": "1/289",
+            "sign_k x sign_j": "1/289",
+            "sign_k x sign_k": "1/289"
+          },
+          "value_at_identity": "73/289"
+        },
+        "edge1_squared": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x trivial": "1",
+            "sign_i x trivial": "1/17",
+            "sign_j x trivial": "1/17",
+            "sign_k x trivial": "1/17"
+          },
+          "value_at_identity": "-7/17"
+        },
+        "open_path_with_fixed_insertions": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "fundamental x fundamental": "9/289"
+          },
+          "value_at_identity": "0"
+        },
+        "commutator": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x trivial": "1",
+            "trivial x sign_i": "1/17",
+            "trivial x sign_j": "1/17",
+            "trivial x sign_k": "1/17",
+            "sign_i x trivial": "1/17",
+            "sign_i x sign_i": "1/289",
+            "sign_i x sign_j": "1/289",
+            "sign_i x sign_k": "1/289",
+            "sign_j x trivial": "1/17",
+            "sign_j x sign_i": "1/289",
+            "sign_j x sign_j": "1/289",
+            "sign_j x sign_k": "1/289",
+            "sign_k x trivial": "1/17",
+            "sign_k x sign_i": "1/289",
+            "sign_k x sign_j": "1/289",
+            "sign_k x sign_k": "1/289"
+          },
+          "value_at_identity": "97/289"
+        },
+        "overlapping_product": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x fundamental": "3/17",
+            "sign_i x fundamental": "3/289",
+            "sign_j x fundamental": "3/289",
+            "sign_k x fundamental": "3/289"
+          },
+          "value_at_identity": "15/289"
+        }
+      },
+      "disjoint_links_factorize": true,
+      "shared_link_noise_covariance_at_identity": "76/289"
+    },
+    {
+      "noise_parameter_exp_kappa": "3",
+      "character_orthogonality": true,
+      "eigenvalues": {
+        "trivial": "1",
+        "sign_i": "1/7",
+        "sign_j": "1/7",
+        "sign_k": "1/7",
+        "fundamental": "2/7"
+      },
+      "eigenvalues_positive_and_below_one": true,
+      "observables": {
+        "edge1_twice_edge2_back_and_forth": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x trivial": "1",
+            "trivial x sign_i": "1/7",
+            "trivial x sign_j": "1/7",
+            "trivial x sign_k": "1/7",
+            "sign_i x trivial": "1/7",
+            "sign_i x sign_i": "1/49",
+            "sign_i x sign_j": "1/49",
+            "sign_i x sign_k": "1/49",
+            "sign_j x trivial": "1/7",
+            "sign_j x sign_i": "1/49",
+            "sign_j x sign_j": "1/49",
+            "sign_j x sign_k": "1/49",
+            "sign_k x trivial": "1/7",
+            "sign_k x sign_i": "1/49",
+            "sign_k x sign_j": "1/49",
+            "sign_k x sign_k": "1/49"
+          },
+          "value_at_identity": "13/49"
+        },
+        "edge1_squared": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x trivial": "1",
+            "sign_i x trivial": "1/7",
+            "sign_j x trivial": "1/7",
+            "sign_k x trivial": "1/7"
+          },
+          "value_at_identity": "-2/7"
+        },
+        "open_path_with_fixed_insertions": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "fundamental x fundamental": "4/49"
+          },
+          "value_at_identity": "0"
+        },
+        "commutator": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x trivial": "1",
+            "trivial x sign_i": "1/7",
+            "trivial x sign_j": "1/7",
+            "trivial x sign_k": "1/7",
+            "sign_i x trivial": "1/7",
+            "sign_i x sign_i": "1/49",
+            "sign_i x sign_j": "1/49",
+            "sign_i x sign_k": "1/49",
+            "sign_j x trivial": "1/7",
+            "sign_j x sign_i": "1/49",
+            "sign_j x sign_j": "1/49",
+            "sign_j x sign_k": "1/49",
+            "sign_k x trivial": "1/7",
+            "sign_k x sign_i": "1/49",
+            "sign_k x sign_j": "1/49",
+            "sign_k x sign_k": "1/49"
+          },
+          "value_at_identity": "22/49"
+        },
+        "overlapping_product": {
+          "completeness": true,
+          "transfer_matches_spectral_formula": true,
+          "occupied_sectors_and_eigenvalues": {
+            "trivial x fundamental": "2/7",
+            "sign_i x fundamental": "2/49",
+            "sign_j x fundamental": "2/49",
+            "sign_k x fundamental": "2/49"
+          },
+          "value_at_identity": "5/49"
+        }
+      },
+      "disjoint_links_factorize": true,
+      "shared_link_noise_covariance_at_identity": "27/98"
+    }
+  ],
+  "failures": [],
+  "all_passed": true
+}
