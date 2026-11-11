@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11",
+  "command": ["python3", "auto-research/general/2026-11-11-T03-spin-j-prediction-mean/check_prediction_mean.py"],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "elapsed_seconds": 2.2,
+  "exit_code": 0,
+  "random_seed": 20261111,
+  "source_sha256": "2ff8264073c8bd91baee0b10fa2940aa910aea10be09b3d80081756b09d0149a",
+  "output_sha256": "81e1a355bf74f98217809717a442cdac5304d230c6773fd5c800cfb9cf4ad6ec",
+  "spins_checked_exactly": ["1", "2"],
+  "half_integer_spins_checked_exactly": false,
+  "general_analytic_proof_formalized": false,
+  "upstream_replayed": false,
+  "upstream_Branches_hypotheses_proved": false,
+  "independent_review": false,
+  "Yang_Mills_spatial_decay_proved": false
+}

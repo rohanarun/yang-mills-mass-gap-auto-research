@@ -91,6 +91,8 @@ Additional established lessons:
 
 - The one-step SU(2) noise is diagonal in spin sectors with eigenvalues $I_{2j+1}(\kappa)/I_1(\kappa)$ and is [rate-neutral](auto-research/general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): it rescales prefactors and cannot create or remove separation decay for any observable. Decompose repeated links into sectors before applying a factor. Any claimed one-step spatial contraction must use the fine law or the prediction map.
 
+- A formula for the fundamental prediction mean does not determine higher-spin means; [decompose into sectors, then average each](auto-research/general/2026-11-11-T03-spin-j-prediction-mean/README.md). The kernel's measurability and normalisation rest on the unproved `Branches` hypotheses, and the predictor formula $M/|M|$ needs `predictor_cut ≤ 1`. State both whenever the one-step map is used. A small predictor cutoff controls only the predictor; branch indicators, `1/card eligible`, and the minimizing frame are separate obligations.
+
 ## Assessing scientific progress
 
 The [one-step SU(2) loop calculation](auto-research/general/2026-11-11-T03-loop-noise-transfer/README.md) provides a concrete averaged fine-field observable whose covariance remains to be bounded. Its scalar noise formula requires the stated representation and distinct independent links; the stronger fine-law covariance identity uses vertex-disjoint loops to separate tags conditionally. Always distinguish loop perimeter from loop separation and physical time. Retain overlap covariances and prove observable-class closure before iterating a per-step factor. The [exact controls](auto-research/negative-results/2026-11-11-T03-perimeter-not-separation/README.md) show why these requirements matter.

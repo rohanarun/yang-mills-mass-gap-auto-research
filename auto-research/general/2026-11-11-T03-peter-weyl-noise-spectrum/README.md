@@ -18,7 +18,7 @@ The loop-transfer record handles simple fundamental loops on distinct links and 
 
 Scope is the same as the earlier record: gauge group SU(2) with `price(g) = 1 - Re Tr(g)/2` in the fundamental representation, one step from level 1 to level 0 of a fixed selected history, $\kappa=\lambda\beta_1>0$. Nothing is asserted for other `Gauge` instances.
 
-Falsification: a wrong Haar normalization, a wrong Bessel index, or a failure of the isotypic formula on an observable with repeated links would invalidate the result. The checker tests each.
+Falsification: a wrong Haar normalization, a wrong Bessel index, or a failure of the isotypic formula on an observable with repeated links would invalidate the result. The checker tests the Bessel index (two routes) and the isotypic formula (on $Q_8$). Its second route assumes the semicircle class measure, so it does not test the Weyl integration formula itself.
 
 ## Derivation
 
@@ -61,7 +61,7 @@ and $c_{1/2}=I_2/I_1=a(\kappa)$ recovers the earlier coefficient. Because $k_\ka
 Properties, for $\kappa>0$:
 
 - $1=c_0>c_{1/2}>c_1>\dots>0$, since $\nu\mapsto I_\nu(\kappa)$ is positive and decreasing ([DLMF §10.37](https://dlmf.nist.gov/10.37)). **Cited, not re-proved here.**
-- $c_j\leq a^{2j}$. This follows from the Turán-type inequality $I_\nu^2\geq I_{\nu-1}I_{\nu+1}$, which makes $I_{n+1}/I_n$ non-increasing in $n$ (Thiruvenkatachar–Nanjundiah 1951; see Baricz, *Bull. Aust. Math. Soc.* 82 (2010)). **Cited, not re-proved here**; the bibliographic details were recalled, not re-read, and should be confirmed by a reviewer. The checker confirms both properties at the sampled parameters only.
+- $c_j\leq a^{2j}$. This follows from the Turán-type inequality $I_\nu^2\geq I_{\nu-1}I_{\nu+1}$, which makes $I_{n+1}/I_n$ non-increasing in $n$ for $\nu>-1$, $x>0$ (Thiruvenkatachar–Nanjundiah, *Proc. Indian Acad. Sci. Sect. A* 33 (1951) 373–384; see Baricz, *Bull. Aust. Math. Soc.* 82 (2010) 254–264). **Cited, not re-proved here.** The references were confirmed to exist and to be credited with this inequality through secondary sources only; the primary papers were not read. The checker confirms both properties at the sampled parameters only, and its power-bound test is non-trivial only for $2j\geq2$.
 
 ### 3. The full one-step noise spectrum
 
@@ -98,7 +98,7 @@ $$
 M_J(\kappa)=\sum_{j\leq J}\frac{d_j}{c_j(\kappa)} .
 $$
 
-**Statement.** Let $\varepsilon\geq0$. The bound $|\mathrm{Cov}_\rho(F(Q),G(Q))|\leq\varepsilon\|F\|_\infty\|G\|_\infty$ on $\mathcal P_J(A)\times\mathcal P_J(B)$ implies the same bound for $\mathrm{Cov}_{P_0}(F,G)$. Conversely the $P_0$ bound implies the $\rho$ bound with $\varepsilon$ replaced by $M_J^{|A|+|B|}\varepsilon$. The constants depend on $(\kappa,J,|A|,|B|)$ and not on the positions of $A$ and $B$.
+**Statement.** Let $\varepsilon\geq0$. The bound $|\mathrm{Cov}_\rho(F(Q),G(Q))|\leq\varepsilon\|F\|_\infty\|G\|_\infty$ on $\mathcal P_J(A)\times\mathcal P_J(B)$ implies the same bound for $\mathrm{Cov}_{P_0}(F,G)$. Conversely the $P_0$ bound implies the $\rho$ bound with $\varepsilon$ replaced by $M_J^{|A|+|B|}\varepsilon$. The constants depend on $(\kappa,J,|A|,|B|)$ and not on the positions of $A$ and $B$. The supports must be link-disjoint (shared vertices are allowed for this step), and "same rate" requires $J$, $|A|$, $|B|$ to stay bounded as the separation grows. The first implication needs no spin cutoff. The sector bound uses the tensor-product form $\|F_{\mathbf j}\|_\infty\leq\prod_bd_{j_b}\|F_{\mathbf j}\|_2$ and $\|F_{\mathbf j}\|_2\leq\|F\|_2\leq\|F\|_\infty$.
 
 So an exponential-in-separation bound holds for the coarse law on these classes **if and only if** it holds, at the same rate, for the prediction observables under $\rho$. The noise contributes prefactors only. $M_J$ grows without bound in $J$, so the equivalence is not uniform over the whole dense family; the spectral criterion in this project permits observable-dependent prefactors but not observable-dependent rates.
 
@@ -116,7 +116,7 @@ python3 auto-research/general/2026-11-11-T03-peter-weyl-noise-spectrum/check_noi
 
 1. **SU(2) coefficients**, $\kappa\in\{1/2,1,2,5,10,40\}$, $2j=0,\dots,6$. Route one encloses $I_{2j+1}/I_1$ from the positive series [DLMF 10.25.2](https://dlmf.nist.gov/10.25.E2) with a geometric tail bound. Route two does not use Bessel functions: it expands $e^{\kappa x}$, uses the exact semicircle moments $(2/\pi)\int x^{2k}\sqrt{1-x^2}dx=\binom{2k}{k}/[(k+1)4^k]$, and integrates the Chebyshev polynomial $\chi_j=U_{2j}(x)$. All 42 pairs of enclosures intersect with widths below $10^{-12}$. Positivity, strict decrease in $j$, and $c_j\leq a^{2j}$ hold at every sample. Example: $c_1(1)\in[0.03922510451964,0.03922510451965]$.
 2. **Twice-used link.** $\mathbb E[2x^2-1]$ computed from moments agrees with $(3c_1-1)/2$ and is separated from $a^2$ at every sample; at $\kappa=1$ the values are $-0.4411623\ldots$ and $0.0576930\ldots$.
-3. **Finite non-Abelian control on $Q_8$**, noise weights $w^{\mathrm{Re}\,g}$ with $w=2,3$. Eigenvalues from the character table are $1,\tfrac1{17},\tfrac1{17},\tfrac1{17},\tfrac3{17}$ and $1,\tfrac17,\tfrac17,\tfrac17,\tfrac27$. For five two-link observables, including a link used twice, a commutator, and a product of overlapping observables, the directly enumerated transfer (64 noise pairs at each of 64 predictions) equals the isotypic formula exactly, and the isotypic projections sum back to the observable. The value $-7/17$ for the squared link at $w=2$ reproduces the earlier record. Disjoint links factorize; a shared link leaves noise covariance $76/289$.
+3. **Finite non-Abelian control on $Q_8$**, noise weights $w^{\mathrm{Re}\,g}$ with $w=2,3$. Eigenvalues from the character table are $1,\tfrac1{17},\tfrac1{17},\tfrac1{17},\tfrac3{17}$ and $1,\tfrac17,\tfrac17,\tfrac17,\tfrac27$. For five two-link observables, including a link used twice, a commutator, and a product of overlapping observables, the directly enumerated transfer (64 noise pairs at each of 64 predictions) equals the isotypic formula exactly, and the isotypic projections sum back to the observable. The value $-7/17$ for the squared link at $w=2$ reproduces the earlier record. Disjoint links factorize; a shared link leaves noise covariance $76/289$ at $w=2$ and $27/98$ at $w=3$.
 
 The $Q_8$ control tests the group-theoretic mechanism on a different group. It is not a test of the SU(2) multi-link statement, which rests on the written argument.
 
@@ -150,3 +150,5 @@ Next bounded task, conditional on that record surviving review: extend its bond-
 ## Review and correction history
 
 - 2026-11-11: created. No review yet.
+- 2026-11-11, AI cross-check commissioned by the author session (one reviewer agent; **not independent review**). It re-derived $c_j$, confirmed the four DLMF citations against the live pages, re-ran the checker with byte-identical output, and could not refute sections 2–4. Corrections applied above: the falsification sentence overstated what the checker tests; bibliographic details and the secondary-source status of the Turán references; explicit quantifiers for rate-neutrality; the $w=3$ shared-link value. The conditional product-noise law was not re-checked against Lean by that reviewer; the author session read `Block.lean` for it.
+- 2026-11-11: the next task named above is addressed by the [spin-$j$ prediction mean record](../2026-11-11-T03-spin-j-prediction-mean/README.md).

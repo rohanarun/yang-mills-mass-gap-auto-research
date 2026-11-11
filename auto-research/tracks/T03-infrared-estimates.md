@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: the noise half of one SU(2) blocking step is diagonalized in writing on all observables and shown rate-neutral; the earlier loop identity is its simplest case. Spatial decay must come from the fine law and the prediction map; it and terminal mixing remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: the noise half of one SU(2) blocking step is diagonalized in writing on all observables and shown rate-neutral; the earlier loop identity is its simplest case. The spin-$j$ prediction mean is explicit conditional on site tags, with the predictor nonlinearity bounded by $4j^2c$; branch indicators and the minimizing frame are uncontrolled. Spatial decay must come from the fine law and the prediction map; it and terminal mixing remain open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -80,9 +80,11 @@ The [noise spectrum record](../general/2026-11-11-T03-peter-weyl-noise-spectrum/
 
 ## Active work
 
-No active file ownership. 2026-11-11 handoff: Peter–Weyl noise spectrum recorded below. A separate pull request on `research/su2-predictor-average` proposes the fundamental bond-tag mean; reconcile ledger text when both are merged. Next bounded task: extend that bond-tag mean to the spin-$j$ sectors that the noise spectrum requires, and record the resulting read footprint.
+No active file ownership. 2026-11-11 handoff: Peter–Weyl noise spectrum recorded below. A separate pull request on `research/su2-predictor-average` proposes the fundamental bond-tag mean; reconcile ledger text when both are merged. The spin-$j$ extension and read footprint are recorded below. Next bounded task: on the `usesMin` branch, bound the distance between the minimizing frame `selected` and the normalised axial frame in terms of `frame_cut` and the patch size, or exhibit an obstruction.
 
 ## Contribution ledger
+
+- 2026-11-11: [Spin-$j$ prediction mean and closure audit](../general/2026-11-11-T03-spin-j-prediction-mean/README.md): written SU(2) bond-tag mean for all spins; sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step formula valid for repeated links, conditional on site tags; source audit listing branch indicators, `1/card eligible`, and the minimizing frame as the uncontrolled non-polynomial mechanisms. Requires the unproved `Branches` hypotheses and `predictor_cut ≤ 1`. Exact integer-spin checks passed; AI cross-check only; no covariance bound, Lean proof, or independent review.
 
 - 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): written exact action of the one-step SU(2) noise on all observables (eigenvalues $I_{2j+1}/I_1$), explicit overlap covariance, and a rate-neutrality statement: the noise changes prefactors, never the separation rate. Two-route rational enclosures and an exact $Q_8$ control passed. Cited Bessel inequalities not re-proved; no spatial decay, Lean proof, or independent review.
 

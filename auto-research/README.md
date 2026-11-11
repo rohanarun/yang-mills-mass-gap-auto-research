@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Spin-$j$ prediction mean and closure audit](general/2026-11-11-T03-spin-j-prediction-mean/README.md): written bond-tag mean for every SU(2) spin, sharp bound $4j^2(1-r)$ on the predictor nonlinearity, and a source audit naming the remaining non-polynomial mechanisms (branch indicators, `1/card eligible`, `selected`). Exact checks passed; no spatial estimate.
+
 - [Peter–Weyl spectrum of the blocking noise](general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): written exact one-step noise eigenvalues $I_{2j+1}/I_1$ for every SU(2) observable, including repeated and overlapping links. The noise is rate-neutral, so spatial decay must come from the fine law and prediction map. Exact checks passed; no spatial estimate.
 
 - [One-step SU(2) loop-noise transfer](general/2026-11-11-T03-loop-noise-transfer/README.md) and [failure controls](negative-results/2026-11-11-T03-perimeter-not-separation/README.md): written exact covariance transfer to averaged fine-field predictions; rational and finite checks passed, spatial estimate open.

@@ -4,6 +4,7 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 
 | Date | Tracks | Result | Evidence and outcome |
 | --- | --- | --- | --- |
+| 2026-11-11 | T03, T05, T06 | [Spin-$j$ prediction mean and closure audit](2026-11-11-T03-spin-j-prediction-mean/README.md) | Written sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step sector formula with repeated links; source audit of non-polynomial mechanisms; exact integer-spin checks passed; no covariance bound |
 | 2026-11-11 | T03, T05, T06 | [Peter–Weyl spectrum of the blocking noise](2026-11-11-T03-peter-weyl-noise-spectrum/README.md) | Written exact diagonalization of the SU(2) noise on all observables; noise shown rate-neutral; two-route rational enclosures and exact $Q_8$ control passed; no separation decay |
 | 2026-11-11 | T03, T04, T05, T06 | [One-step SU(2) loop-noise transfer](2026-11-11-T03-loop-noise-transfer/README.md) | Written actual-kernel covariance identity and tag factorization; exact scalar/finite checks; no separation decay |
 | 2026-11-11 | T03, T05, T06 | [Gauge-invariant conditional response](2026-11-11-T03-gauge-orbit-response/README.md) | Written forest-conditioning and joint-orbit reduction; exact non-Abelian checks; no spatial rate |
