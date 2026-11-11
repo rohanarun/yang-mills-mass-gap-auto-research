@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-11",
+  "working_directory": "repository root",
+  "command": [
+    "python3",
+    "auto-research/negative-results/2026-11-11-T06-massless-locality/check_scaling.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.363,
+  "python_version": "3.9.6",
+  "sympy_version": "1.14.0",
+  "source": "check_scaling.py",
+  "source_sha256": "2877078d71b3515fa1a9b3f454d0f9c307f56e075419e281aef07114e0d873e7",
+  "output": "scaling-check.json",
+  "output_sha256": "b2b688c179be03058f2bde9e4510eaa61315bfc33bde552422b5f9caf9cf6483",
+  "stderr": "",
+  "independently_reviewed": false,
+  "upstream_replayed": false,
+  "dynamical_gap_estimate_proved": false
+}

@@ -1,0 +1,8 @@
+{
+  "sympy_version": "1.14.0",
+  "low_energy_coefficient_per_abs_fourier_zero_squared": "1/(8*pi**2)",
+  "heat_coefficient_per_abs_fourier_zero_squared": "1/(4*pi**2)",
+  "mass_shell_norm_scaling_factor": "1",
+  "radius_energy_squared": "c**2*r**2",
+  "scope": "Scalar constants and scaling only; field model and limit interchanges are written arguments."
+}

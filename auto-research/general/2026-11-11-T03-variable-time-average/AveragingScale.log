@@ -1,0 +1,6 @@
+'MassGapResearch.AveragingScale.rescaling_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.AveragingScale.cost_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.AveragingScale.cost_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.AveragingScale.cost_at_optimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.AveragingScale.optimized_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.AveragingScale.inverse_energy_radius' depends on axioms: [propext, Classical.choice, Quot.sound]

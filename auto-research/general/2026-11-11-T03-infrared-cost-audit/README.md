@@ -96,6 +96,10 @@ T03 now has a precise cost estimate to seek: control localization and adjoint-st
 
 A next attempt should select a specific field/observable class and derive an upper bound on its preparation cost, or prove an obstruction to the proposed bound. The [cyclicity obstruction](../../negative-results/2026-11-11-T06-cyclicity-cost/README.md) rules out a shortcut based solely on cyclicity.
 
+## Follow-up — 11 November 2026
+
+[Variable-time averaging](../2026-11-11-T03-variable-time-average/README.md) improves the written radius dependence to quadratic when the averaging time is admissible. This refines the cost sought above; it does not provide a uniform preparation estimate or invalidate the earlier unit-time bound. The [massless local-field control](../../negative-results/2026-11-11-T06-massless-locality/README.md) shows that locality still permits a gapless theory.
+
 ## Review history
 
 No independent mathematical review of this extraction or its application is recorded.

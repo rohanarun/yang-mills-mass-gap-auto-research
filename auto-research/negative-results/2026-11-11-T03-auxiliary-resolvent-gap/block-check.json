@@ -1,0 +1,10 @@
+{
+  "sympy_version": "1.14.0",
+  "precision": "Matrix([[1, -1], [-1, epsilon + 1]])",
+  "inverse": "Matrix([[(epsilon + 1)/epsilon, 1/epsilon], [1/epsilon, 1/epsilon]])",
+  "fast_precision": "1",
+  "schur_complement": "epsilon",
+  "determinant": "epsilon",
+  "rayleigh_quotient": "epsilon/2",
+  "scope": "Exact finite-matrix identities only; no physical Hamiltonian or Yang--Mills identification."
+}

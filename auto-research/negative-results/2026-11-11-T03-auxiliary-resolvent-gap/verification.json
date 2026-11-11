@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "working_directory": "repository root",
+  "command": [
+    "python3",
+    "auto-research/negative-results/2026-11-11-T03-auxiliary-resolvent-gap/check_block.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.237,
+  "python_version": "3.9.6",
+  "sympy_version": "1.14.0",
+  "source": "check_block.py",
+  "source_sha256": "721474c84379e72456bd021018570ca0320f494fceee7e2bf2cf9aa06f61c3f7",
+  "output": "block-check.json",
+  "output_sha256": "cae6e48447bc859c475adcd628295b3d9c13f363a62e14118af8fd5564541fe8",
+  "stderr": "",
+  "initial_attempt": "Exit 1: structural equality A * inverse == eye(2) failed before rational expressions were simplified. Final script checks simplified differences equal zero.",
+  "independently_reviewed": false,
+  "upstream_replayed": false,
+  "dynamical_gap_estimate_proved": false
+}

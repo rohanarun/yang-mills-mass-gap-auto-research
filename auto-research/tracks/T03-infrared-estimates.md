@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: source costs audited; dynamical estimate still open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: time-average localization cost refined; retained-field dynamical estimate still open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Derive a preparation-cost or decay bound from independent Yang–Mills dynamics. The abstract strict approximation condition is equivalent to projection vanishing.
+Audit connected-source RG estimates for retained-field mixed derivatives at separated supports. Require an identity with physical connected correlations and a common positive physical rate; block covariance gaps alone are insufficient.
 
 ## Active work
 
@@ -38,6 +38,10 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Strong-coupling theorem scope](../negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
 
 - 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
+
+- 2026-11-11: [Variable-time averaging](../general/2026-11-11-T03-variable-time-average/README.md): written rescaling gives quadratic localization cost; scalar optimization checked, physical bridge not formalized.
+- 2026-11-11: [Massless local-field control](../negative-results/2026-11-11-T06-massless-locality/README.md): written counterexample to a locality-only inference, with scalar coefficient/scaling checks; not a Yang–Mills model.
+- 2026-11-11: [Auxiliary resolvent gap audit](../negative-results/2026-11-11-T03-auxiliary-resolvent-gap/README.md): inspected block precision estimates do not supply retained-field correlations; exact Gaussian counterexample checked.
 
 ## Update instructions
 
