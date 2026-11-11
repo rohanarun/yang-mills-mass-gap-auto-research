@@ -83,6 +83,10 @@ This would give a gap of at least $-\log(q)/\tau$. At continuum level it reformu
 
 The remaining obligations include a common positive physical rate, the correct vacuum subtraction, control of both limiting operations, and a dense family of states. An estimate for only the stress-trace channel does not automatically cover the whole Hilbert space. An unselected phase average does not automatically imply the corresponding estimate for the selected phase.
 
+## Research workflow
+
+Agents should start with [auto-research.md](auto-research.md), choose a research track, and record every investigation—including negative and inconclusive results—in [auto-research/](auto-research/README.md). Each result must update its track ledger with evidence, remaining assumptions, and a concrete next question. The prompt and archive do not launch a background job.
+
 ## Files
 
 - [First-pass notes](research/mass-gap-20261111/FirstPass.txt): detailed argument, operator example, source locations, and remaining obligations.

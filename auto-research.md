@@ -1,0 +1,72 @@
+# Auto-research agent prompt
+
+You are contributing to an open mathematical research project on the Yang–Mills mass gap. Make a concrete, reviewable contribution to a research track and preserve what was learned, including negative results. This prompt does not assert that the problem is solved and does not itself start a scheduler, spend compute, or authorize publication outside this repository.
+
+## Objective and current evidence
+
+Seek a positive mass gap for the **same** Yang–Mills hierarchy supplied by the pinned upstream construction. Read [README.md](README.md), the [initial investigation](research/mass-gap-20261111/FirstPass.txt), and [provenance](research/mass-gap-20261111/provenance.json) before selecting an approach. Resolve current evidence from the source and result records rather than treating this prompt as proof.
+
+The current baseline is a written standard conditional spectral argument, a symbolically checked scalar obstruction, and an **uncompiled** Lean target. No independent upstream kernel replay or Yang–Mills mass-gap proof has been completed. The existing polynomial estimate does not imply a gap by itself. Establishing a common positive exponential decay rate remains an open dynamical obligation.
+
+## Research tracks
+
+Track IDs are stable. Each linked track file is its contribution ledger; update it when adding a result. A track being open or partial does not mean its proposed route is known to succeed.
+
+| Track | Scope | Recorded status | Next contribution |
+| --- | --- | --- | --- |
+| [T01](auto-research/tracks/T01-statement-audit.md) | Statement and specification audit | Open | Compare the uncompiled Lean target with the public upstream definitions and write the first specification review. |
+| [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: written argument | Turn the existing written argument into a precise standalone theorem and list the missing Lean interfaces. |
+| [T03](auto-research/tracks/T03-infrared-estimates.md) | Nonperturbative infrared estimates | Open | Identify one upstream quantitative lemma and determine whether its constants can control a nonzero physical time scale. |
+| [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Open | Build a table of regulator-dependent constants and the exact uniform bounds needed for limit passage. |
+| [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Open | Map extends_decay and all_plant to the finite-word class needed by T02, recording every unverified bridge. |
+| [T06](auto-research/tracks/T06-obstructions.md) | Counterexamples and negative results | Partial: scalar obstruction checked | Use the existing negative result to check proposed routes for accidental upgrades from polynomial to exponential decay. |
+| [T07](auto-research/tracks/T07-verification-and-integration.md) | Independent verification and proof integration | Open | Estimate storage/build requirements and establish the pinned Lean 4.32.0 environment, then replay a clearly bounded relevant target. |
+
+T03 is the central unresolved dynamical problem. T02 supplies a conditional reduction; T04 and T05 address its application to the construction. T01 checks the statement, T06 tests proposed inferences, and T07 checks and integrates evidence. These dependencies do not prohibit independent useful work on any track.
+
+## Work cycle
+
+1. Read the selected track, its linked results, and relevant negative results. Search for the same claim before repeating an attempt. Check current branch, dirty work, source revisions, and any active contribution notes.
+2. Choose one bounded question. State the mathematical claim, hypotheses, intended evidence level, falsification criterion, and expected computational cost before launching experiments. Prefer a missing lemma or discriminating counterexample over an unbounded search.
+3. When multiple contributors are active, coordinate ownership of files and branches in the available collaboration channel. Record the session and scope in the track's active-work section when practical. Preserve concurrent edits and reconcile remote changes before pushing. Do not silently overwrite another contributor's work.
+4. Investigate using mathematical reasoning, source inspection, formal proofs, or reproducible computation appropriate to the claim. Let the model propose and critique approaches; use symbolic tools and proof kernels to check them. Never manufacture success through hard-coded outcomes or by weakening a statement.
+5. **Write a durable result under `auto-research/` before ending the work cycle**, even if the result is negative, partial, inconclusive, or blocked. Use the [result template](auto-research/templates/result.md). Record exact commands, versions, inputs, exit codes, source revisions, and evidence that actually exists.
+6. Add the result link to every affected track ledger and the appropriate directory index. Update the track's current status and next question. Update this prompt's status table and the project README only when evidence changes the milestone; preserve explicit uncertainty.
+7. State what changed, what was checked, what remains assumed, and the best next attempt. Do not call an open track complete merely because the allocated time or context ended. Clear or hand off active work so later agents can resume.
+
+## Storage contract
+
+- Put general derivations, source audits, experiment reports, conditional lemmas, and blocked handoffs in [`auto-research/general/`](auto-research/general/README.md).
+- Put counterexamples, failed approaches, and negative or inconclusive experiments in [`auto-research/negative-results/`](auto-research/negative-results/README.md). A build failure alone belongs in a verification/general report unless it also informs a mathematical inference.
+- Put independent mathematical and verification reviews in [`auto-research/reviews/`](auto-research/reviews/README.md).
+- Use `YYYY-MM-DD-TNN-short-description/README.md` for a new result. Store small supporting scripts, Lean sources, raw outputs, and manifests alongside the record. Use a unique suffix if that directory already exists. Link related tracks instead of duplicating records.
+- Maintain the [research index](auto-research/README.md) through its linked directory indexes and track ledgers. Link the exact source commit and theorem/line locations used by a claim. For uncommitted work, identify the base commit and include content hashes or the saved patch/source.
+- Keep the historical `research/mass-gap-20261111/` baseline intact. New work belongs in `auto-research/`; use links to the baseline rather than moving or rewriting its evidence.
+- Preserve failed attempts and superseded conclusions. Add a dated correction with the reason and evidence; do not erase the old result. Correct misleading current status fields while retaining the history.
+- Commit only bounded, relevant artifacts. Keep dependency trees, compiled caches, large logs, and datasets out of Git. For necessary large evidence, record a durable authorized location, checksum, and retrieval/reproduction instructions; say explicitly if the raw evidence is unavailable.
+
+## Evidence and mathematical integrity
+
+Give every result both an **outcome** and an **evidence level**. Examples of outcomes: candidate, conditional result, counterexample to a stated inference, failed attempt, inconclusive, blocked, superseded. Examples of evidence levels: conjecture, source inspection, written derivation, symbolic check, numerical observation, Lean elaborated, kernel replayed, independently reviewed. Multiple levels may apply, but none implies the others automatically.
+
+A record must state which exact claim was checked. Never relabel a conditional theorem as an unconditional Yang–Mills result. Source text, upstream logs, symbolic calculations, simulations, successful elaboration, kernel replay, and semantic correspondence to the physical problem are different evidence.
+
+For a claimed gap, keep the rate positive and common across the dense family and required regulator limits. State the scope over groups, phases, refinements, and normalizations. State-dependent prefactors are allowed by the existing conditional criterion; state-dependent rates tending to zero are not a common gap. Do not infer a continuum gap from a finite lattice gap, infer an infrared bound from ultraviolet asymptotics alone, or infer a full-space gap from one channel without a density argument.
+
+No `sorry`, `admit`, added unproved axioms, circular premises, or altered definitions may enter a claimed verified proof. Exploratory incomplete files are allowed only when clearly marked, indexed as incomplete, and excluded from proof claims. Record axiom dependencies and the exact theorem statement for formal results. If the pinned toolchain is unavailable, say so; a different version is not an independent replay of the pinned build.
+
+A counterexample must identify the assumptions it satisfies and does not satisfy. Failure of one route does not prove the mass gap impossible. Failure of a computation to find an example is inconclusive. A strict contraction bound assumed at continuum level merely reformulates the gap until its dynamical derivation is supplied.
+
+## Learning from failures
+
+Every negative result must include: what went wrong, the invalid inference or missing hypothesis, what should always be checked instead, and what new evidence would justify reopening the route. Add a concise, general lesson here when a new repeatable failure mode is established, with a link to its result. Improve the research prompt from evidence instead of adding deterministic exceptions or hard-coded success cases.
+
+Current lesson: polynomial low-energy and heat-decay bounds permit spectral weight arbitrarily close to zero. Require a genuinely stronger estimate before claiming a gap; see [the scalar obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md).
+
+## Workspace and execution constraints
+
+For this owner's local environment, use `/Volumes/SP AI 01_16/CodexWorkspaces` for independent checkouts, generated artifacts, experiments, logs, dependency trees, and build output. Before writing, verify the SSD is mounted and writable and resolve the destination outside Documents, Desktop, and iCloud Drive. Never create a fake mount or silently fall back to an iCloud path. If unavailable, record the storage blocker when a permitted destination exists and continue only read-only or remote work. Do not relocate live data, interrupt workloads, or create divergent writable migration copies without scope. Remote authoritative sources remain authoritative. Pass this policy to any explicitly authorized workers or long-lived processes.
+
+On a different host, use an explicitly authorized writable workspace and record it in the execution handoff without exposing personal paths in public results. Do not infer permission to spend money, provision GPUs, send messages, or start recurring jobs from this prompt. Follow the active user's scope for commits and publishing; prepare concrete, reviewable results first. Keep public artifacts free of credentials and private account details.
+
+Do not add web/UI work, unrelated system changes, or claims of proof to make the project look more complete. The deliverable is evidence that advances or rules out a precise research step.
