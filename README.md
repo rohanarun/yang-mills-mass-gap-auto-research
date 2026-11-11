@@ -9,9 +9,10 @@ An initial investigation of what additional estimate could establish a positive 
 | Item | Status |
 | --- | --- |
 | Polynomial decay alone does not imply a spectral gap | Explicit scalar spectral example; its integrals were checked symbolically |
-| A common exponential decay rate on a dense family implies a gap | Written proof using the spectral theorem; not formalized here |
+| A common exponential decay rate on a dense family implies a gap | Written full argument; scalar support and generic projection components checked; actual Yang–Mills/dense-state integration remains open |
 | Positive mass gap for the upstream Yang–Mills construction | **Unproved** |
 | Generic projection/Laplace tools | Six lemmas/controls checked with Lean 4.32.0 and `--trust=0`; [receipt](auto-research/general/2026-11-11-T02-uniform-projection-criterion/verification.json) |
+| Scalar Laplace support equivalence | Checked with Lean 4.32.0 and `--trust=0`, including integrability and the energy-window pullback; [receipt](auto-research/general/2026-11-11-T02-laplace-support/verification.json) |
 | Proposed Yang–Mills Lean gap target | Definitions only; **not compiled** |
 | Independent replay of upstream Lean proofs | **Not performed** |
 
@@ -19,9 +20,14 @@ The initial inspection uses upstream revision [`3456e5e`](https://github.com/yan
 
 ## Research progress — 11 November 2026
 
-[Six generic lemmas and controls](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md) now pass Lean 4.32.0 with `--trust=0`, with only the standard axioms in their reports. These check conditional projection and scalar Laplace arguments; they do not prove the Yang–Mills hypotheses or replay the upstream construction.
+**Verified formal infrastructure; the Yang–Mills mass gap remains unproved.**
 
-The [infrared source audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md) isolates an explicit localization/adjoint-state cost whose quantitative control would imply a gap. [Cyclicity alone is insufficient](auto-research/negative-results/2026-11-11-T06-cyclicity-cost/README.md), and a [cited strong-coupling lattice result does not directly cover the running continuum regime](auto-research/negative-results/2026-11-11-T04-strong-coupling-scope/README.md). The dynamical estimate remains unproved.
+- [Six initial generic lemmas and controls](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md) passed Lean 4.32.0 with `--trust=0`, covering projection contraction and scalar exponential comparisons.
+- The [new Laplace support theorem](auto-research/general/2026-11-11-T02-laplace-support/README.md) now checks the full finite-measure equivalence: an integrable exponential Laplace bound at rate `m` is equivalent to no measure below `m`. It also checks the sharp endpoint and the pullback to a positive-energy window. [Proof receipt](auto-research/general/2026-11-11-T02-laplace-support/verification.json).
+- A [formal criterion audit](auto-research/general/2026-11-11-T02-laplace-support/CriterionAudit.lean) confirms that the proposed strict approximation condition is itself equivalent to a zero projection. The condition must be derived from independent dynamical estimates; simply proposing it does not resolve the gap.
+- The [infrared source audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md) isolates the missing localization/adjoint-state cost. [Cyclicity alone does not supply it](auto-research/negative-results/2026-11-11-T06-cyclicity-cost/README.md), and a [cited strong-coupling lattice theorem does not directly cover the running continuum regime](auto-research/negative-results/2026-11-11-T04-strong-coupling-scope/README.md).
+
+The checked declarations report only `propext`, `Classical.choice`, and `Quot.sound`. These results are publishable as a reproducible research notebook and formalization contribution; **no new Yang–Mills mass-gap theorem or mathematical novelty is claimed**. Independent review, a novelty assessment, full upstream replay, and the essential nonperturbative estimate remain outstanding. The next milestone is an estimate derived for the actual hierarchy that stays positive through the continuum and infinite-volume limits—not a larger count of generic lemmas.
 
 ## The starting point
 
@@ -129,6 +135,7 @@ Snapshot: **11 November 2026**. Contribution state and mathematical verification
 | [Research tracks and archive](auto-research.md) | Rohan Arun, with OpenAI Codex assistance | Seven research tracks, agent instructions, result template, and preservation of negative results | Documentation contribution; no mathematical verification implied | On main |
 | [Conditional Lean tools](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md) | Rohan Arun, with OpenAI Codex assistance | Five generic criteria and a non-strict-bound counterexample | Lean 4.32.0 trust-zero check passed; no YM application proved | On main |
 | [Infrared source audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md) and related obstructions | Rohan Arun, with OpenAI Codex assistance | Extracted preparation costs, a cyclicity counterexample, and a coupling-regime comparison | Written/source-level analysis; coefficient algebra checked; independent review pending | On main |
+| [Laplace support and criterion audit](auto-research/general/2026-11-11-T02-laplace-support/README.md) | Rohan Arun, with OpenAI Codex assistance | Finite-measure support equivalence, energy-window pullback, and criterion-strength audit | Lean 4.32.0 trust-zero checks passed; standard results, no new YM estimate | On main |
 
 [Full contributor credits](CONTRIBUTORS.md) record authorship, AI assistance, inherited work, and future contributions. Credits remain when results are corrected or superseded; their evidence status is updated.
 

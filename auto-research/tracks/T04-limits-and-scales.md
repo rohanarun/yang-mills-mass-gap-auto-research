@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: coupling-regime obstruction documented; limit transfer open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: coupling and prefactor scope audited; limit transfer open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -18,11 +18,11 @@ Give a limit-transfer lemma applicable to the same upstream family, with every u
 
 ## Failure criterion
 
-A positive gap only at finite volume, constants diverging before taking limits, or positivity only in lattice units is insufficient.
+A positive gap only at finite volume, a rate tending to zero, or positivity only in lattice units is insufficient. A divergent chosen prefactor alone need not block a support-first limit argument once a common spectral threshold is proved; document which transfer argument is used.
 
 ## Next contribution
 
-Track physical units and regulator dependence of the candidate preparation cost; a strong-coupling theorem needs a proved RG bridge.
+Prove the correct spectral-measure convergence with one positive rate. Distinguish direct heat-bound transfer from support-first arguments, which can replace prefactors by total masses.
 
 ## Active work
 
@@ -34,6 +34,8 @@ No contributions recorded yet.
 
 - 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
 - 2026-11-11: [Strong-coupling theorem scope](../negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
+
+- 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
 
 ## Update instructions
 

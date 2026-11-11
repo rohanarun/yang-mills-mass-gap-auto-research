@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: generic Lean criteria checked; full spectral bridge open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: scalar support theorem checked; upstream integration open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ State-dependent rates tending to zero, a non-dense family, or assuming spectral 
 
 ## Next contribution
 
-Prove the measure-theoretic Laplace support theorem and connect it to the upstream PVM without assuming the dynamical estimate.
+Connect the checked finite-measure energy-window theorem to the actual upstream PVM and dense centered family.
 
 ## Active work
 
@@ -36,6 +36,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
 - 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
+
+- 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
 
 ## Update instructions
 

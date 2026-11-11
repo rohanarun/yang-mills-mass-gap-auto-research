@@ -6,7 +6,7 @@ You are contributing to an open mathematical research project on the Yang–Mill
 
 Seek a positive mass gap for the **same** Yang–Mills hierarchy supplied by the pinned upstream construction. Read [README.md](README.md), the [initial investigation](research/mass-gap-20261111/FirstPass.txt), and [provenance](research/mass-gap-20261111/provenance.json) before selecting an approach. Resolve current evidence from the source and result records rather than treating this prompt as proof.
 
-The historical baseline is a written standard conditional spectral argument, a symbolically checked scalar obstruction, and an **uncompiled** Yang–Mills Lean target. Six new generic criteria/controls now pass Lean 4.32.0 with `--trust=0`; see the [exact verification scope](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md). The full spectral bridge and actual Yang–Mills hypotheses remain open. No independent upstream kernel replay or Yang–Mills mass-gap proof has been completed. The existing polynomial estimate does not imply a gap by itself. Establishing a common positive exponential decay rate remains an open dynamical obligation.
+The historical baseline is a written standard conditional spectral argument, a symbolically checked scalar obstruction, and an **uncompiled** Yang–Mills Lean target. Six new generic criteria/controls now pass Lean 4.32.0 with `--trust=0`; see the [exact verification scope](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md). The [finite-measure Laplace support equivalence and energy-window pullback](auto-research/general/2026-11-11-T02-laplace-support/README.md) are now also checked. The actual upstream PVM/dense-state integration and Yang–Mills dynamical hypotheses remain open. No independent upstream kernel replay or Yang–Mills mass-gap proof has been completed. The existing polynomial estimate does not imply a gap by itself. Establishing a common positive exponential decay rate remains an open dynamical obligation.
 
 ## Research tracks
 
@@ -15,12 +15,12 @@ Track IDs are stable. Each linked track file is its contribution ledger; update 
 | Track | Scope | Recorded status | Next contribution |
 | --- | --- | --- | --- |
 | [T01](auto-research/tracks/T01-statement-audit.md) | Statement and specification audit | Open | Compare the uncompiled Lean target with the public upstream definitions and write the first specification review. |
-| [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: generic Lean criteria checked; full spectral bridge open | Prove the measure-theoretic Laplace support theorem and connect it to the upstream PVM without assuming the dynamical estimate. |
-| [T03](auto-research/tracks/T03-infrared-estimates.md) | Nonperturbative infrared estimates | Partial: source costs audited; dynamical estimate still open | Seek a quantitative low-energy approximation bound with localization/adjoint cost K_u satisfying the audited threshold; qualitative cyclicity is insufficient. |
-| [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Partial: coupling-regime obstruction documented; limit transfer open | Track physical units and regulator dependence of the candidate preparation cost; a strong-coupling theorem needs a proved RG bridge. |
-| [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Partial: quantitative density obligation isolated; bridge open | Identify extra dynamics that controls adjoint-state costs when approximating low-energy vectors in the selected phase. |
+| [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: scalar support theorem checked; upstream integration open | Connect the checked finite-measure energy-window theorem to the actual upstream PVM and dense centered family. |
+| [T03](auto-research/tracks/T03-infrared-estimates.md) | Nonperturbative infrared estimates | Partial: source costs audited; dynamical estimate still open | Derive a preparation-cost or decay bound from independent Yang–Mills dynamics. The abstract strict approximation condition is equivalent to projection vanishing. |
+| [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Partial: coupling and prefactor scope audited; limit transfer open | Prove the correct spectral-measure convergence with one positive rate. Distinguish direct heat-bound transfer from support-first arguments, which can replace prefactors by total masses. |
+| [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Partial: scalar energy-window bridge checked; phase/density application open | Connect positive-energy pushforwards to the actual selected phase and a dense family, retaining all dynamical hypotheses. |
 | [T06](auto-research/tracks/T06-obstructions.md) | Counterexamples and negative results | Partial: scalar and cyclicity obstructions recorded | Test candidate infrared/preparation estimates against the recorded counterexamples; distinguish dynamical hypotheses from qualitative density. |
-| [T07](auto-research/tracks/T07-verification-and-integration.md) | Independent verification and proof integration | Partial: pinned generic criteria checked; upstream replay open | Extend the checked scalar criteria to spectral measures and scope the required upstream replay within available storage. |
+| [T07](auto-research/tracks/T07-verification-and-integration.md) | Independent verification and proof integration | Partial: generic and scalar support results checked; upstream replay open | Review the checked scalar support theorem and connect it to the exact public PVM; the upstream construction still needs independent replay. |
 
 T03 is the central unresolved dynamical problem. T02 supplies a conditional reduction; T04 and T05 address its application to the construction. T01 checks the statement, T06 tests proposed inferences, and T07 checks and integrates evidence. These dependencies do not prohibit independent useful work on any track.
 
@@ -70,6 +70,12 @@ Additional established lessons:
 - Cyclicity and separation alone do not give a dense family with uniformly controlled adjoint-state ratios; see the [explicit obstruction](auto-research/negative-results/2026-11-11-T06-cyclicity-cost/README.md). Seek a quantitative, dynamics-dependent approximation theorem.
 - An exponential bound on finite-volume derivative errors is not automatically a heat-correlation estimate. Identify the bounded object and prove its bridge to the PVM.
 - Match coupling conventions and cutoff regimes before applying a lattice theorem; see the [strong-coupling comparison](auto-research/negative-results/2026-11-11-T04-strong-coupling-scope/README.md).
+
+## Assessing scientific progress
+
+Count discharged Yang–Mills obligations, not generic lemmas. A successful formalization of a standard result is infrastructure, not evidence of mathematical novelty. The [formal criterion audit](auto-research/general/2026-11-11-T02-laplace-support/CriterionAudit.lean) shows the strict range-approximation condition is equivalent to projection vanishing; deriving it requires independent dynamical input. Label equivalent reformulations as such. The present work is suitable for a transparent research notebook; do not describe it as a new mass-gap theorem or a novel mathematical paper without the result, novelty assessment, and independent review to support that claim.
+
+For Laplace support arguments, prove integrability rather than relying on Lean's default value for nonintegrable Bochner integrals. In limit arguments, distinguish a direct uniform heat-bound passage from first establishing a common spectral support: the latter may replace an uncontrolled prefactor by total mass.
 
 ## Mathematical notation in Markdown
 

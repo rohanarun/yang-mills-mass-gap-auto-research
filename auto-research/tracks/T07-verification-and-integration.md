@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: pinned generic criteria checked; upstream replay open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: generic and scalar support results checked; upstream replay open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ Compilation with added axioms, sorry, weakened goals, incompatible dependencies,
 
 ## Next contribution
 
-Extend the checked scalar criteria to spectral measures and scope the required upstream replay within available storage.
+Review the checked scalar support theorem and connect it to the exact public PVM; the upstream construction still needs independent replay.
 
 ## Active work
 
@@ -34,6 +34,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
 - 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
+
+- 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
 
 ## Update instructions
 

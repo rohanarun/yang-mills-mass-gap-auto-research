@@ -1,0 +1,8 @@
+'MassGapResearch.heat_integrable_of_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.halfline_mass_le_heat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.measure_Iic_zero_of_heat_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.measure_Iio_zero_of_heat_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.heat_bound_of_measure_Iio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.heat_bound_iff_measure_Iio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.threshold_atom_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.energy_window_zero_of_heat_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Checked Laplace support theorem and criterion audit](general/2026-11-11-T02-laplace-support/README.md): scalar support equivalence and energy-window pullback, with the dynamical obligation still explicit.
+
 - [Lean-checked conditional criteria](general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
 - [Infrared cost audit](general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
 - [Cyclicity does not control adjoint costs](negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.

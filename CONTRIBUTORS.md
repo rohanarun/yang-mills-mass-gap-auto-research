@@ -8,6 +8,7 @@ Useful contributions remain credited even when later corrected, superseded, or n
 | Rohan Arun, with OpenAI Codex assistance | [Polynomial-decay obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md), with exact symbolic checks. The example concerns a scalar spectral inference and does not satisfy all Yang–Mills construction hypotheses. |
 | Rohan Arun, with OpenAI Codex assistance | Repository setup, [agent prompt](auto-research.md), seven [track ledgers](auto-research/README.md), research/result templates, and contribution workflow. |
 | Rohan Arun, with OpenAI Codex assistance | [Six generic conditional lemmas and controls](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md), checked with Lean 4.32.0 and `--trust=0`; [infrared cost audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md); cyclicity and strong-coupling scope obstructions. No Yang–Mills gap theorem or full upstream replay. |
+| Rohan Arun, with OpenAI Codex assistance | [Checked finite-measure Laplace support equivalence, energy-window pullback, and criterion audit](auto-research/general/2026-11-11-T02-laplace-support/README.md). Lean 4.32.0 trust-zero checks passed; standard infrastructure with no new Yang–Mills estimate claimed. |
 
 ## Inherited work and tools
 

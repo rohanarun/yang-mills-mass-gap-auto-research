@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: quantitative density obligation isolated; bridge open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: scalar energy-window bridge checked; phase/density application open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ A raw averaged correlation bound, cancellation between phases, or one non-cyclic
 
 ## Next contribution
 
-Identify extra dynamics that controls adjoint-state costs when approximating low-energy vectors in the selected phase.
+Connect positive-energy pushforwards to the actual selected phase and a dense family, retaining all dynamical hypotheses.
 
 ## Active work
 
@@ -35,6 +35,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
 - 2026-11-11: [Cyclicity does not control adjoint costs](../negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.
 - 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
+
+- 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
 
 ## Update instructions
 

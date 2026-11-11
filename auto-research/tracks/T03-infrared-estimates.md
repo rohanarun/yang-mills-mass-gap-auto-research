@@ -22,7 +22,7 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Seek a quantitative low-energy approximation bound with localization/adjoint cost K_u satisfying the audited threshold; qualitative cyclicity is insufficient.
+Derive a preparation-cost or decay bound from independent Yang–Mills dynamics. The abstract strict approximation condition is equivalent to projection vanishing.
 
 ## Active work
 
@@ -36,6 +36,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
 - 2026-11-11: [Cyclicity does not control adjoint costs](../negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.
 - 2026-11-11: [Strong-coupling theorem scope](../negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
+
+- 2026-11-11: [Checked Laplace support theorem and criterion audit](../general/2026-11-11-T02-laplace-support/README.md): standard scalar support equivalence and energy-window pullback checked; no new YM dynamical estimate.
 
 ## Update instructions
 
