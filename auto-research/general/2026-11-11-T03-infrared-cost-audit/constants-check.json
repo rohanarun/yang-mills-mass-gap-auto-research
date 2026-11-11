@@ -1,0 +1,7 @@
+{
+  "sympy_version": "1.14.0",
+  "annulus": "32*M*R**3/9",
+  "low_energy": "64*M*R**3/9",
+  "passed": true,
+  "scope": "Scalar coefficient algebra; not a Yang--Mills gap proof"
+}

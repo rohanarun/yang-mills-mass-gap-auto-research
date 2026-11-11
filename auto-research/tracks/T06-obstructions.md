@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: scalar obstruction checked. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: scalar and cyclicity obstructions recorded. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ Failure to find a proof or a failed numerical experiment is not a proof of impos
 
 ## Next contribution
 
-Use the existing negative result to check proposed routes for accidental upgrades from polynomial to exponential decay.
+Test candidate infrared/preparation estimates against the recorded counterexamples; distinguish dynamical hypotheses from qualitative density.
 
 ## Active work
 
@@ -31,6 +31,10 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 ## Contribution ledger
 
 - [Polynomial decay without a gap](../negative-results/2026-11-11-T06-polynomial-decay/README.md): scalar obstruction with exact symbolic checks.
+
+- 2026-11-11: [Cyclicity does not control adjoint costs](../negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.
+- 2026-11-11: [Strong-coupling theorem scope](../negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
+- 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
 
 ## Update instructions
 

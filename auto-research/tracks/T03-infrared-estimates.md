@@ -2,7 +2,7 @@
 
 ## Current status
 
-Open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: source costs audited; dynamical estimate still open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-Identify one upstream quantitative lemma and determine whether its constants can control a nonzero physical time scale.
+Seek a quantitative low-energy approximation bound with localization/adjoint cost K_u satisfying the audited threshold; qualitative cyclicity is insufficient.
 
 ## Active work
 
@@ -31,6 +31,11 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 ## Contribution ledger
 
 - [Polynomial decay without a gap](../negative-results/2026-11-11-T06-polynomial-decay/README.md): restricts what may be inferred from the existing estimates.
+
+- 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
+- 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
+- 2026-11-11: [Cyclicity does not control adjoint costs](../negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.
+- 2026-11-11: [Strong-coupling theorem scope](../negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
 
 ## Update instructions
 

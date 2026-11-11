@@ -1,0 +1,55 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "--trust=0",
+    "-j1",
+    "GapCriteria.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 15.639,
+  "source_sha256": "309e447e3359040bb441f5cd43e3ae9d1a4f6a133707d61eb3ea34ed76d6c06a",
+  "date": "2026-11-11",
+  "source": "lean/GapCriteria.lean",
+  "working_directory": "auto-research/general/2026-11-11-T02-uniform-projection-criterion/lean",
+  "lean_version": "4.32.0",
+  "lean_commit": "8c9756b28d64dab099da31a4c09229a9e6a2ef35",
+  "architecture": "arm64",
+  "python_version": "3.9.6",
+  "dependency_revisions": {
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997"
+  },
+  "theorems": [
+    "idempotent_eq_zero_of_bound",
+    "idempotent_eq_zero_of_dense_bound",
+    "idempotent_eq_zero_of_approximation",
+    "zero_of_exponential_bound",
+    "zero_of_laplace_comparison",
+    "identity_counterexample"
+  ],
+  "observed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "upstream_YM_replayed": false,
+  "complete_spectral_measure_bridge_formalized": false,
+  "yang_mills_mass_gap_proved": false,
+  "independent_human_review": false,
+  "artifact_sha256": {
+    "lean/GapCriteria.lean": "309e447e3359040bb441f5cd43e3ae9d1a4f6a133707d61eb3ea34ed76d6c06a",
+    "lean/lakefile.toml": "3dfbf09303be5fc099bb79e56cc38c579b6953110423abc9c70feb6b66a96fa7",
+    "lean/lake-manifest.json": "71c97febb6b8b9ec0d2db73916ffc680066b25dbb1b3932f238ad837a4e9d0ee",
+    "lean/lean-toolchain": "2773c517aa90b66ea8a2c52bddddf84393157797f8341be0df45294fff7fd32e",
+    "kernel-check.log": "d185a769557b274b8f0c7432729407ac9a8c3303b8453f919a80583b4f878a1b"
+  }
+}

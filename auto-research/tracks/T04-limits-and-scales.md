@@ -2,7 +2,7 @@
 
 ## Current status
 
-Open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: coupling-regime obstruction documented; limit transfer open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ A positive gap only at finite volume, constants diverging before taking limits, 
 
 ## Next contribution
 
-Build a table of regulator-dependent constants and the exact uniform bounds needed for limit passage.
+Track physical units and regulator dependence of the candidate preparation cost; a strong-coupling theorem needs a proved RG bridge.
 
 ## Active work
 
@@ -31,6 +31,9 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 ## Contribution ledger
 
 No contributions recorded yet.
+
+- 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
+- 2026-11-11: [Strong-coupling theorem scope](../negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
 
 ## Update instructions
 

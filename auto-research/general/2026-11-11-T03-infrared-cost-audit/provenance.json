@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-11",
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "source_sha256": {
+    "YM/EveryPhase/Light.lean": "ebe20053122ab974ff779cea297d029c642068667682bda40f9469aad6d75164",
+    "YM/EveryPhase/Polynomials.lean": "8634e0b8f723ab686ab8a58817bb1a5426066dbbd7466890147f1bfa6703347a",
+    "YM/Distribution/Tests.lean": "4867982c3ecedadab30f6cf8237c3617d7e872ce6b46b87489e642d9bb8c67e5",
+    "YM/PCalc/Loop.lean": "28eae7782181aedfbb2e5855b14552ad8a43135315c9abadd6028c2a4297bbb6",
+    "YM/PhysicalNext/RG_NEXT_COMPLETE_REPEATABLE_NONLINEAR_STEP/Pane/Spectrum.lean": "eaa649d9e46ac24156994d1455776961edd06c5b0ff057de31fa3bf8bba7dd81",
+    "PublicWilson.lean": "c1542c816cd42d23448b66b4cb021c7f3bdad64b64f1c643dde27147ce0c3233",
+    "ChallengeSpec.lean": "e48b0be2b72d16b9b87c6c1923b3ae814270387bf9312b5cb0661dfa3e243749"
+  },
+  "evidence": "Source inspection, written derivation, and symbolic arithmetic only; no upstream Lean replay."
+}

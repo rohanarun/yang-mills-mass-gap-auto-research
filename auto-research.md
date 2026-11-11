@@ -6,7 +6,7 @@ You are contributing to an open mathematical research project on the Yang–Mill
 
 Seek a positive mass gap for the **same** Yang–Mills hierarchy supplied by the pinned upstream construction. Read [README.md](README.md), the [initial investigation](research/mass-gap-20261111/FirstPass.txt), and [provenance](research/mass-gap-20261111/provenance.json) before selecting an approach. Resolve current evidence from the source and result records rather than treating this prompt as proof.
 
-The current baseline is a written standard conditional spectral argument, a symbolically checked scalar obstruction, and an **uncompiled** Lean target. No independent upstream kernel replay or Yang–Mills mass-gap proof has been completed. The existing polynomial estimate does not imply a gap by itself. Establishing a common positive exponential decay rate remains an open dynamical obligation.
+The historical baseline is a written standard conditional spectral argument, a symbolically checked scalar obstruction, and an **uncompiled** Yang–Mills Lean target. Six new generic criteria/controls now pass Lean 4.32.0 with `--trust=0`; see the [exact verification scope](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md). The full spectral bridge and actual Yang–Mills hypotheses remain open. No independent upstream kernel replay or Yang–Mills mass-gap proof has been completed. The existing polynomial estimate does not imply a gap by itself. Establishing a common positive exponential decay rate remains an open dynamical obligation.
 
 ## Research tracks
 
@@ -15,12 +15,12 @@ Track IDs are stable. Each linked track file is its contribution ledger; update 
 | Track | Scope | Recorded status | Next contribution |
 | --- | --- | --- | --- |
 | [T01](auto-research/tracks/T01-statement-audit.md) | Statement and specification audit | Open | Compare the uncompiled Lean target with the public upstream definitions and write the first specification review. |
-| [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: written argument | Turn the existing written argument into a precise standalone theorem and list the missing Lean interfaces. |
-| [T03](auto-research/tracks/T03-infrared-estimates.md) | Nonperturbative infrared estimates | Open | Identify one upstream quantitative lemma and determine whether its constants can control a nonzero physical time scale. |
-| [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Open | Build a table of regulator-dependent constants and the exact uniform bounds needed for limit passage. |
-| [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Open | Map extends_decay and all_plant to the finite-word class needed by T02, recording every unverified bridge. |
-| [T06](auto-research/tracks/T06-obstructions.md) | Counterexamples and negative results | Partial: scalar obstruction checked | Use the existing negative result to check proposed routes for accidental upgrades from polynomial to exponential decay. |
-| [T07](auto-research/tracks/T07-verification-and-integration.md) | Independent verification and proof integration | Open | Estimate storage/build requirements and establish the pinned Lean 4.32.0 environment, then replay a clearly bounded relevant target. |
+| [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: generic Lean criteria checked; full spectral bridge open | Prove the measure-theoretic Laplace support theorem and connect it to the upstream PVM without assuming the dynamical estimate. |
+| [T03](auto-research/tracks/T03-infrared-estimates.md) | Nonperturbative infrared estimates | Partial: source costs audited; dynamical estimate still open | Seek a quantitative low-energy approximation bound with localization/adjoint cost K_u satisfying the audited threshold; qualitative cyclicity is insufficient. |
+| [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Partial: coupling-regime obstruction documented; limit transfer open | Track physical units and regulator dependence of the candidate preparation cost; a strong-coupling theorem needs a proved RG bridge. |
+| [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Partial: quantitative density obligation isolated; bridge open | Identify extra dynamics that controls adjoint-state costs when approximating low-energy vectors in the selected phase. |
+| [T06](auto-research/tracks/T06-obstructions.md) | Counterexamples and negative results | Partial: scalar and cyclicity obstructions recorded | Test candidate infrared/preparation estimates against the recorded counterexamples; distinguish dynamical hypotheses from qualitative density. |
+| [T07](auto-research/tracks/T07-verification-and-integration.md) | Independent verification and proof integration | Partial: pinned generic criteria checked; upstream replay open | Extend the checked scalar criteria to spectral measures and scope the required upstream replay within available storage. |
 
 T03 is the central unresolved dynamical problem. T02 supplies a conditional reduction; T04 and T05 address its application to the construction. T01 checks the statement, T06 tests proposed inferences, and T07 checks and integrates evidence. These dependencies do not prohibit independent useful work on any track.
 
@@ -63,6 +63,13 @@ A counterexample must identify the assumptions it satisfies and does not satisfy
 Every negative result must include: what went wrong, the invalid inference or missing hypothesis, what should always be checked instead, and what new evidence would justify reopening the route. Add a concise, general lesson here when a new repeatable failure mode is established, with a link to its result. Improve the research prompt from evidence instead of adding deterministic exceptions or hard-coded success cases.
 
 Current lesson: polynomial low-energy and heat-decay bounds permit spectral weight arbitrarily close to zero. Require a genuinely stronger estimate before claiming a gap; see [the scalar obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md).
+
+Additional established lessons:
+
+- Compactness over phases for a fixed word does not give a norm-uniform bound across all states. Retain localization and adjoint-state costs; see the [source audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md).
+- Cyclicity and separation alone do not give a dense family with uniformly controlled adjoint-state ratios; see the [explicit obstruction](auto-research/negative-results/2026-11-11-T06-cyclicity-cost/README.md). Seek a quantitative, dynamics-dependent approximation theorem.
+- An exponential bound on finite-volume derivative errors is not automatically a heat-correlation estimate. Identify the bounded object and prove its bridge to the PVM.
+- Match coupling conventions and cutoff regimes before applying a lattice theorem; see the [strong-coupling comparison](auto-research/negative-results/2026-11-11-T04-strong-coupling-scope/README.md).
 
 ## Workspace and execution constraints
 

@@ -11,10 +11,17 @@ An initial investigation of what additional estimate could establish a positive 
 | Polynomial decay alone does not imply a spectral gap | Explicit scalar spectral example; its integrals were checked symbolically |
 | A common exponential decay rate on a dense family implies a gap | Written proof using the spectral theorem; not formalized here |
 | Positive mass gap for the upstream Yang–Mills construction | **Unproved** |
-| Proposed Lean gap target | Definitions only; **not compiled** |
+| Generic projection/Laplace tools | Six lemmas/controls checked with Lean 4.32.0 and `--trust=0`; [receipt](auto-research/general/2026-11-11-T02-uniform-projection-criterion/verification.json) |
+| Proposed Yang–Mills Lean gap target | Definitions only; **not compiled** |
 | Independent replay of upstream Lean proofs | **Not performed** |
 
 The initial inspection uses upstream revision [`3456e5e`](https://github.com/yang-mills-group/OpenAI-YM-20261028/tree/3456e5e75cf8d4cd558955a5c7638fba2d68f464). The upstream README explicitly leaves positive mass gap outside its claim. Its verification reports are not independent verification by this project.
+
+## Research progress — 11 November 2026
+
+[Six generic lemmas and controls](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md) now pass Lean 4.32.0 with `--trust=0`, with only the standard axioms in their reports. These check conditional projection and scalar Laplace arguments; they do not prove the Yang–Mills hypotheses or replay the upstream construction.
+
+The [infrared source audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md) isolates an explicit localization/adjoint-state cost whose quantitative control would imply a gap. [Cyclicity alone is insufficient](auto-research/negative-results/2026-11-11-T06-cyclicity-cost/README.md), and a [cited strong-coupling lattice result does not directly cover the running continuum regime](auto-research/negative-results/2026-11-11-T04-strong-coupling-scope/README.md). The dynamical estimate remains unproved.
 
 ## The starting point
 
@@ -120,6 +127,8 @@ Snapshot: **11 November 2026**. Contribution state and mathematical verification
 | [Initial investigation](research/mass-gap-20261111/FirstPass.txt) | [Rohan Arun (@rohanarun)](https://github.com/rohanarun), with OpenAI Codex assistance | Source inspection, standard conditional spectral criterion, and proposed gap specification | Written argument; Lean target uncompiled; upstream proofs not independently replayed | On main |
 | [Polynomial-decay obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md) | Rohan Arun, with OpenAI Codex assistance | Explicit scalar spectral example showing why polynomial decay alone does not imply a gap | Exact symbolic integral/asymptotic checks; not a counterexample to the full Yang–Mills construction | On main |
 | [Research tracks and archive](auto-research.md) | Rohan Arun, with OpenAI Codex assistance | Seven research tracks, agent instructions, result template, and preservation of negative results | Documentation contribution; no mathematical verification implied | On main |
+| [Conditional Lean tools](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md) | Rohan Arun, with OpenAI Codex assistance | Five generic criteria and a non-strict-bound counterexample | Lean 4.32.0 trust-zero check passed; no YM application proved | On main |
+| [Infrared source audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md) and related obstructions | Rohan Arun, with OpenAI Codex assistance | Extracted preparation costs, a cyclicity counterexample, and a coupling-regime comparison | Written/source-level analysis; coefficient algebra checked; independent review pending | On main |
 
 [Full contributor credits](CONTRIBUTORS.md) record authorship, AI assistance, inherited work, and future contributions. Credits remain when results are corrected or superseded; their evidence status is updated.
 

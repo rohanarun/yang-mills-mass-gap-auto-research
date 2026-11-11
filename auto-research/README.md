@@ -19,6 +19,13 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 - [T06: Counterexamples and negative results](tracks/T06-obstructions.md)
 - [T07: Independent verification and proof integration](tracks/T07-verification-and-integration.md)
 
+## Latest contributions
+
+- [Lean-checked conditional criteria](general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
+- [Infrared cost audit](general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
+- [Cyclicity does not control adjoint costs](negative-results/2026-11-11-T06-cyclicity-cost/README.md): Written operator-algebra counterexample; not a Yang–Mills model.
+- [Strong-coupling theorem scope](negative-results/2026-11-11-T04-strong-coupling-scope/README.md): Primary-source comparison; bounded coupling regime does not directly cover the running continuum family.
+
 ## Baseline
 
 The initial evidence remains in [research/mass-gap-20261111](../research/mass-gap-20261111/FirstPass.txt). The records below index it without implying new verification:

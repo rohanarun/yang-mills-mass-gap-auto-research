@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: written argument. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: generic Lean criteria checked; full spectral bridge open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ State-dependent rates tending to zero, a non-dense family, or assuming spectral 
 
 ## Next contribution
 
-Turn the existing written argument into a precise standalone theorem and list the missing Lean interfaces.
+Prove the measure-theoretic Laplace support theorem and connect it to the upstream PVM without assuming the dynamical estimate.
 
 ## Active work
 
@@ -33,6 +33,9 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - [Initial source inspection and conditional argument](../general/2026-11-11-T02-initial-reduction/README.md): inherited baseline; no Lean replay.
 
 - [Polynomial decay without a gap](../negative-results/2026-11-11-T06-polynomial-decay/README.md): restricts what may be inferred from the existing estimates.
+
+- 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
+- 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
 
 ## Update instructions
 

@@ -1,0 +1,6 @@
+'MassGapResearch.idempotent_eq_zero_of_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.idempotent_eq_zero_of_dense_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.idempotent_eq_zero_of_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.zero_of_exponential_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.zero_of_laplace_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MassGapResearch.identity_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]

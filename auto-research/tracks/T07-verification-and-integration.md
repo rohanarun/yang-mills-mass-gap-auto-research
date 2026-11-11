@@ -2,7 +2,7 @@
 
 ## Current status
 
-Open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: pinned generic criteria checked; upstream replay open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -22,7 +22,7 @@ Compilation with added axioms, sorry, weakened goals, incompatible dependencies,
 
 ## Next contribution
 
-Estimate storage/build requirements and establish the pinned Lean 4.32.0 environment, then replay a clearly bounded relevant target.
+Extend the checked scalar criteria to spectral measures and scope the required upstream replay within available storage.
 
 ## Active work
 
@@ -31,6 +31,9 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 ## Contribution ledger
 
 - [Initial source inspection and conditional argument](../general/2026-11-11-T02-initial-reduction/README.md): inherited baseline; no Lean replay.
+
+- 2026-11-11: [Lean-checked conditional criteria](../general/2026-11-11-T02-uniform-projection-criterion/README.md): Six generic lemmas/controls checked with Lean 4.32.0 and --trust=0; no Yang–Mills application proved.
+- 2026-11-11: [Infrared cost audit](../general/2026-11-11-T03-infrared-cost-audit/README.md): Written extraction of localization/adjoint costs and a conditional approximation target; source not replayed.
 
 ## Update instructions
 

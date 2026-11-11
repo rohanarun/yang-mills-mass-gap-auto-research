@@ -7,6 +7,7 @@ Useful contributions remain credited even when later corrected, superseded, or n
 | [Rohan Arun (@rohanarun)](https://github.com/rohanarun), with OpenAI Codex assistance | [Initial source inspection and conditional spectral reduction](research/mass-gap-20261111/FirstPass.txt); [uncompiled Lean target](research/mass-gap-20261111/MassGapTarget.lean). No Yang–Mills gap proof or independent upstream replay claimed. |
 | Rohan Arun, with OpenAI Codex assistance | [Polynomial-decay obstruction](auto-research/negative-results/2026-11-11-T06-polynomial-decay/README.md), with exact symbolic checks. The example concerns a scalar spectral inference and does not satisfy all Yang–Mills construction hypotheses. |
 | Rohan Arun, with OpenAI Codex assistance | Repository setup, [agent prompt](auto-research.md), seven [track ledgers](auto-research/README.md), research/result templates, and contribution workflow. |
+| Rohan Arun, with OpenAI Codex assistance | [Six generic conditional lemmas and controls](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md), checked with Lean 4.32.0 and `--trust=0`; [infrared cost audit](auto-research/general/2026-11-11-T03-infrared-cost-audit/README.md); cyclicity and strong-coupling scope obstructions. No Yang–Mills gap theorem or full upstream replay. |
 
 ## Inherited work and tools
 
