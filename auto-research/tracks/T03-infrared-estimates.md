@@ -80,7 +80,7 @@ The [noise spectrum record](../general/2026-11-11-T03-peter-weyl-noise-spectrum/
 
 ## Active work
 
-No active file ownership. 2026-11-11 handoff: Peter–Weyl noise spectrum recorded below. Next bounded task: read `Patch.predict`, `frame`, `frameMass`, and `predictorMass` at the pin and determine the read footprint and fine-link sector expansion of the averaged fundamental character of one predicted coarse link.
+No active file ownership. 2026-11-11 handoff: Peter–Weyl noise spectrum recorded below. A separate pull request on `research/su2-predictor-average` proposes the fundamental bond-tag mean; reconcile ledger text when both are merged. Next bounded task: extend that bond-tag mean to the spin-$j$ sectors that the noise spectrum requires, and record the resulting read footprint.
 
 ## Contribution ledger
 

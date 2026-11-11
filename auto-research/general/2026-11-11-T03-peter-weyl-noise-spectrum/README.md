@@ -143,7 +143,9 @@ The earlier obstruction "perimeter is not separation" extends from simple loops 
 - T05: spin-network functions give a dense gauge-invariant family on which one step of noise is explicit. Density in the reconstructed Hilbert space is not addressed.
 - T06: sharpened noise-only obstruction, above.
 
-Next bounded task: read `Patch.predict`, `frame`, `frameMass`, `predictorMass` at the pin and determine, for a fundamental character on one coarse link, the read footprint and the sector expansion of $U\mapsto\sum_tL_U(t)\chi_{1/2}(Q_b(U,t))$ in fine-link variables. Success: an explicit finite expansion or a proof that none exists with bounded support. Cost: source reading only.
+Concurrent work: the open pull request on branch `research/su2-predictor-average` (same base commit, different author session) proposes an exact bond-tag mean of the **fundamental** prediction, $A_c(M)$, equal to $M/|M|$ on the minimizing branch and to the connector mean $M=\sum_xw_xY_x$ on fallback. It was found after this record was drafted, was read only in summary, and is not verified or relied on here. The two records are complementary: that one treats the prediction half for spin $1/2$, this one the noise half for all spins. Both edit the same ledger lines, so whichever merges second needs a small rebase.
+
+Next bounded task, conditional on that record surviving review: extend its bond-tag mean to the spin-$j$ sectors required by section 3. The expected form is $\rho_j(M/|M|)$ on the minimizing branch and $\sum_xw_x\rho_j(Y_x)$ on fallback, which for $j\geq1$ is not a function of $M$ alone. Success: a source-checked formula and the resulting read footprint for $\overline{T_\kappa F}$ with $F$ a spin network; or a documented reason the fallback branch leaves the finite-sector class. Cost: source reading of `Patch.lean` only. This still would not bound a covariance.
 
 ## Review and correction history
 
