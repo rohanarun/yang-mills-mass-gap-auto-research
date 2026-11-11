@@ -11,7 +11,7 @@
 
 Shen, Zhu, and Zhu, [A stochastic analysis approach to lattice Yang–Mills at strong coupling, arXiv:2204.12737v1](https://arxiv.org/abs/2204.12737v1), state a positive lattice mass gap for a sufficiently small inverse-coupling regime. For $SU(N)$ their stated condition is $|\beta_{\rm paper}|<1/[16(d-1)]$.
 
-Their [equation (1.2)](https://arxiv.org/html/2204.12737v1) uses $N\beta_{\rm paper}\sum_p\operatorname{ReTr}(U_p)$ in the exponent. The upstream [Wilson law](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/PublicWilson.lean) uses $-\beta_{\rm repo}\sum_p(1-\operatorname{ReTr}(U_p)/N)$. With matching once-per-plaquette counting, constants cancel on normalization and the coefficients match at $\beta_{\rm repo}=N^2\beta_{\rm paper}$. Different fixed counting conventions would change this fixed factor, not the divergence below. This is a coefficient comparison, not a formal identification of the two theories.
+Their [equation (1.2)](https://arxiv.org/html/2204.12737v1) uses $N\beta_{\rm paper}\sum_p\mathrm{Re}\,\mathrm{Tr}(U_p)$ in the exponent. The upstream [Wilson law](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/PublicWilson.lean) uses $-\beta_{\rm repo}\sum_p(1-\mathrm{Re}\,\mathrm{Tr}(U_p)/N)$. With matching once-per-plaquette counting, constants cancel on normalization and the coefficients match at $\beta_{\rm repo}=N^2\beta_{\rm paper}$. Different fixed counting conventions would change this fixed factor, not the divergence below. This is a coefficient comparison, not a formal identification of the two theories.
 
 ## Obstruction to direct reuse
 

@@ -73,7 +73,7 @@ $$
 Taking $t\to\infty$ forces $\mu_\psi((0,a])=0$. Letting $a\uparrow m$, then using density and boundedness of spectral projections, gives $P((0,m))=0$ and
 
 $$
-\operatorname{spec}(H)\subseteq\{0\}\cup[m,\infty).
+\sigma(H)\subseteq\{0\}\cup[m,\infty).
 $$
 
 This is a standard reduction. The unresolved mathematical work is to derive its exponential estimate from Yang–Mills dynamics with a rate that survives cutoff removal and infinite volume.

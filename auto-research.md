@@ -71,6 +71,10 @@ Additional established lessons:
 - An exponential bound on finite-volume derivative errors is not automatically a heat-correlation estimate. Identify the bounded object and prove its bridge to the PVM.
 - Match coupling conventions and cutoff regimes before applying a lattice theorem; see the [strong-coupling comparison](auto-research/negative-results/2026-11-11-T04-strong-coupling-scope/README.md).
 
+## Mathematical notation in Markdown
+
+Use renderer-compatible notation in public result records: write the spectrum as `\sigma(H)` and ordinary named quantities with `\mathrm{...}`. The renderer rejected the operatorname macro in the published spectral inclusion; avoid that macro in future Markdown. Preserve literal set braces with `\{` and `\}`. Check new equations for unsupported commands before publishing. This is a rendering correction, not a change to the mathematics.
+
 ## Workspace and execution constraints
 
 For this owner's local environment, use `/Volumes/SP AI 01_16/CodexWorkspaces` for independent checkouts, generated artifacts, experiments, logs, dependency trees, and build output. Before writing, verify the SSD is mounted and writable and resolve the destination outside Documents, Desktop, and iCloud Drive. Never create a fake mount or silently fall back to an iCloud path. If unavailable, record the storage blocker when a permitted destination exists and continue only read-only or remote work. Do not relocate live data, interrupt workloads, or create divergent writable migration copies without scope. Remote authoritative sources remain authoritative. Pass this policy to any explicitly authorized workers or long-lived processes.

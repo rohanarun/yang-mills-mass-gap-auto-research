@@ -23,7 +23,7 @@ $$
 \mu_v((0,u])\leq\frac{64}{9}R^3\bigl(\|v\|^2+\|v^*\|^2\bigr)u^2,\qquad 0<u\leq1.
 $$
 
-This constant uses the ordinary three-dimensional Euclidean volume and the source Fourier convention `pref Space3 = (2*pi)^3`. Specifically, `fee R M = Vol(B_R) M (8 Vol(B_1))`; the annulus multiplier is `pref^-1 * (2*pi)`, and `dyadic` contributes a factor two. With $\operatorname{Vol}(B_R)=4\pi R^3/3$, the annulus coefficient is $32R^3M/9$ and the resulting low-energy coefficient is $64R^3M/9$.
+This constant uses the ordinary three-dimensional Euclidean volume and the source Fourier convention `pref Space3 = (2*pi)^3`. Specifically, `fee R M = Vol(B_R) M (8 Vol(B_1))`; the annulus multiplier is `pref^-1 * (2*pi)`, and `dyadic` contributes a factor two. With $\mathrm{Vol}(B_R)=4\pi R^3/3$, the annulus coefficient is $32R^3M/9$ and the resulting low-energy coefficient is $64R^3M/9$.
 
 The source's `light_bound` instead first takes upper bounds on both masses uniformly over the compact character space. That compactness is over **phases for one fixed word**. It is not compactness of the Hilbert unit sphere and supplies no common normalized bound over all words. `late` obtains its radius from `Polynomials.distant`; there the witness is $4r+1$ for a support bound $r$.
 
