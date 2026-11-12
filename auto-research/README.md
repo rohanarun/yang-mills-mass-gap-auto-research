@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Bare Wilson frame-branch probability](general/2026-11-11-T03-bare-branch-probability/README.md): written fixed-patch failure bound uniform in total volume, using the existing axial theorem. It applies to the bare SU(2) law only; finite geometry/scalar diagnostics passed, no Lean proof or spatial decay.
+
 - [Correction and scoped upstream replay](general/2026-11-11-T03-upstream-branch-audit/README.md): the branch conditions already have upstream proofs. Their 22-module chain and a frame-bound corollary passed Lean trust-zero checks. Full-construction replay and spatial decay remain open.
 - [Spin-$j$ prediction mean and closure audit](general/2026-11-11-T03-spin-j-prediction-mean/README.md): written bond-tag mean for every SU(2) spin, sharp bound $4j^2(1-r)$ on the predictor nonlinearity, and a source audit naming the remaining non-polynomial mechanisms (branch indicators, `1/card eligible`, `selected`). Exact checks passed; no spatial estimate.
 

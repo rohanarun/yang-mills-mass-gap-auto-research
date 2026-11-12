@@ -4,6 +4,7 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 
 | Date | Tracks | Result | Evidence and outcome |
 | --- | --- | --- | --- |
+| 2026-11-11 | T03, T04, T07 | [Bare Wilson frame-branch probability](2026-11-11-T03-bare-branch-probability/README.md) | Written volume-uniform fixed-patch bound of order log(beta)/beta; finite checks passed; blocked-law extension and spatial decay open |
 | 2026-11-11 | T03, T06, T07 | [Upstream branch audit and correction](2026-11-11-T03-upstream-branch-audit/README.md) | Existing producers located; 22-module scoped Lean replay and a corollary passed; earlier absence claim retracted; no new dynamical estimate |
 | 2026-11-11 | T03, T05, T06 | [Spin-$j$ prediction mean and closure audit](2026-11-11-T03-spin-j-prediction-mean/README.md) | Written sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step sector formula with repeated links; source audit of non-polynomial mechanisms; exact integer-spin checks passed; no covariance bound |
 | 2026-11-11 | T03, T05, T06 | [Peter–Weyl spectrum of the blocking noise](2026-11-11-T03-peter-weyl-noise-spectrum/README.md) | Written exact diagonalization of the SU(2) noise on all observables; noise shown rate-neutral; two-route rational enclosures and exact $Q_8$ control passed; no separation decay |

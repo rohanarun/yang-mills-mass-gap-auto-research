@@ -76,15 +76,19 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
+For the [new bare-law branch bound](../general/2026-11-11-T03-bare-branch-probability/README.md), first identify a specific RG step and derive a curvature-moment estimate under its actual fine input law. Preserve generated interactions and normalization. The geometric event inclusion already converts such a moment to frame-branch probability; do not substitute the bare Wilson law at later steps.
+
 Determine whether the exact selected kernel has `predictor_cut < 1`. If it equals one, derive a cutoff/volume-uniform small-ball bound for positive connector-mean norm under the actual fine-field/site-tag law; the conditional conversion to integrated approximation error is now written. Then bound connected correlations of masked truncated observables, retaining shared frames, generated interactions, degree-dependent costs, and complete supports. Approximation convergence alone does not bound spatial covariance.
 
-A complementary bounded task is to control the distance between `selected` and the normalised axial frame on `usesMin`, in terms of `frame_cut` and patch size, or exhibit an obstruction. The noise spectrum alone supplies no spatial estimate; preserve the finite-spin/support restrictions in its rate comparison and prove observable-class closure before iterating RG steps. Extend any successful bound to the transported insertions and required dense family in physical units.
+The upstream branch audit already supplies uniform frame control. A complementary bounded task is to establish quantitative applicability for the selected kernel and control the remaining predictor and covariance errors. The noise spectrum alone supplies no spatial estimate; preserve the finite-spin/support restrictions in its rate comparison and prove observable-class closure before iterating RG steps. Extend any successful bound to the transported insertions and required dense family in physical units.
 
 ## Active work
 
-2026-11-11 handoff: `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
+2026-11-11 handoff: `research/bare-wilson-branch-probability` records the bare-law probability calculation and its blocked-law limitation; no active worker is claimed after handoff. `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
 
 ## Contribution ledger
+
+- 2026-11-11, proposed for review: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md). Written normalized-law bound of order log(beta)/beta for fixed patch and cutoff, uniform in torus volume; uses existing upstream axial existence. Cost grows like radius^10/cutoff^2. Finite geometry/scalar checks passed; no new Lean proof, blocked-law bridge, predictor-branch estimate, or spatial decay.
 
 - 2026-11-11, proposed for review: [Upstream branch correction and replay](../general/2026-11-11-T03-upstream-branch-audit/README.md). Existing uniform uniqueness, axial eligibility, and viable-kernel theorems located; 22 upstream modules and a `12*d` pairwise corollary passed Lean trust-zero checks. Retracts the earlier unsupported absence claim; no physical decay bound.
 - 2026-11-11: [Spin-$j$ prediction mean and closure audit](../general/2026-11-11-T03-spin-j-prediction-mean/README.md): written SU(2) bond-tag mean for all spins; sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step formula valid for repeated links, conditional on site tags; source audit listing branch indicators, `1/card eligible`, and the minimizing frame as the uncontrolled non-polynomial mechanisms. Uses the upstream-supplied `Branches` conditions and `predictor_cut ≤ 1`. Exact integer-spin checks passed; AI cross-check only; no covariance bound, Lean proof, or independent review.
