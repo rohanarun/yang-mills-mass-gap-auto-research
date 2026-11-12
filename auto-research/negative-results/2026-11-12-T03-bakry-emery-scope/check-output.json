@@ -1,0 +1,39 @@
+{
+  "scope": "numerical observation of Bakry-Emery curvature for the bare SU(2) Wilson law on small tori; not a statement about the actual coarse measures and not a Hamiltonian gap",
+  "seed": 20261112,
+  "runs": [
+    {
+      "d": 3,
+      "L": 3,
+      "links": 81,
+      "plaquettes": 81,
+      "finite_difference_relative_error": 3.6520029658983825e-07,
+      "lambda_min_at_identity": -5.795882111557394e-15,
+      "lambda_min_haar_samples_min": -6.998466350405737,
+      "lambda_min_haar_samples_max": -6.203552627740411,
+      "lambda_min_after_local_search": -9.206164068552894,
+      "analytic_upper_bound_on_minus_lambda_min": 16,
+      "ratio_found_over_analytic": 0.5753852542845559,
+      "bakry_emery_beta_threshold_from_analytic_bound": 0.125,
+      "bakry_emery_beta_threshold_if_search_were_sharp": 0.21724574807782865,
+      "seconds": 146.9
+    },
+    {
+      "d": 4,
+      "L": 3,
+      "links": 324,
+      "plaquettes": 486,
+      "finite_difference_relative_error": 6.511395044545109e-07,
+      "lambda_min_at_identity": -9.719902172675948e-14,
+      "lambda_min_haar_samples_min": -8.273566814233945,
+      "lambda_min_haar_samples_max": -7.99904489111854,
+      "lambda_min_after_local_search": -8.88939878564874,
+      "analytic_upper_bound_on_minus_lambda_min": 24,
+      "ratio_found_over_analytic": 0.3703916160686975,
+      "bakry_emery_beta_threshold_from_analytic_bound": 0.08333333333333333,
+      "bakry_emery_beta_threshold_if_search_were_sharp": 0.22498709397859934,
+      "seconds": 193.2
+    }
+  ],
+  "all_passed": true
+}

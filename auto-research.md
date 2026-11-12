@@ -97,6 +97,8 @@ Additional established lessons:
 
 - A formula for the fundamental prediction mean does not determine higher-spin means; [decompose into sectors, then average each](auto-research/general/2026-11-11-T03-spin-j-prediction-mean/README.md). The kernel's measurability and normalisation rest on the unproved `Branches` hypotheses, and the predictor formula $M/|M|$ needs `predictor_cut ≤ 1`. State both whenever the one-step map is used. A small predictor cutoff controls only the predictor; branch indicators, `1/card eligible`, and the minimizing frame are separate obligations.
 
+- Before trying a curvature, convexity, or Dobrushin-type criterion, [compute its coupling threshold in the repository convention](auto-research/negative-results/2026-11-12-T03-bakry-emery-scope/README.md) and compare it with the endpoint coupling `bar` and the running slope. The Bakry–Émery threshold $\beta<1/[4(d-1)]$ for bare SU(2) equals the cited strong-coupling condition and lies below `bar`. Geometric routes need a bound for the generated coarse measures, not the bare law.
+
 ## Assessing scientific progress
 
 The proposed [SU(2) predictor-average analysis](auto-research/general/2026-11-11-T03-predictor-average/README.md) explicitly retains the source cutoff mask. A minimizing branch's uniqueness only gives a nonzero connector mean, not a uniform lower norm bound. Its geometric truncation requires an additional fixed-kernel cutoff margin, not established by positivity alone. Preserve that hypothesis and all shared frame choices; [threshold controls](auto-research/negative-results/2026-11-11-T03-predictor-threshold/README.md) rule out an unqualified mask-free polynomial replacement. Approximation error is separate from spatial correlation decay.

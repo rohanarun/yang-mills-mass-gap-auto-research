@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): scope obstruction for curvature methods on the bare Wilson law; not a Yang–Mills counterexample.
+
 - 2026-11-11: [Peter–Weyl noise spectrum](../general/2026-11-11-T03-peter-weyl-noise-spectrum/README.md): the noise-only obstruction extends from simple loops to every observable; noise eigenvalues depend on spin content, never on separation. Written argument with exact checks; not a Yang–Mills counterexample.
 - 2026-11-11: [Spin-$j$ prediction mean](../general/2026-11-11-T03-spin-j-prediction-mean/README.md): for $j\geq1$ the fallback prediction mean is not a function of the fundamental connector mean $M$; exact and analytic examples. Substituting $M$ into higher-spin observables is invalid.
 - 2026-11-11: [Actual-weight cutoff endpoint control](../negative-results/2026-11-11-T03-cutoff-endpoint/README.md). The source convolution weights admit all radial connector means. Predictor uniqueness permits `c=1` with arbitrarily small active means; a quadratic small-ball law can still give only algebraic truncation decay. Connector-space and illustrative probability controls, not a counterexample to physical Yang–Mills decay.
