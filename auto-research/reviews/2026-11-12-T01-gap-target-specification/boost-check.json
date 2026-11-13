@@ -1,0 +1,43 @@
+{
+  "all_passed": true,
+  "checks": {
+    "covariance_hypothesis_is_used": {
+      "cases": 1,
+      "passed": true
+    },
+    "euclidean_pairing_transpose_identity": {
+      "cases": 1500,
+      "passed": true
+    },
+    "euclidean_transpose_is_proper_orthochronous": {
+      "cases": 210,
+      "passed": true
+    },
+    "generators_proper_orthochronous": {
+      "cases": 27,
+      "passed": true
+    },
+    "lightlike_orbit_enters_every_slab": {
+      "cases": 27,
+      "passed": true
+    },
+    "products_include_nonsymmetric_matrices": {
+      "cases": 196,
+      "passed": true
+    },
+    "products_proper_orthochronous": {
+      "cases": 210,
+      "passed": true
+    },
+    "slab_subset_mass_region_grid": {
+      "cases": 2295,
+      "passed": true
+    },
+    "timelike_orbit_reaches_rest_energy_mu": {
+      "cases": 400,
+      "passed": true
+    }
+  },
+  "failures": [],
+  "python": "3.10.6"
+}

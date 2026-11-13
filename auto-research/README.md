@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Gap-target specification review](reviews/2026-11-12-T01-gap-target-specification/README.md): first T01 review of the uncompiled gap target. Written argument that its energy-slab form is equivalent to an invariant-mass gap under the upstream axioms; the common gap across refinements is stronger than a per-hierarchy gap. Exact finite boost checks passed; nothing was checked in Lean and no mass-gap estimate is involved.
+
 - [Bare Wilson frame-branch probability](general/2026-11-11-T03-bare-branch-probability/README.md): written fixed-patch failure bound uniform in total volume, using the existing axial theorem. It applies to the bare SU(2) law only; finite geometry/scalar diagnostics passed, no Lean proof or spatial decay.
 
 - [Correction and scoped upstream replay](general/2026-11-11-T03-upstream-branch-audit/README.md): the branch conditions already have upstream proofs. Their 22-module chain and a frame-bound corollary passed Lean trust-zero checks. Full-construction replay and spatial decay remain open.
