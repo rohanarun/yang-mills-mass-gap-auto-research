@@ -1,0 +1,73 @@
+{
+  "seed": 2026111105,
+  "epsilon": "1/16",
+  "gamma": "1/4",
+  "frustrated_certificate_fixtures": [
+    {
+      "N": 3,
+      "noise_denominator": 128,
+      "max_input_error_squared": "1376256/3436213045",
+      "minimizer_score": "4/49155",
+      "comparison_min_ldl_pivot": "4347559981/3865313256"
+    },
+    {
+      "N": 3,
+      "noise_denominator": 256,
+      "max_input_error_squared": "9489686200428/36029862180487195",
+      "minimizer_score": "4/196611",
+      "comparison_min_ldl_pivot": "347870462177/309234499464"
+    },
+    {
+      "N": 3,
+      "noise_denominator": 512,
+      "max_input_error_squared": "6291456/68720525315",
+      "minimizer_score": "4/786435",
+      "comparison_min_ldl_pivot": "1113238011949/989557948392"
+    },
+    {
+      "N": 4,
+      "noise_denominator": 128,
+      "max_input_error_squared": "844604794492/1801575573576095",
+      "minimizer_score": "3/65540",
+      "comparison_min_ldl_pivot": "3205893240438937/2137439322144810"
+    },
+    {
+      "N": 4,
+      "noise_denominator": 256,
+      "max_input_error_squared": "2883584/17180327939",
+      "minimizer_score": "3/262148",
+      "comparison_min_ldl_pivot": "205190735407022233/136796658260901930"
+    },
+    {
+      "N": 4,
+      "noise_denominator": 512,
+      "max_input_error_squared": "2199875538132/14411738711012149",
+      "minimizer_score": "3/1048580",
+      "comparison_min_ldl_pivot": "1876060593106489951/1250713541323259910"
+    },
+    {
+      "N": 5,
+      "noise_denominator": 128,
+      "max_input_error_squared": "2089916825636/3603147710939145",
+      "minimizer_score": "12/409625",
+      "comparison_min_ldl_pivot": "19699364588180214571631/10506999134820144497480"
+    },
+    {
+      "N": 5,
+      "noise_denominator": 256,
+      "max_input_error_squared": "73922752828/346441312889935",
+      "minimizer_score": "12/1638425",
+      "comparison_min_ldl_pivot": "5042918331551768059306607/2689599408420926515037000"
+    },
+    {
+      "N": 5,
+      "noise_denominator": 512,
+      "max_input_error_squared": "25165824/274881052681",
+      "minimizer_score": "12/6553625",
+      "comparison_min_ldl_pivot": "1290979476192906493448675951/688525137030051226403717960"
+    }
+  ],
+  "exact_energy_identity_and_coercivity_checks": 108,
+  "nonreciprocal_symmetrization_checks": 12,
+  "scope": "Relaxed noncommuting quaternion arrays; exact matrix certificates, not actual fine fields or a physical mass gap."
+}
