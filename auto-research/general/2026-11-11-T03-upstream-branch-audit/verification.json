@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-11",
+  "source_revision": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "lean_version": "Lean (version 4.32.0, arm64-apple-darwin24.6.0, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "dependency_revisions": {
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997"
+  },
+  "local_modules_compiled": 22,
+  "axiom_probe_exit_code": 0,
+  "audited_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "compilation_seconds": 86.356,
+  "flags": [
+    "--trust=0",
+    "-j1",
+    "-DmaxHeartbeats=0",
+    "-DmaxRecDepth=4096"
+  ],
+  "driver_sha256": "7fa8f6a0bc9ea4c5fba8253d0e38684f8422cbae24b441996caab1937168e8e4",
+  "report_sha256": "cdfdae5f348a6dfb75f88889cafbd1d086182ecc7b52284366bfef328c91477f",
+  "combined_log_sha256": "4e3c859f1a73bba9d394f3258e1b986660e5592375d02830e3dc5a652c287260",
+  "axiom_log_sha256": "cd83da0c032becf5afb574c8575b3568e9cf557b0348608e33833725609f2ae3",
+  "branch_replay_complete": true,
+  "full_upstream_replay": false,
+  "foundation_consumer_replayed": false,
+  "new_mass_gap_bound": false
+}

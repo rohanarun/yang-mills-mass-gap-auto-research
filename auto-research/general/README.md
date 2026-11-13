@@ -4,6 +4,7 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 
 | Date | Tracks | Result | Evidence and outcome |
 | --- | --- | --- | --- |
+| 2026-11-11 | T03, T06, T07 | [Upstream branch audit and correction](2026-11-11-T03-upstream-branch-audit/README.md) | Existing producers located; 22-module scoped Lean replay and a corollary passed; earlier absence claim retracted; no new dynamical estimate |
 | 2026-11-11 | T03, T04, T06 | [SU(2) frame uniqueness certificate](2026-11-11-T03-frame-uniqueness/README.md) | Proposed dependent PR: written sufficient cutoff condition and optimization-error bound modulo gauge; exact matrix checks passed; selected-history parameters and spatial estimate open |
 | 2026-11-11 | T03, T04, T06 | [Patch-size-independent SU(2) frame control](2026-11-11-T03-frame-axial-control/README.md) | Proposed for review: written minimizing-frame bound and conditional fine-loop replacement; exact quaternion controls passed; small-cutoff and probability/spatial obligations remain |
 | 2026-11-11 | T03, T05, T06 | [Spin-$j$ prediction mean and closure audit](2026-11-11-T03-spin-j-prediction-mean/README.md) | Written sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step sector formula with repeated links; source audit of non-polynomial mechanisms; exact integer-spin checks passed; no covariance bound |

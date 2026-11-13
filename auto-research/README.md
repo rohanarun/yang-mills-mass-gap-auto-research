@@ -21,6 +21,7 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Correction and scoped upstream replay](general/2026-11-11-T03-upstream-branch-audit/README.md): the branch conditions already have upstream proofs. Their 22-module chain and a frame-bound corollary passed Lean trust-zero checks. Full-construction replay and spatial decay remain open.
 - Proposed dependent PR: [SU(2) frame uniqueness certificate](general/2026-11-11-T03-frame-uniqueness/README.md). Written sufficient condition `frame_cut <= 1/16` and quantitative optimization-error bound modulo gauge; exact rational certificates passed. Depends on PR #4; not a physical spectral estimate.
 - Proposed for review: [Patch-size-independent minimizing-frame control](general/2026-11-11-T03-frame-axial-control/README.md), with [energy-only failure control](negative-results/2026-11-11-T03-frame-energy-only/README.md). Written smooth-branch estimate and conditional replacement by explicit fine loops; exact quaternion checks passed. No bad-branch probability or spatial estimate.
 - [Spin-$j$ prediction mean and closure audit](general/2026-11-11-T03-spin-j-prediction-mean/README.md): written bond-tag mean for every SU(2) spin, sharp bound $4j^2(1-r)$ on the predictor nonlinearity, and a source audit naming the remaining non-polynomial mechanisms (branch indicators, `1/card eligible`, `selected`). Exact checks passed; no spatial estimate.
