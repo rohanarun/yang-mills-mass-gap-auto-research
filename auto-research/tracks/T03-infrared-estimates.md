@@ -78,6 +78,8 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
+The [averaged-covariance follow-up](../general/2026-11-13-T03-averaged-posterior-covariance/README.md) closes the unweighted-average shortcut: its bound holds for every input law, including a comparison family with a vanishing auxiliary gap. Next use actual dynamical information to control spatial posterior response or curvature tested against varying gradients. A plain expectation of the Hessian cannot replace that estimate.
+
 Geometric follow-up: use the [actual posterior Hessian formula](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) to derive a spatial estimate on its covariance blocks, retaining cancellation with the diagonal mean term. Alternatively, formulate a multiscale functional-inequality criterion that permits negative curvature regions. State which extra property of the actual prediction law excludes the [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). Keep the auxiliary-diffusion-to-physical-correlation bridge explicit.
 
 For the [new bare-law branch bound](../general/2026-11-11-T03-bare-branch-probability/README.md), first identify a specific RG step and derive a curvature-moment estimate under its actual fine input law. Preserve generated interactions and normalization. The geometric event inclusion already converts such a moment to frame-branch probability; do not substitute the bare Wilson law at later steps.
@@ -88,11 +90,15 @@ The upstream branch audit already supplies uniform frame control. A complementar
 
 ## Active work
 
+2026-11-13 follow-up handoff: `research/averaged-curvature-obstruction` builds on PR #11 and records the exact averaged identity and quantitative comparison-law obstruction. No worker remains running. The actual spatial posterior estimate remains unresolved.
+
 2026-11-13 handoff: `research/geometric-posterior-curvature` records the written Hessian identity, exact diagnostics, and scoped counterexample. No running worker or recurring process remains after handoff. The actual posterior estimate and physical bridge remain open.
 
 2026-11-11 handoff: `research/bare-wilson-branch-probability` records the bare-law probability calculation and its blocked-law limitation; no active worker is claimed after handoff. `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
 
 ## Contribution ledger
+
+- 2026-11-13 follow-up: [Exact averaged posterior covariance](../general/2026-11-13-T03-averaged-posterior-covariance/README.md) and [averaged-curvature obstruction](../negative-results/2026-11-13-T03-averaged-curvature-gap/README.md). Written volume-independent averaged bound; smooth gauge-invariant comparison laws retain distant loop covariance and have an auxiliary gap upper bound tending to zero. Exact diagnostics passed, no Lean proof or actual spatial estimate.
 
 - 2026-11-13: [Geometric posterior-curvature derivation](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). The next geometric task is to bound spatial posterior covariance under the actual generated law, preserving diagonal cancellation, or justify a multiscale criterion permitting unfavorable curvature.
 

@@ -32,6 +32,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-13 follow-up: [Exact averaged posterior covariance](../general/2026-11-13-T03-averaged-posterior-covariance/README.md) and [averaged-curvature obstruction](../negative-results/2026-11-13-T03-averaged-curvature-gap/README.md). Written volume-independent averaged bound; smooth gauge-invariant comparison laws retain distant loop covariance and have an auxiliary gap upper bound tending to zero. Exact diagnostics passed, no Lean proof or actual spatial estimate.
+
 - 2026-11-13: [Geometric posterior-curvature derivation](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). Exact quaternion, finite-mixture derivative, cycle-Hessian, and rational Bessel-series checks passed. The continuous argument is written and unreviewed; no new Lean proof.
 
 - 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) records 157,464 finite coordinate-route checks, four face counts, and scalar diagnostics. New analytic/source application remains written and unreviewed; only the inherited axial theorem is within the earlier scoped Lean replay.

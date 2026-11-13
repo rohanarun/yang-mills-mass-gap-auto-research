@@ -22,6 +22,8 @@ The initial inspection uses upstream revision [`3456e5e`](https://github.com/yan
 
 ## Research progress — 11 November 2026
 
+**13 November follow-up:** [Averaging preserves an exact curvature/covariance cancellation](auto-research/general/2026-11-13-T03-averaged-posterior-covariance/README.md), with a matrix bound independent of lattice size. A [comparison law](auto-research/negative-results/2026-11-13-T03-averaged-curvature-gap/README.md) shows this average is insufficient for spatial decay or a uniform auxiliary gap. This identifies a limitation of the proposed geometric route; the actual Yang–Mills estimate remains open.
+
 **13 November update:** A [written geometric curvature formula](auto-research/general/2026-11-13-T03-geometric-posterior-curvature/README.md) now identifies the full posterior covariance that must be controlled for the actual coarse law. Exact algebraic checks passed. A [gauge-invariant comparison model](auto-research/negative-results/2026-11-13-T03-geometric-noise-only/README.md) rules out deriving positive curvature from symmetry and smoothing alone. No positive Yang–Mills curvature estimate, exponential decay bound, or mass gap has been established.
 
 **Verified formal infrastructure; the Yang–Mills mass gap remains unproved.**

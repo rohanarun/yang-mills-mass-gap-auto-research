@@ -1,0 +1,12 @@
+{
+  "command": "python3 auto-research/general/2026-11-13-T03-averaged-posterior-covariance/check_average.py",
+  "exit_code": 0,
+  "elapsed_seconds": 0.798,
+  "stderr": "",
+  "sha256": {
+    "check_average.py": "79383818ddea17331e2aa0ed84bcd11d8a9d0d0544fb84ed1f24ea4e81919630",
+    "checks.json": "8caaa06637f0a8a6bb0b16401646123463703d53e9e6f07edf1d728a421758ae",
+    "../2026-11-13-T03-geometric-posterior-curvature/check_geometry.py": "61e2b20b3ee515da3be0a22df406f802b248c5c403fd89e51844978c428dba05",
+    "provenance.json": "f4e479f79042ebdd9666f7a8682a4624c9db3139270c21a0846d9af2a65411af"
+  }
+}

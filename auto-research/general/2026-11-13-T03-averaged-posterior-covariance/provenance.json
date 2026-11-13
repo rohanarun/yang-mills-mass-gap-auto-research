@@ -1,0 +1,8 @@
+{
+  "upstream": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sha256": {
+    "YM/RG/Block.lean": "f6c75b9e072cf30c89a7a5974d62584d37e429cc575f0c2203dea0a6a7a3c341",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6"
+  }
+}
