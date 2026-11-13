@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: generic tools and 22 upstream branch modules checked; full-construction replay open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
+Partial: generic tools, 22 upstream branch modules, and four further source-level frame/predictor bounds checked; full probability transfer and full-construction replay open. Last indexed: 2026-11-13. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
 
@@ -29,6 +29,8 @@ Review the checked scalar support theorem and connect it to the exact public PVM
 No active contributor recorded. When coordinating a session, add its owner/session, date, bounded question, branch or work area, and handoff condition. A stale entry is not evidence that a worker is still running.
 
 ## Contribution ledger
+
+- 2026-11-13: [Actual-kernel curvature transfer](../general/2026-11-13-T03-blocked-curvature-transfer/README.md): `minimizing_chord`, `frame_chord`, `best_chord`, and `predict_chord` passed Lean 4.32.0 `--trust=0`, with only propext/Classical.choice/Quot.sound. These instantiate source `Patch` definitions. The common-gauge footprint, kernel moment integration, and history application remain written; finite footprint checks are not their proof.
 
 - 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) records 157,464 finite coordinate-route checks, four face counts, and scalar diagnostics. New analytic/source application remains written and unreviewed; only the inherited axial theorem is within the earlier scoped Lean replay.
 

@@ -21,6 +21,8 @@ Start with [auto-research.md](../auto-research.md), which defines the research t
 
 ## Latest contributions
 
+- [Actual-kernel curvature transfer](general/2026-11-13-T03-blocked-curvature-transfer/README.md): a written plaquette-moment recurrence for the exact normalized push, retaining all generated interactions and branches. Four frame/predictor bounds passed Lean trust-zero checks. Full transfer remains written; the large constants do not establish contraction or a mass gap.
+
 - [Bare Wilson frame-branch probability](general/2026-11-11-T03-bare-branch-probability/README.md): written fixed-patch failure bound uniform in total volume, using the existing axial theorem. It applies to the bare SU(2) law only; finite geometry/scalar diagnostics passed, no Lean proof or spatial decay.
 
 - [Correction and scoped upstream replay](general/2026-11-11-T03-upstream-branch-audit/README.md): the branch conditions already have upstream proofs. Their 22-module chain and a frame-bound corollary passed Lean trust-zero checks. Full-construction replay and spatial decay remain open.

@@ -4,6 +4,7 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 
 | Date | Tracks | Result | Evidence and outcome |
 | --- | --- | --- | --- |
+| 2026-11-13 | T03, T04, T07 | [Actual-kernel curvature transfer](2026-11-13-T03-blocked-curvature-transfer/README.md) | Four source-level chord bounds checked in Lean; written generated-measure moment recurrence covers both branches; constants do not establish contraction or spatial decay |
 | 2026-11-11 | T03, T04, T07 | [Bare Wilson frame-branch probability](2026-11-11-T03-bare-branch-probability/README.md) | Written volume-uniform fixed-patch bound of order log(beta)/beta; finite checks passed; blocked-law extension and spatial decay open |
 | 2026-11-11 | T03, T06, T07 | [Upstream branch audit and correction](2026-11-11-T03-upstream-branch-audit/README.md) | Existing producers located; 22-module scoped Lean replay and a corollary passed; earlier absence claim retracted; no new dynamical estimate |
 | 2026-11-11 | T03, T05, T06 | [Spin-$j$ prediction mean and closure audit](2026-11-11-T03-spin-j-prediction-mean/README.md) | Written sharp bound $4j^2(1-r)$ between the minimizing predictor and the linear connector average; one-step sector formula with repeated links; source audit of non-polynomial mechanisms; exact integer-spin checks passed; no covariance bound |

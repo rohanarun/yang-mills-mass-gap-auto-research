@@ -1,0 +1,13 @@
+{
+  "command": "python3 auto-research/general/2026-11-13-T03-blocked-curvature-transfer/check_footprints.py",
+  "exit_code": 0,
+  "scope": "Finite geometry and arithmetic only; four source lemmas checked separately; full probability transfer remains written",
+  "sha256": {
+    "check_footprints.py": "0c94f9c1fb4f8b62313297ffd7e58217bfdc729338ad5e53baa64a52d2af2e5a",
+    "checks.json": "b697b3c2862805574916bac063b9d24ba24cb715731d53547791e9f3c6c7e3f8",
+    "provenance.json": "4755895e06b8de0441a87c89af537c3d0a482ea33ca8813827453ab7e9dbb93b",
+    "FrameControl.lean": "1654d0c93d8c9ffe1da5c93f5d49538c237045a676239a00f4eca1733b53ab10",
+    "lean-check.log": "3006cd98580a96cc44d073cdbcaa4cac80dc82481657c4cdad29d34feb07978a",
+    "lean-verification.json": "b45ed2a87e09e19b77a5a71230a94dd6e719a5ae72141812aab7181956a33dda"
+  }
+}

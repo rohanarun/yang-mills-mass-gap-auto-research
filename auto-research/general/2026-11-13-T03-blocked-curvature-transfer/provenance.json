@@ -1,0 +1,18 @@
+{
+  "upstream": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sha256": {
+    "YM/RG/Block.lean": "f6c75b9e072cf30c89a7a5974d62584d37e429cc575f0c2203dea0a6a7a3c341",
+    "YM/RG/Push.lean": "df7e045d7ba8d9e8968025fb37b04af9634ed85bca8efbefc1f1032c29b16018",
+    "YM/RG/Patch.lean": "c85cca3ad0fe6c6394a1396f076121f38e254a45b1573126c9560d4c39577e2a",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6",
+    "YM/Branch/Center.lean": "7c6e7405b91d20d9067c41a5b8d4073ac0545ba800a0c63793590ecdec351d0b",
+    "YM/Branch/Synchronize.lean": "d975bda23610c8cef558ebf295b2c8f534fa7342b17dd1212c520c44d3a2a750",
+    "YM/Branch/Uniform.lean": "20d95e4c5b2b1beb73d6a794988641c02f132def93d39c4119cef8a6b445a3d9",
+    "YM/Branch/Pick.lean": "17e2a32df0778751b9f1173cedc0a270a76492394231e6a3c7f013a4fefeb2ba",
+    "YM/Branch/Transport.lean": "b2fc3a523d0b1b5eca8166e4e0951a421988318dd36b481f2357bf52835a0122",
+    "YM/Branch/Predict.lean": "af2b2be432f36f91d3638e6d8a88b713e0e11b41bb17cb99af721fd2780e1500",
+    "YM/Branch/Covariant.lean": "a869dc46a783000876d850727b634e828d6d961b75d9bbcc6197d46c35440357",
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8"
+  }
+}

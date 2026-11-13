@@ -2,7 +2,7 @@
 
 ## Current status
 
-Partial: the upstream branch producers have been located and their 22-module dependency chain replayed successfully. The earlier claim that these conditions were unproved upstream is retracted. Explicit quantitative application to the same chosen kernel, bad-branch probabilities, retained-field spatial covariance, and the mass gap remain unresolved. Last indexed: 2026-11-11.
+Partial: four source-level frame/predictor bounds are Lean-checked, and a written plaquette-moment recurrence now retains the actual normalized generated measure. Its constants do not establish multiscale contraction or spatial decay. The upstream branch producers already existed; their earlier 22-module replay and the correction of our absence claim remain in force. Full probability integration, useful quantitative iteration, retained-field covariance, and mass gap remain open. Last indexed: 2026-11-13.
 
 ## Research question
 
@@ -76,17 +76,17 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
-For the [new bare-law branch bound](../general/2026-11-11-T03-bare-branch-probability/README.md), first identify a specific RG step and derive a curvature-moment estimate under its actual fine input law. Preserve generated interactions and normalization. The geometric event inclusion already converts such a moment to frame-branch probability; do not substitute the bare Wilson law at later steps.
+The [actual-kernel curvature transfer](../general/2026-11-13-T03-blocked-curvature-transfer/README.md) now propagates a local moment without substituting the bare law at later steps. Its tag-by-tag triangle bounds are too costly to establish contraction. Next, estimate the likelihood-weighted prediction plaquette under a specified actual input law, retaining shared-frame cancellations and all generated interactions. State physical rescaling and the bridge to covariance; unscaled plaquette-moment contraction is not itself necessary for a mass gap.
 
-Determine whether the exact selected kernel has `predictor_cut < 1`. If it equals one, derive a cutoff/volume-uniform small-ball bound for positive connector-mean norm under the actual fine-field/site-tag law; the conditional conversion to integrated approximation error is now written. Then bound connected correlations of masked truncated observables, retaining shared frames, generated interactions, degree-dependent costs, and complete supports. Approximation convergence alone does not bound spatial covariance.
-
-The upstream branch audit already supplies uniform frame control. A complementary bounded task is to establish quantitative applicability for the selected kernel and control the remaining predictor and covariance errors. The noise spectrum alone supplies no spatial estimate; preserve the finite-spin/support restrictions in its rate comparison and prove observable-class closure before iterating RG steps. Extend any successful bound to the transported insertions and required dense family in physical units.
+The predictor cutoff-margin and masked-observable covariance tasks remain open for the separate approximation route. Uniform frame control already exists upstream. Keep observable-class closure, retained-field covariance, and physical limit/density obligations explicit.
 
 ## Active work
 
-2026-11-11 handoff: `research/bare-wilson-branch-probability` records the bare-law probability calculation and its blocked-law limitation; no active worker is claimed after handoff. `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
+2026-11-13 handoff: `research/blocked-curvature-transfer` records the source-level Lean bounds and written actual-kernel moment recurrence. No ongoing worker is claimed after handoff. Earlier branch-existence corrections and bare-law restrictions remain in force.
 
 ## Contribution ledger
+
+- 2026-11-13, proposed for review: [Actual-kernel curvature transfer](../general/2026-11-13-T03-blocked-curvature-transfer/README.md). Written recurrence for normalized generated laws, with exact SU(2) noise floor and explicit footprint cost. Four source-level minimizing/frame/best/predictor chord lemmas passed Lean `--trust=0`; full geometric/probability transfer is written. Covers both branches without a bad-event estimate for this moment. Constants supply no multiscale contraction or spatial rate.
 
 - 2026-11-11, proposed for review: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md). Written normalized-law bound of order log(beta)/beta for fixed patch and cutoff, uniform in torus volume; uses existing upstream axial existence. Cost grows like radius^10/cutoff^2. Finite geometry/scalar checks passed; no new Lean proof, blocked-law bridge, predictor-branch estimate, or spatial decay.
 
