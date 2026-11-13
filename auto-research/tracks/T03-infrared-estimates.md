@@ -2,6 +2,8 @@
 
 ## Current status
 
+2026-11-13 geometric update: [actual coarse-law Hessian](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [noise-only obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md) recorded. The next geometric task is to bound spatial posterior covariance under the actual generated law, preserving diagonal cancellation, or justify a multiscale criterion permitting unfavorable curvature.
+
 Partial: the upstream branch producers have been located and their 22-module dependency chain replayed successfully. The earlier claim that these conditions were unproved upstream is retracted. Explicit quantitative application to the same chosen kernel, bad-branch probabilities, retained-field spatial covariance, and the mass gap remain unresolved. Last indexed: 2026-11-11.
 
 ## Research question
@@ -76,6 +78,8 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
+Geometric follow-up: use the [actual posterior Hessian formula](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) to derive a spatial estimate on its covariance blocks, retaining cancellation with the diagonal mean term. Alternatively, formulate a multiscale functional-inequality criterion that permits negative curvature regions. State which extra property of the actual prediction law excludes the [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). Keep the auxiliary-diffusion-to-physical-correlation bridge explicit.
+
 For the [new bare-law branch bound](../general/2026-11-11-T03-bare-branch-probability/README.md), first identify a specific RG step and derive a curvature-moment estimate under its actual fine input law. Preserve generated interactions and normalization. The geometric event inclusion already converts such a moment to frame-branch probability; do not substitute the bare Wilson law at later steps.
 
 Determine whether the exact selected kernel has `predictor_cut < 1`. If it equals one, derive a cutoff/volume-uniform small-ball bound for positive connector-mean norm under the actual fine-field/site-tag law; the conditional conversion to integrated approximation error is now written. Then bound connected correlations of masked truncated observables, retaining shared frames, generated interactions, degree-dependent costs, and complete supports. Approximation convergence alone does not bound spatial covariance.
@@ -84,9 +88,13 @@ The upstream branch audit already supplies uniform frame control. A complementar
 
 ## Active work
 
+2026-11-13 handoff: `research/geometric-posterior-curvature` records the written Hessian identity, exact diagnostics, and scoped counterexample. No running worker or recurring process remains after handoff. The actual posterior estimate and physical bridge remain open.
+
 2026-11-11 handoff: `research/bare-wilson-branch-probability` records the bare-law probability calculation and its blocked-law limitation; no active worker is claimed after handoff. `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
 
 ## Contribution ledger
+
+- 2026-11-13: [Geometric posterior-curvature derivation](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). The next geometric task is to bound spatial posterior covariance under the actual generated law, preserving diagonal cancellation, or justify a multiscale criterion permitting unfavorable curvature.
 
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): written criterion $\beta<1/[4(d-1)]$ for the bare SU(2) Wilson law, Hessian assembled exactly and checked against finite differences; the threshold equals the notebook's cited strong-coupling coefficient and lies below the endpoint coupling `bar`. The displayed sufficient bound certifies only strong coupling; sharper or generated-measure bounds remain separate open tasks. Floating-point evidence only; no Lean proof or review.
 

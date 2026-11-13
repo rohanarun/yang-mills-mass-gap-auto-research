@@ -2,6 +2,8 @@
 
 ## Current status
 
+2026-11-13 geometric update: [actual coarse-law Hessian](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [noise-only obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md) recorded. The auxiliary configuration-space diffusion is not physical imaginary time. No uniform physical rate or reconstruction bridge is supplied.
+
 Partial: coupling and prefactor scope audited; limit transfer open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
@@ -29,6 +31,8 @@ Prove the correct spectral-measure convergence with one positive rate. Distingui
 No active contributor recorded. When coordinating a session, add its owner/session, date, bounded question, branch or work area, and handoff condition. A stale entry is not evidence that a worker is still running.
 
 ## Contribution ledger
+
+- 2026-11-13: [Geometric posterior-curvature derivation](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). The auxiliary configuration-space diffusion is not physical imaginary time. No uniform physical rate or reconstruction bridge is supplied.
 
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): independent coefficient cross-check of the strong-coupling comparison; the curvature threshold $1/[4(d-1)]$ equals $N^2$ times the cited condition for $N=2$. Does not reach the running family.
 

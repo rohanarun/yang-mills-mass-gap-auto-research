@@ -2,6 +2,8 @@
 
 ## Current status
 
+2026-11-13 geometric update: [actual coarse-law Hessian](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [noise-only obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md) recorded. The comparison law rules out a noise-and-symmetry-only positivity inference. It does not refute Yang–Mills or exclude functional inequalities when pointwise curvature is negative.
+
 Partial: scalar, cyclicity, massless-locality, block-gap, and bare SU(2) single-link influence, and conditional-normalization obstructions recorded. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
@@ -29,6 +31,8 @@ Test candidate infrared/preparation estimates against the recorded counterexampl
 No active contributor recorded. When coordinating a session, add its owner/session, date, bounded question, branch or work area, and handoff condition. A stale entry is not evidence that a worker is still running.
 
 ## Contribution ledger
+
+- 2026-11-13: [Geometric posterior-curvature derivation](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). The comparison law rules out a noise-and-symmetry-only positivity inference. It does not refute Yang–Mills or exclude functional inequalities when pointwise curvature is negative.
 
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): scope obstruction for curvature methods on the bare Wilson law; not a Yang–Mills counterexample.
 

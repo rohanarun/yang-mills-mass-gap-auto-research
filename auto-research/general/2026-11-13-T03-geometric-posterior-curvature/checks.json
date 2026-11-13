@@ -1,0 +1,17 @@
+{
+  "all_assertions_passed": true,
+  "certified_a_lower": "17/20",
+  "certified_b_lower": "250563/640000",
+  "certified_curvature_upper": "-223378/389437",
+  "cycle_divergence_zero": true,
+  "cycle_hessian": "16*b/(b - 1)",
+  "cycle_unit_curvature": "2*(3*b - 1)/(b - 1)",
+  "finite_mixture_derivative_cases": 6,
+  "gauge_covariance_cases": 24,
+  "input_coefficient": "3/4",
+  "kappa": 10,
+  "python": "3.9.6",
+  "scope": "Exact finite algebra and rational series enclosure; source measure analysis remains written, no Lean proof",
+  "seed": 2026111302,
+  "sympy": "1.14.0"
+}
