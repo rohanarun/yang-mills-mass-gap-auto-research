@@ -24,6 +24,8 @@ The initial inspection uses upstream revision [`3456e5e`](https://github.com/yan
 
 **Verified formal infrastructure; the Yang–Mills mass gap remains unproved.**
 
+- **Proposed written estimate:** a [bare SU(2) frame-branch bound](auto-research/general/2026-11-11-T03-bare-branch-probability/README.md) makes fixed-patch failure probability tend to zero at large beta, uniformly in total volume. It uses the existing upstream axial theorem; finite geometry/scalar checks passed. The new bound is not Lean-checked or independently reviewed, and does not apply automatically to blocked measures or prove spatial decay.
+
 - **Correction and scoped verification:** upstream already supplies frame uniqueness, predictor uniqueness, and eligible axial frames. The [branch audit](auto-research/general/2026-11-11-T03-upstream-branch-audit/README.md) independently replayed 22 upstream modules and checked a patch-size-independent `12*d` pairwise frame corollary in Lean. Our previous description of these branch conditions as unproved upstream was incorrect. This verifies existing structural results; it supplies no new mass-gap estimate.
 
 - [Six initial generic lemmas and controls](auto-research/general/2026-11-11-T02-uniform-projection-criterion/README.md) passed Lean 4.32.0 with `--trust=0`, covering projection contraction and scalar exponential comparisons.

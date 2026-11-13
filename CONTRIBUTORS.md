@@ -43,3 +43,5 @@ Proposed for dependent PR review: Rohan Arun, with OpenAI Codex assistance, cont
 ## Adding a credit
 
 Follow [CONTRIBUTING.md](CONTRIBUTING.md). Include the contributor's preferred public name/handle, the actual work, result/PR/commit link, disclosed AI assistance, inherited credits, and precise evidence status. Credit meaningful negative results and independent reviews. Do not fabricate names, model versions, endorsements, or verification. Record who performed a review separately from the result's author.
+
+Rohan Arun, with OpenAI Codex assistance, contributed the [bare Wilson frame-branch probability derivation](auto-research/general/2026-11-11-T03-bare-branch-probability/README.md). The partition-function argument is elementary; the axial existence theorem is inherited from upstream. New source application is written, finite checks passed, no novelty, Lean proof of the new bound, independent review, or mass gap is claimed.

@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) distinguishes volume uniformity from growing-patch control. A sufficient condition for the written estimate to vanish is radius^10 log(beta)/(frame_cut^2 beta) -> 0; this is not verified along the selected hierarchy. No physical decay rate follows.
+
 - 2026-11-11, proposed for review: [Frame uniqueness certificate](../general/2026-11-11-T03-frame-uniqueness/README.md) gives a patch-size-independent sufficient cutoff condition and optimization-error bound modulo gauge. Its finite certificate eigenvalues are not physical energies, and no regulator-limit or spatial-decay bound follows.
 - 2026-11-11, proposed for review: [Frame comparison](../general/2026-11-11-T03-frame-axial-control/README.md) removes patch-size dependence from a deterministic smooth-branch estimate. It still assumes a sufficiently small fixed frame cutoff; the loop replacement leaves cutoff errors and bad-branch probabilities. No rate in physical units or limit transfer follows.
 - 2026-11-11: [Cutoff endpoint and integrated approximation](../general/2026-11-11-T03-cutoff-endpoint/README.md). Fixed-law dominated convergence survives an atom at zero; a quantitative rate needs a small-ball bound for small nonzero means, uniform in the required regulators. Neither fixed-law convergence nor algebraic degree decay supplies a spatial or physical-time rate.

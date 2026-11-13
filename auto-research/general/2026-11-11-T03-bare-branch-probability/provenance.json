@@ -1,0 +1,18 @@
+{
+  "upstream": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sha256": {
+    "YM/Wilson/Law.lean": "8ed074914398a6fe8202cd4bf6ed72e1d8d5263375269c67dc7da1df91bd365c",
+    "YM/Wilson/Symmetry.lean": "c1b6a53dbebaddc3cbc95a71af75b327d33044930c1184c7a0f947e471c4d188",
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8",
+    "YM/RG/Patch.lean": "c85cca3ad0fe6c6394a1396f076121f38e254a45b1573126c9560d4c39577e2a",
+    "YM/Branch/Pick.lean": "17e2a32df0778751b9f1173cedc0a270a76492394231e6a3c7f013a4fefeb2ba",
+    "YM/Branch/Slide.lean": "5a9cb1b2112969ee50a06f0e4949f3b3e92597306fe8f3a27c3afae30bf11cd0",
+    "YM/Branch/Transport.lean": "b2fc3a523d0b1b5eca8166e4e0951a421988318dd36b481f2357bf52835a0122",
+    "YM/Lattice/Box.lean": "2fe61e41702ff103276c053d763b4e53e103366df8e1d050793a5dc35d2fd524",
+    "YM/Lattice/Route.lean": "ab6bc452784f22d24adf695bd1132e7cb11c87256796febc25f5ef636bc9cce7",
+    "YM/SectorNext/LARGE_FIELD_REMAINDERS/CenteredCharge.lean": "a4f9652bd2f210f0412c942cb058b209a4c4d2ef2a82a8ed58030f326e96cef0",
+    "YM/Push/STATIONARY_UNIFORM/FrameMin.lean": "f3adafef08724000b21ff7a6f62801b7b0ee1981b6e4360d1b64127bf95face7",
+    "YM/PhysicalNext/V9_JOINT_ENDPOINT_LOAD/Psalm/Branches.lean": "23bb3232e97889f3ec4861b0fc267056ea1601636f39996d638b15d63fd04229"
+  }
+}
