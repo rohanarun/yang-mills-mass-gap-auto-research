@@ -1,5 +1,7 @@
 # Auto-research agent prompt
 
+**Correction, 2026-11-11:** [PR #6](https://github.com/rohanarun/yang-mills-mass-gap-auto-research/pull/6) locates and replays the existing upstream branch producers. Uniform frame uniqueness, predictor uniqueness, and axial eligibility are already supplied upstream. Earlier absence claims are retracted; this PR provides an explicit SU(2) calculation to compare with existing results, not the first proof of uniform frame control or branch existence.
+
 You are contributing to an open mathematical research project on the Yang–Mills mass gap. Make a concrete, reviewable contribution to a research track and preserve what was learned, including negative results. This prompt does not assert that the problem is solved and does not itself start a scheduler, spend compute, or authorize publication outside this repository.
 
 ## Objective and current evidence
@@ -16,7 +18,7 @@ Track IDs are stable. Each linked track file is its contribution ledger; update 
 | --- | --- | --- | --- |
 | [T01](auto-research/tracks/T01-statement-audit.md) | Statement and specification audit | Open | Compare the uncompiled Lean target with the public upstream definitions and write the first specification review. |
 | [T02](auto-research/tracks/T02-spectral-criterion.md) | Conditional spectral criterion | Partial: scalar support theorem checked; upstream integration open | Connect the checked finite-measure energy-window theorem to the actual upstream PVM and dense centered family. |
-| [T03](auto-research/tracks/T03-infrared-estimates.md#step-3-exponential-decay-research-plan) | Step 3: exponential decay from infrared estimates | Partial: written SU(2) noise spectrum, spin-j prediction means, cutoff audit, and conditional integrated approximation; spatial decay open | Resolve the selected kernel's strict margin or uniform small-ball estimate; control the minimizing frame and branch indicators, then spatial covariance with full degree/support costs. |
+| [T03](auto-research/tracks/T03-infrared-estimates.md#step-3-exponential-decay-research-plan) | Step 3: exponential decay from infrared estimates | Partial: written frame comparison without patch-size loss, predictor/cutoff controls, and noise spectrum; spatial decay open | Establish frame uniqueness/stability or actual bad-branch probabilities; retain cutoff margins, support/degree costs, and the fine-law covariance target. |
 | [T04](auto-research/tracks/T04-limits-and-scales.md) | Continuum, volume, and physical scales | Partial: coupling and prefactor scope audited; limit transfer open | Prove the correct spectral-measure convergence with one positive rate. Distinguish direct heat-bound transfer from support-first arguments, which can replace prefactors by total masses. |
 | [T05](auto-research/tracks/T05-phases-and-density.md) | Selected phases and dense observable families | Partial: scalar energy-window bridge checked; phase/density application open | Connect positive-energy pushforwards to the actual selected phase and a dense family, retaining all dynamical hypotheses. |
 | [T06](auto-research/tracks/T06-obstructions.md) | Counterexamples and negative results | Partial: scalar, locality, block-gap, and single-link influence controls recorded | Test candidate infrared/preparation estimates against the recorded counterexamples; distinguish dynamical hypotheses from qualitative density. |
@@ -61,6 +63,8 @@ Publication policy (user instruction, 2026-11-11): put new changes on a feature 
 - Commit only bounded, relevant artifacts. Keep dependency trees, compiled caches, large logs, and datasets out of Git. For necessary large evidence, record a durable authorized location, checksum, and retrieval/reproduction instructions; say explicitly if the raw evidence is unavailable.
 
 ## Evidence and mathematical integrity
+
+The [frame estimate](auto-research/general/2026-11-11-T03-frame-axial-control/README.md) uses exact global minimization, not merely small average score. Preserve the centre normalization by reanchoring a varied frame; this makes the centre local-optimality equation valid. Its patch-size-independent bound requires a small frame cutoff and only concerns fundamental SU(2). Do not infer uniqueness, smooth-branch probability, or spatial decay from closeness. The comparison with fine Wilson loops retains an additive cutoff error and the actual bad-branch probability; neither may be discarded.
 
 The [actual-weight cutoff audit](auto-research/general/2026-11-11-T03-cutoff-endpoint/README.md) corrects a possible shortcut: predictor uniqueness in fundamental SU(2) forces `c <= 1`, but does not force `c < 1`. At the endpoint, arbitrarily small active connector means invalidate uniform truncation convergence. Distinguish arbitrary connectors from those realized by fine fields, and derive any small-ball hypothesis under the actual fine-field/site-tag law with the required uniform constants. Fixed-law dominated convergence and algebraic approximation in degree do not establish spatial decay. Preserve atoms at zero separately: the source uses fallback there.
 
