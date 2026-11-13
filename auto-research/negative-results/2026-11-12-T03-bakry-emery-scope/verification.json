@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-12",
+  "command": [
+    "python3",
+    "auto-research/negative-results/2026-11-12-T03-bakry-emery-scope/check_curvature.py"
+  ],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "numpy_version": "2.0.2",
+  "elapsed_seconds": 340,
+  "exit_code": 0,
+  "random_seed": 20261112,
+  "source_sha256": "fc5438bb39d48f5af3cb69a258ebf55268360fb61a526888279db671e3ef2d38",
+  "output_sha256": "8a0173976a6158963f3f08c4192d2a66b5614307e5f9289134ff201ab50ee6a5",
+  "floating_point": true,
+  "general_analytic_proof_formalized": false,
+  "upstream_replayed": false,
+  "independent_review": false,
+  "Yang_Mills_spatial_decay_proved": false
+}

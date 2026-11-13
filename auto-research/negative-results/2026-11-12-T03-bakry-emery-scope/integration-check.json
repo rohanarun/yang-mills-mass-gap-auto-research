@@ -1,0 +1,80 @@
+{
+  "scope": "Integration check: eight finite directions at three step sizes; no full search rerun, no general theorem validation",
+  "seed": 20261112,
+  "quadratic_form": "numpy.einsum with optimize=False to avoid observed matmul warnings",
+  "rows": [
+    {
+      "dimension": 3,
+      "direction": 0,
+      "relative_errors": {
+        "0.001": 1.729873096810261e-06,
+        "0.0003": 1.5202280581207112e-07,
+        "0.0001": 2.2267448462296e-07
+      }
+    },
+    {
+      "dimension": 3,
+      "direction": 1,
+      "relative_errors": {
+        "0.001": 1.6356853156211198e-06,
+        "0.0003": 1.154543680034497e-07,
+        "0.0001": 1.7350798678124273e-07
+      }
+    },
+    {
+      "dimension": 3,
+      "direction": 2,
+      "relative_errors": {
+        "0.001": 1.3418142569289034e-05,
+        "0.0003": 1.203927956662727e-06,
+        "0.0001": 5.0152207498512607e-08
+      }
+    },
+    {
+      "dimension": 3,
+      "direction": 3,
+      "relative_errors": {
+        "0.001": 1.8203211030312506e-05,
+        "0.0003": 1.582749204831173e-06,
+        "0.0001": 3.6520031067769256e-07
+      }
+    },
+    {
+      "dimension": 4,
+      "direction": 0,
+      "relative_errors": {
+        "0.001": 1.5701203609894568e-06,
+        "0.0003": 1.1401175768632976e-07,
+        "0.0001": 3.4935108543027845e-07
+      }
+    },
+    {
+      "dimension": 4,
+      "direction": 1,
+      "relative_errors": {
+        "0.001": 1.6330809973934294e-07,
+        "0.0003": 7.717358350444394e-08,
+        "0.0001": 9.257895060619692e-07
+      }
+    },
+    {
+      "dimension": 4,
+      "direction": 2,
+      "relative_errors": {
+        "0.001": 8.195169499259752e-05,
+        "0.0003": 8.598478674381177e-06,
+        "0.0001": 1.5710515431428706e-05
+      }
+    },
+    {
+      "dimension": 4,
+      "direction": 3,
+      "relative_errors": {
+        "0.001": 3.9001783248409175e-06,
+        "0.0003": 3.376042420451714e-07,
+        "0.0001": 2.100400423078082e-07
+      }
+    }
+  ],
+  "all_passed_at_step_0_0003": true
+}

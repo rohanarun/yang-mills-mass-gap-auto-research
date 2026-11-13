@@ -104,6 +104,8 @@ Additional established lessons:
 
 - A formula for the fundamental prediction mean does not determine higher-spin means; [decompose into sectors, then average each](auto-research/general/2026-11-11-T03-spin-j-prediction-mean/README.md). The kernel's measurability and normalisation use `Branches`, supplied upstream for viable kernels, and the predictor formula $M/|M|$ needs `predictor_cut ≤ 1`. State both whenever the one-step map is used. A small predictor cutoff controls only the predictor; branch indicators, `1/card eligible`, and the minimizing frame are separate obligations.
 
+- Before trying a curvature, convexity, or Dobrushin-type criterion, [compute its coupling threshold in the repository convention](auto-research/negative-results/2026-11-12-T03-bakry-emery-scope/README.md) and compare it with the endpoint coupling `bar` and the running slope. The Bakry–Émery threshold $\beta<1/[4(d-1)]$ for bare SU(2) equals the cited strong-coupling condition and lies below `bar`. Geometric routes need a bound for the generated coarse measures, not the bare law.
+
 ## Assessing scientific progress
 
 The [bare Wilson branch-probability bound](auto-research/general/2026-11-11-T03-bare-branch-probability/README.md) is uniform in total volume for fixed patch radius and frame cutoff, but it grows like radius^10/cutoff^2. Agents must distinguish a small lattice patch from a fixed physical region, and a bare measure from the generated law entering later RG steps. Always identify the actual density and retain its normalization before transporting a rare-event estimate. Rare local defects alone do not supply separation decay.
