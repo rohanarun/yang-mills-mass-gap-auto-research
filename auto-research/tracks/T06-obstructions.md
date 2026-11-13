@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-13: [Regular-sector spatial tail and conditional perturbation](../general/2026-11-13-T03-regular-spatial-tail/README.md), with [direct-versus-buffered control](../negative-results/2026-11-13-T03-direct-versus-buffered/README.md). Written source-budget corollaries with fixed-level cutoff/volume uniformity; exact finite checks passed. No full correlation bound, new Lean proof, independent review, or novelty claim.
+
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): scope obstruction for curvature methods on the bare Wilson law; not a Yang–Mills counterexample.
 
 - 2026-11-11: The [branch audit](../general/2026-11-11-T03-upstream-branch-audit/README.md) retracts the inference from an interface comment to absence of upstream proofs. Existing producers supply all three branch conditions; the physical covariance problem remains separate.

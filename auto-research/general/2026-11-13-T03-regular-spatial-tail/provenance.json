@@ -1,0 +1,12 @@
+{
+  "upstream": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "sha256": {
+    "YM/RG/Activities.lean": "211d39efa8b42d83ac10953da13ff83de8a7540b0555938d6beda2e72563c1ce",
+    "YM/RG/Masks.lean": "4f2a9b761b1a170ec4527dad7c1cc0062c0385d871c8831c54e684a13ef87a5f",
+    "YM/RG/History.lean": "ab604669cec205cd92020d34e4e672417ab40a0f484621067803548ba7bf81f6",
+    "YM/Lattice/Support.lean": "19e62f803b78e583503cab5c5074f1b2b883a5ef6e282eedee409b60eecc1cfe",
+    "YM/Lattice/Site.lean": "daf78e4bd02a72954fba53a309d4ae9f636cddfa5505a0ab71e3177a2007e58c",
+    "YM/Corona/Fit.lean": "f54242a07c2d8372ae59fa15b6473b9774f1303ecd58008c54e2158d515c9e12"
+  }
+}

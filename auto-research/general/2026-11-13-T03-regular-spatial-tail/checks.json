@@ -1,0 +1,19 @@
+{
+  "all_assertions_passed": true,
+  "buffer_chain_cases": 21,
+  "exponent_split_cases": 1616,
+  "flag_halo_cases": 24,
+  "python": "3.9.6",
+  "scope": "Finite halo/geometry and exact chain controls; all-volume source estimate remains written",
+  "seed": 2026111304,
+  "torus_sum_cases": 7,
+  "torus_sums_at_alpha_4_log_2": {
+    "2": "31/16",
+    "3": "6",
+    "4": "1711/256",
+    "5": "65/8",
+    "6": "33951/4096",
+    "7": "2191/256",
+    "8": "562591/65536"
+  }
+}

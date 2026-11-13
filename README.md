@@ -22,6 +22,8 @@ The initial inspection uses upstream revision [`3456e5e`](https://github.com/yan
 
 ## Research progress — 11 November 2026
 
+**13 November update:** [Extracted a spatial bound for the regular interaction sector](auto-research/general/2026-11-13-T03-regular-spatial-tail/README.md) from upstream connected-cover budgets, including flag reads. The written bound has constants independent of volume and finer cutoff depth at a fixed level, and gives a conditional-law perturbation estimate. Exact diagnostics passed. This does not bound correlations of the complete Yang–Mills law; the reference action, forced gas, and buffer integration remain unresolved.
+
 **Verified formal infrastructure; the Yang–Mills mass gap remains unproved.**
 
 - **Proposed written estimate:** a [bare SU(2) frame-branch bound](auto-research/general/2026-11-11-T03-bare-branch-probability/README.md) makes fixed-patch failure probability tend to zero at large beta, uniformly in total volume. It uses the existing upstream axial theorem; finite geometry/scalar checks passed. The new bound is not Lean-checked or independently reviewed, and does not apply automatically to blocked measures or prove spatial decay.

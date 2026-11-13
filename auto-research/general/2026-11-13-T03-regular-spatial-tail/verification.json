@@ -1,0 +1,11 @@
+{
+  "command": "python3 auto-research/general/2026-11-13-T03-regular-spatial-tail/check_tail.py",
+  "exit_code": 0,
+  "elapsed_seconds": 0.145,
+  "stderr": "",
+  "sha256": {
+    "check_tail.py": "a2293921ba3f00434ab756336a5b051d50b40263a1ff4abdd139ba25ff4f8d6e",
+    "checks.json": "0d3ff5a3055ef37bc9b8c776c33dc9b654122f472bd3491f8d41437a4b084e2d",
+    "provenance.json": "0bd8b384e6faefaadc1d1e662a053f310d3620b484236ea232e23ae6cd47efba"
+  }
+}

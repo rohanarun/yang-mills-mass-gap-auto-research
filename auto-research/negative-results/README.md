@@ -4,6 +4,7 @@ A negative result records exactly what failed and why. It is not automatically a
 
 | Date | Tracks | Result | Scope |
 | --- | --- | --- | --- |
+| 2026-11-13 | T03, T06 | [Direct locality versus buffered correlation](2026-11-13-T03-direct-versus-buffered/README.md) | Exact nearest-neighbour chain has zero direct endpoint mixed variation but nonzero marginal covariance; conditioning control, not a new theorem or Yang–Mills model |
 | 2026-11-12 | T03, T04, T06 | [Curvature (Bakry–Émery) scope](2026-11-12-T03-bakry-emery-scope/README.md) | Written threshold $\beta<1/[4(d-1)]$ matches the cited strong-coupling coefficient; Hessian checked by finite differences; endpoint coupling lies above it; displayed sufficient bound certifies only strong coupling |
 | 2026-11-11 | T03, T06 | [Small frame energy does not control the anchor](2026-11-11-T03-frame-energy-only/README.md) | Exact low-energy non-minimizing frames show why local optimality is necessary; fixed additive approximation errors do not establish decay |
 | 2026-11-11 | T03, T04, T06 | [Actual-weight cutoff endpoint and lack of a uniform margin](2026-11-11-T03-cutoff-endpoint/README.md) | Source connector-space construction allows arbitrarily small active means at cutoff one; illustrative quadratic small-ball law has only algebraic approximation decay |

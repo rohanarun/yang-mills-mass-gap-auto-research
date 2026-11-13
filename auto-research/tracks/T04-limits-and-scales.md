@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-13: [Regular-sector spatial tail and conditional perturbation](../general/2026-11-13-T03-regular-spatial-tail/README.md), with [direct-versus-buffered control](../negative-results/2026-11-13-T03-direct-versus-buffered/README.md). Written source-budget corollaries with fixed-level cutoff/volume uniformity; exact finite checks passed. No full correlation bound, new Lean proof, independent review, or novelty claim.
+
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): independent coefficient cross-check of the strong-coupling comparison; the curvature threshold $1/[4(d-1)]$ equals $N^2$ times the cited condition for $N=2$. Does not reach the running family.
 
 - 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) distinguishes volume uniformity from growing-patch control. A sufficient condition for the written estimate to vanish is radius^10 log(beta)/(frame_cut^2 beta) -> 0; this is not verified along the selected hierarchy. No physical decay rate follows.
