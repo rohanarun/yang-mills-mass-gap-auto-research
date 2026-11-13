@@ -76,6 +76,8 @@ A contraction factor approaching one, a rate vanishing with the regulators, or a
 
 ## Next contribution
 
+Use the [regular-sector estimate](../general/2026-11-13-T03-regular-spatial-tail/README.md) as a sector-specific input. The next missing estimate is a buffered mixing or relative crossing bound for the retained reference-action/forced-gas law, with exact flag coverage and normalization. Then justify a perturbation theorem incorporating the regular budget. Direct mixed variation with all other links fixed is not the buffered marginal response.
+
 For the [new bare-law branch bound](../general/2026-11-11-T03-bare-branch-probability/README.md), first identify a specific RG step and derive a curvature-moment estimate under its actual fine input law. Preserve generated interactions and normalization. The geometric event inclusion already converts such a moment to frame-branch probability; do not substitute the bare Wilson law at later steps.
 
 Determine whether the exact selected kernel has `predictor_cut < 1`. If it equals one, derive a cutoff/volume-uniform small-ball bound for positive connector-mean norm under the actual fine-field/site-tag law; the conditional conversion to integrated approximation error is now written. Then bound connected correlations of masked truncated observables, retaining shared frames, generated interactions, degree-dependent costs, and complete supports. Approximation convergence alone does not bound spatial covariance.
@@ -84,9 +86,13 @@ The upstream branch audit already supplies uniform frame control. A complementar
 
 ## Active work
 
+2026-11-13 handoff: `research/regular-spatial-tail` records explicit corollaries of existing regular-activity and connected-cover controls. No running worker remains. The full buffered-posterior estimate is still open.
+
 2026-11-11 handoff: `research/bare-wilson-branch-probability` records the bare-law probability calculation and its blocked-law limitation; no active worker is claimed after handoff. `research/upstream-branch-audit` records the producer correction, successful scoped replay, and a checked corollary. No ongoing worker is claimed. Follow actual kernel proofs and explicit quantitative hypotheses; do not reclassify upstream branch existence as a missing mass-gap estimate.
 
 ## Contribution ledger
+
+- 2026-11-13: [Regular-sector spatial tail and conditional perturbation](../general/2026-11-13-T03-regular-spatial-tail/README.md), with [direct-versus-buffered control](../negative-results/2026-11-13-T03-direct-versus-buffered/README.md). Written source-budget corollaries with fixed-level cutoff/volume uniformity; exact finite checks passed. No full correlation bound, new Lean proof, independent review, or novelty claim.
 
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): written criterion $\beta<1/[4(d-1)]$ for the bare SU(2) Wilson law, Hessian assembled exactly and checked against finite differences; the threshold equals the notebook's cited strong-coupling coefficient and lies below the endpoint coupling `bar`. The displayed sufficient bound certifies only strong coupling; sharper or generated-measure bounds remain separate open tasks. Floating-point evidence only; no Lean proof or review.
 
