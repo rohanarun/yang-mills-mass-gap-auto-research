@@ -4,6 +4,7 @@ A negative result records exactly what failed and why. It is not automatically a
 
 | Date | Tracks | Result | Scope |
 | --- | --- | --- | --- |
+| 2026-11-13 | T03, T04, T06, T07 | [Averaged curvature does not ensure a uniform gap](2026-11-13-T03-averaged-curvature-gap/README.md) | Continuous gauge-invariant mixture has averaged curvature at least 2I but persistent loop covariance and auxiliary gap upper bound tending to zero; not actual Yang–Mills dynamics |
 | 2026-11-13 | T03, T06, T07 | [Gauge invariance and noise do not ensure positive curvature](2026-11-13-T03-geometric-noise-only/README.md) | Smooth positive gauge-invariant comparison law yields negative product-metric curvature; exact rational witness; not the actual Yang–Mills prediction law |
 | 2026-11-12 | T03, T04, T06 | [Curvature (Bakry–Émery) scope](2026-11-12-T03-bakry-emery-scope/README.md) | Written threshold $\beta<1/[4(d-1)]$ matches the cited strong-coupling coefficient; Hessian checked by finite differences; endpoint coupling lies above it; displayed sufficient bound certifies only strong coupling |
 | 2026-11-11 | T03, T06 | [Small frame energy does not control the anchor](2026-11-11-T03-frame-energy-only/README.md) | Exact low-energy non-minimizing frames show why local optimality is necessary; fixed additive approximation errors do not establish decay |

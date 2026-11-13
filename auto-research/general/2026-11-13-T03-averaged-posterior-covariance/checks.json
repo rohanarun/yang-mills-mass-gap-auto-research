@@ -1,0 +1,14 @@
+{
+  "all_assertions_passed": true,
+  "dirichlet_energy": "3/n",
+  "finite_total_covariance_cases": 4,
+  "haar_polynomial_cases": 6,
+  "poincare_upper": "48/(4+(n-1)*b^2)",
+  "python": "3.9.6",
+  "quaternion_gradient_cases": 20,
+  "scope": "Exact algebraic diagnostics; continuous SU(2) and source arguments remain written",
+  "seed": 2026111303,
+  "separated_loop_covariance": "b^2/16",
+  "sympy": "1.14.0",
+  "variance": "1/(4*n)+(n-1)*b^2/(16*n)"
+}
