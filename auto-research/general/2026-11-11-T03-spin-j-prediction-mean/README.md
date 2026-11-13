@@ -19,7 +19,7 @@ The [noise-spectrum record](../2026-11-11-T03-peter-weyl-noise-spectrum/README.m
 Standing assumptions, all needed:
 
 - $G=$ SU(2) in its fundamental representation, identified with unit quaternions, so `price(g) = 1 - Re(g)`. The source `Gauge` is a general closed subgroup of a unitary group; this specialisation is made here, and no SU(2) `Gauge` instance was exhibited.
-- The three `Patch.Branches` hypotheses `frame_unique`, `predictor_unique`, `axial_exists`. The source marks them "These hypotheses need proofs" and does not prove them. Measurability of the kernel rests on them, and without `axial_exists` the site-tag likelihood can sum to zero.
+- The three `Patch.Branches` hypotheses `frame_unique`, `predictor_unique`, `axial_exists`. **Correction, 2026-11-11:** these are supplied by later upstream modules `Branch.Uniform` and `Branch.Pick`; see the [producer audit and successful scoped replay](../2026-11-11-T03-upstream-branch-audit/README.md). The earlier statement that the source does not prove them was incorrect. Measurability uses these conditions, so the actual kernel must carry the supplied proof.
 - `predictor_cut` $=c\leq1$ wherever the minimizer is written $M/r$. `KernelChoices` only assumes $c>0$.
 
 Falsification: a wrong branch condition, a wrong constant in section 3, or a failure of the sector formula on a repeated link.
@@ -140,7 +140,7 @@ Not established:
 
 - Any covariance or separation bound. Items 1 and 2 of section 5 are uncontrolled, and nothing is known about how often each branch occurs under any measure.
 - Closure of a finite-spin class, or any iteration across RG levels.
-- The `Branches` hypotheses for any concrete patch and kernel.
+- This record does not itself prove `Branches`; upstream producers supply them for suitable kernels, as documented in the correction.
 - Lean formalization, upstream replay, independent review.
 
 ## Failure lesson or revised expectation
@@ -159,3 +159,6 @@ Next bounded task: on the `usesMin` branch, compare the minimizing frame `select
 - 2026-11-11: drafted with a weaker constant $4j^2+2j(4j^2-1)/3$ obtained from a Hermitian/anti-Hermitian splitting.
 - 2026-11-11, AI cross-check commissioned by the author session (four verifier agents with analysis, numeric, source, and review lenses, then a critic). **This is not independent review.** Outcome: sections 1–3 could not be refuted; the non-function-of-$M$ example was corrected for half-integer spins; `best` versus $M/r$, the $c\leq1$ assumption, the `Branches` hypotheses, the union-of-patches footprint, the cover-coordinate caveat, `1/card eligible`, and mixed endpoints were added; "exactly three mechanisms" was weakened. The numeric lens observed that the supremum looked like $4j^2$.
 - 2026-11-11: the tensor telescoping proof of the sharp constant $4j^2$ replaced the weaker one. A second AI cross-check by the same session (one proof-reading agent, one numerical agent; again not independent review) then examined this proof. Neither refuted it. The proof reader confirmed each step by hand and asked for four expository additions, now applied. The numerical agent found no violation beyond rounding over about 3.9 million families for $j\leq4$, confirmed the telescoping identity for $n\leq6$, and corrected the sharpness formula to a small-$t$ statement. Their scripts were scratch files and are not in the repository.
+
+- 2026-11-11 follow-up by Rohan Arun with OpenAI Codex assistance: the [frame comparison](../2026-11-11-T03-frame-axial-control/README.md) replaces the patch-size-dependent handoff sketch with a written pointwise bound independent of patch size, under an explicit small-cutoff assumption. Exact finite controls passed; the new specialized argument was not formally verified and spatial decay remains open. The later branch audit below supersedes the earlier assessment of upstream uniqueness. The original sketch above is retained as history.
+- 2026-11-11 correction by Rohan Arun with OpenAI Codex assistance: the original claim that the source left `Branches` unproved was based on inspecting the interface without its producers. The [branch audit](../2026-11-11-T03-upstream-branch-audit/README.md) locates and replays those existing proofs. This correction changes source attribution and research priorities; it does not invalidate the separately stated spin-j algebra checks.

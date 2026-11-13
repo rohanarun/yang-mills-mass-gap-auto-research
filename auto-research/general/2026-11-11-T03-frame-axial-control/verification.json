@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-frame-axial-control/check_frame.py"
+  ],
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.535,
+  "exit_code": 0,
+  "source_sha256": "5a8fdc955895f5b684c62f75986eef954b5465a079f5ebb6ba4310ef7ec34dad",
+  "output_sha256": "42b0bbd817c70dbcd6a943ad677e03de205e638c4d667ab87b70abc21b162fe4",
+  "general_theorem_formalized": false,
+  "source_fine_field_realizations_checked": false,
+  "upstream_replayed": false,
+  "independent_review": false,
+  "mass_gap_proved": false
+}

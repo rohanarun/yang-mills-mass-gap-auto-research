@@ -1,0 +1,209 @@
+{
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "lean_version": "Lean (version 4.32.0, arm64-apple-darwin24.6.0, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "local_import_closure_count": 22,
+  "external_imports": [
+    "Mathlib.Algebra.Group.Pi.Basic",
+    "Mathlib.Algebra.Group.Subgroup.Defs",
+    "Mathlib.Analysis.Calculus.Deriv.Comp",
+    "Mathlib.Analysis.Calculus.Deriv.Mul",
+    "Mathlib.Analysis.Calculus.Deriv.Slope",
+    "Mathlib.Analysis.Calculus.Deriv.Star",
+    "Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff",
+    "Mathlib.Analysis.Calculus.LocalExtr.Basic",
+    "Mathlib.Analysis.InnerProductSpace.Calculus",
+    "Mathlib.Analysis.Matrix.Normed",
+    "Mathlib.Analysis.SpecialFunctions.Exponential",
+    "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+    "Mathlib.Data.Fintype.Perm",
+    "Mathlib.Data.Fintype.Pi",
+    "Mathlib.Data.Fintype.Prod",
+    "Mathlib.Data.Int.Interval",
+    "Mathlib.Data.PNat.Basic",
+    "Mathlib.Data.Pi.Interval",
+    "Mathlib.Data.ZMod.ValMinAbs",
+    "Mathlib.LinearAlgebra.Matrix.Trace",
+    "Mathlib.LinearAlgebra.Trace",
+    "Mathlib.LinearAlgebra.UnitaryGroup",
+    "Mathlib.MeasureTheory.Constructions.Pi",
+    "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
+    "Mathlib.MeasureTheory.Measure.Haar.Basic",
+    "Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace",
+    "Mathlib.MeasureTheory.Measure.WithDensity",
+    "Mathlib.Order.Interval.Finset.Basic",
+    "Mathlib.Order.Interval.Finset.Fin",
+    "Mathlib.Tactic.Abel",
+    "Mathlib.Tactic.Group",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Topology.Algebra.Star.Unitary"
+  ],
+  "source_sha256": {
+    "YM/Space/Index.lean": "49779c79540a93832f2bf2beffeb17a993f2a1d7439c16cdbf66b2d5dc2778ad",
+    "YM/Lattice/Site.lean": "daf78e4bd02a72954fba53a309d4ae9f636cddfa5505a0ab71e3177a2007e58c",
+    "YM/Lattice/Path.lean": "6bc18bbce32d65bc47db4815c14a1b34d71cd080db62a1e1a460477db8aa4f89",
+    "YM/Lattice/Faces.lean": "d4aecfebb20059aff568f693d224c504e70312777eb2850b4d5f6dc9cf8b60d3",
+    "YM/Lattice/Box.lean": "2fe61e41702ff103276c053d763b4e53e103366df8e1d050793a5dc35d2fd524",
+    "YM/Lattice/Route.lean": "ab6bc452784f22d24adf695bd1132e7cb11c87256796febc25f5ef636bc9cce7",
+    "YM/Gauge/MatrixGroup.lean": "6f711c96a30764ead7e4ceced4fd76a18c3ee307879945699b5059f3361a59d8",
+    "YM/Gauge/Lie.lean": "800d00fc9afb8f5bd4591a55dd3664454074802f183dffbc7002169672dd54c4",
+    "YM/Gauge/Colors.lean": "b908d8de3831e5bc9ba719d85304463c6c7387fba188c35b395944d487e5ab9c",
+    "YM/Gauge/Chart.lean": "29bd3844ae1c7fdc219eb1be045001cd418c34ec408b19d9c2ff1498ecd028a1",
+    "YM/Gauge/Nearest.lean": "b31502d0abc8d7dfa4d3205bf8329dc56a831df34eb73ab025505d645911b0d4",
+    "YM/Branch/Center.lean": "7c6e7405b91d20d9067c41a5b8d4073ac0545ba800a0c63793590ecdec351d0b",
+    "YM/Branch/Synchronize.lean": "d975bda23610c8cef558ebf295b2c8f534fa7342b17dd1212c520c44d3a2a750",
+    "YM/Lattice/Subdivision.lean": "a93ec7c4a4734f96e50e30e1ae0a18fd5532e5f81f0a89517eb3a93457370851",
+    "YM/Space/Configurations.lean": "fe1c94f9ae1c5f5b41a6551bb258c4f7dff03579fe089c1c3c55233fc1b1a8e0",
+    "YM/Lattice/Scale.lean": "d395395835175af3aa44016340d78419345d5c92fcda42a1f6be7c8d11efd6b1",
+    "YM/Wilson/Law.lean": "8ed074914398a6fe8202cd4bf6ed72e1d8d5263375269c67dc7da1df91bd365c",
+    "YM/RG/Patch.lean": "c85cca3ad0fe6c6394a1396f076121f38e254a45b1573126c9560d4c39577e2a",
+    "YM/Branch/Uniform.lean": "20d95e4c5b2b1beb73d6a794988641c02f132def93d39c4119cef8a6b445a3d9",
+    "YM/Lattice/Foliation.lean": "006c29cf037e7601f65cee9234e7054367b4ce1f2dc11698e1a5e7b663d10c4b",
+    "YM/Branch/Slide.lean": "5a9cb1b2112969ee50a06f0e4949f3b3e92597306fe8f3a27c3afae30bf11cd0",
+    "YM/Branch/Pick.lean": "17e2a32df0778751b9f1173cedc0a270a76492394231e6a3c7f013a4fefeb2ba",
+    "YM/Next/FOUNDATIONS/Primary.lean": "a4d71bd69384ee74bde4258dc5b9d34b7bef06efb8420cc40534d332d455b7e3"
+  },
+  "source_changed": false,
+  "runs": [
+    {
+      "module": "YM.Space.Index",
+      "exit_code": 0,
+      "elapsed_seconds": 8.315,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Site",
+      "exit_code": 0,
+      "elapsed_seconds": 4.125,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Path",
+      "exit_code": 0,
+      "elapsed_seconds": 2.18,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Faces",
+      "exit_code": 0,
+      "elapsed_seconds": 1.413,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Box",
+      "exit_code": 0,
+      "elapsed_seconds": 1.272,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Route",
+      "exit_code": 0,
+      "elapsed_seconds": 1.21,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Gauge.MatrixGroup",
+      "exit_code": 0,
+      "elapsed_seconds": 11.185,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Gauge.Lie",
+      "exit_code": 0,
+      "elapsed_seconds": 3.753,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Gauge.Colors",
+      "exit_code": 0,
+      "elapsed_seconds": 4.821,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Gauge.Chart",
+      "exit_code": 0,
+      "elapsed_seconds": 8.446,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Gauge.Nearest",
+      "exit_code": 0,
+      "elapsed_seconds": 7.907,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Branch.Center",
+      "exit_code": 0,
+      "elapsed_seconds": 2.702,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Branch.Synchronize",
+      "exit_code": 0,
+      "elapsed_seconds": 5.295,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Subdivision",
+      "exit_code": 0,
+      "elapsed_seconds": 1.42,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Space.Configurations",
+      "exit_code": 0,
+      "elapsed_seconds": 3.002,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Scale",
+      "exit_code": 0,
+      "elapsed_seconds": 2.127,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Wilson.Law",
+      "exit_code": 0,
+      "elapsed_seconds": 3.206,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.RG.Patch",
+      "exit_code": 0,
+      "elapsed_seconds": 2.52,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Branch.Uniform",
+      "exit_code": 0,
+      "elapsed_seconds": 2.443,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Lattice.Foliation",
+      "exit_code": 0,
+      "elapsed_seconds": 1.529,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Branch.Slide",
+      "exit_code": 0,
+      "elapsed_seconds": 2.92,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "YM.Branch.Pick",
+      "exit_code": 0,
+      "elapsed_seconds": 2.977,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "module": "BranchProbe",
+      "exit_code": 0,
+      "elapsed_seconds": 1.588,
+      "log_sha256": "cd83da0c032becf5afb574c8575b3568e9cf557b0348608e33833725609f2ae3"
+    }
+  ],
+  "branch_replay_complete": true,
+  "full_upstream_replay": false,
+  "foundation_kernel_consumer_compiled": false
+}

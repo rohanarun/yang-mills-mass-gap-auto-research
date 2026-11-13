@@ -1,0 +1,79 @@
+{
+  "all_assertions_passed": true,
+  "face_counts": [
+    {
+      "internal_faces": 0,
+      "radius": 0
+    },
+    {
+      "internal_faces": 216,
+      "radius": 1
+    },
+    {
+      "internal_faces": 2400,
+      "radius": 2
+    },
+    {
+      "internal_faces": 10584,
+      "radius": 3
+    }
+  ],
+  "finite_gibbs_convexity_checks": 20,
+  "haar_cap_checks": [
+    {
+      "cap_mass_formula": 6.474766480834686e-06,
+      "delta": 0.03125,
+      "lower_bound": 2.6246365912434484e-06
+    },
+    {
+      "cap_mass_formula": 5.1767789563779986e-05,
+      "delta": 0.0625,
+      "lower_bound": 2.0997092729947587e-05
+    },
+    {
+      "cap_mass_formula": 0.0004131727171106435,
+      "delta": 0.125,
+      "lower_bound": 0.0001679767418395807
+    },
+    {
+      "cap_mass_formula": 0.003274527232594468,
+      "delta": 0.25,
+      "lower_bound": 0.0013438139347166456
+    },
+    {
+      "cap_mass_formula": 0.025230676391313444,
+      "delta": 0.5,
+      "lower_bound": 0.010750511477733165
+    },
+    {
+      "cap_mass_formula": 0.17359070596374243,
+      "delta": 1,
+      "lower_bound": 0.08600409182186532
+    }
+  ],
+  "optimized_bounds": [
+    {
+      "beta": 1,
+      "one_plaquette_upper_bound": 2
+    },
+    {
+      "beta": 2,
+      "one_plaquette_upper_bound": 2
+    },
+    {
+      "beta": 16,
+      "one_plaquette_upper_bound": 0.4679752416839958
+    },
+    {
+      "beta": 256,
+      "one_plaquette_upper_bound": 0.04007887730149888
+    },
+    {
+      "beta": 65536,
+      "one_plaquette_upper_bound": 0.00024117080739842646
+    }
+  ],
+  "python": "3.9.6",
+  "routes_checked_radius_one": 157464,
+  "scope": "Finite geometry and floating-point scalar diagnostics; no Lean proof, no YM simulation"
+}
