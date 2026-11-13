@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "command": [
+    "python3",
+    "auto-research/general/2026-11-11-T03-frame-uniqueness/check_certificate.py"
+  ],
+  "python_version": "3.9.6",
+  "elapsed_seconds": 0.468,
+  "exit_code": 0,
+  "source_sha256": "db6ac9468ac0dbc5d37cf187967826e8754f0b44e6e4598c3c8a05c931b2f3aa",
+  "output_sha256": "3d7fd94169d03840fc86065a2f2e5b56a4fdb0b45a1c3c671c101edc3dadc489",
+  "general_theorem_formalized": false,
+  "source_fine_fields_checked": false,
+  "upstream_replayed": false,
+  "independent_review": false,
+  "mass_gap_proved": false
+}

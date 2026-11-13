@@ -1,0 +1,36 @@
+{
+  "seed": 2026111104,
+  "epsilon": "1/4",
+  "local_variation_identities": 80,
+  "centre_reanchoring_cases": 24,
+  "dispersion_cases": 24,
+  "known_minimizer_arrays": 24,
+  "energy_only_controls": [
+    {
+      "N": 4,
+      "score": "3/4",
+      "max_anchor_distance_squared": 4
+    },
+    {
+      "N": 16,
+      "score": "15/64",
+      "max_anchor_distance_squared": 4
+    },
+    {
+      "N": 64,
+      "score": "63/1024",
+      "max_anchor_distance_squared": 4
+    },
+    {
+      "N": 256,
+      "score": "255/16384",
+      "max_anchor_distance_squared": 4
+    },
+    {
+      "N": 1024,
+      "score": "1023/262144",
+      "max_anchor_distance_squared": 4
+    }
+  ],
+  "scope": "Exact finite algebra in a relaxed routed-array model; no fine-field realization, Lean proof, or spatial estimate."
+}

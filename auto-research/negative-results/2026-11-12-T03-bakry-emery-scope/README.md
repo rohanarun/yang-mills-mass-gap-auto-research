@@ -1,4 +1,4 @@
-# Curvature (Bakry–Émery) methods reach only the strong-coupling regime the notebook already excludes
+# A basic Bakry–Émery bound certifies only strong coupling
 
 ## Metadata
 
@@ -11,6 +11,8 @@
 - Related: [strong-coupling scope](../2026-11-11-T04-strong-coupling-scope/README.md), [single-link influence obstruction](../2026-11-11-T03-single-link-influence/README.md).
 
 ## Question and exact claim
+
+**Scope clarification during integration, 2026-11-13:** the displayed analytic threshold is a sufficient condition. Its failure above that threshold does not prove that every curvature criterion fails there. The numerical search supplies observations, not a certified sharp threshold. References below to the route stopping concern the inspected bound, not all geometric approaches.
 
 Question: does a geometric (curvature) criterion give a volume-uniform estimate for the bare SU(2) Wilson law in a range of couplings that includes the couplings the selected history actually uses?
 
@@ -70,3 +72,5 @@ Next bounded task, if the geometric theme is pursued: the Hessian of the actual 
 ## Review and correction history
 
 - 2026-11-12: created. Single author session; no review. The analytic bound and the cross-check were not independently verified.
+
+- 2026-11-13 integration check: original script/output SHA-256 receipts matched. A limited rerun checked four directions each in dimensions three and four, using consecutive draws from seed 20261112 and no intervening local-search draws. One fresh four-dimensional direction had relative error 1.57e-5 at step 1e-4, above the script's 1e-5 tolerance. A three-step diagnostic at 1e-3, 3e-4, and 1e-4 found all eight directions below 1e-5 at the middle step; this is consistent with finite-difference truncation/cancellation sensitivity, not a proof of the analytic bound. The quadratic form used `numpy.einsum('i,ij,j->', v, H, v, optimize=False)` to avoid the observed matmul warnings. [All diagnostic values](integration-check.json) are retained, including the failed tolerance. The original full local search and archived results were not rerun or changed. This was merge validation, not independent mathematical review.

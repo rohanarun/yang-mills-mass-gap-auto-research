@@ -1,0 +1,52 @@
+MODULE YM.Space.Index; exit 0
+
+MODULE YM.Lattice.Site; exit 0
+
+MODULE YM.Lattice.Path; exit 0
+
+MODULE YM.Lattice.Faces; exit 0
+
+MODULE YM.Lattice.Box; exit 0
+
+MODULE YM.Lattice.Route; exit 0
+
+MODULE YM.Gauge.MatrixGroup; exit 0
+
+MODULE YM.Gauge.Lie; exit 0
+
+MODULE YM.Gauge.Colors; exit 0
+
+MODULE YM.Gauge.Chart; exit 0
+
+MODULE YM.Gauge.Nearest; exit 0
+
+MODULE YM.Branch.Center; exit 0
+
+MODULE YM.Branch.Synchronize; exit 0
+
+MODULE YM.Lattice.Subdivision; exit 0
+
+MODULE YM.Space.Configurations; exit 0
+
+MODULE YM.Lattice.Scale; exit 0
+
+MODULE YM.Wilson.Law; exit 0
+
+MODULE YM.RG.Patch; exit 0
+
+MODULE YM.Branch.Uniform; exit 0
+
+MODULE YM.Lattice.Foliation; exit 0
+
+MODULE YM.Branch.Slide; exit 0
+
+MODULE YM.Branch.Pick; exit 0
+
+MODULE BranchProbe; exit 0
+'YM.Branch.Pairs.compare_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Branch.Pairs.closeness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Branch.align' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.RG.frame_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.RG.predictor_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Axial.eligible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YM.Axial.viable' depends on axioms: [propext, Classical.choice, Quot.sound]

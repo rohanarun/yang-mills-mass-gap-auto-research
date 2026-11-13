@@ -1,0 +1,10 @@
+{
+  "command": "python3 auto-research/general/2026-11-11-T03-bare-branch-probability/check_geometry.py",
+  "exit_code": 0,
+  "scope": "Finite diagnostics only; new probability theorem is written, not Lean checked or independently reviewed",
+  "sha256": {
+    "check_geometry.py": "1fd8a1b39ac397cde714dc08b0d9d6058ea53aebc608d24647f6379115bfbf22",
+    "checks.json": "fbee2a47166d71a6d221e40f5e369cb210bcb81a0f23d4f6a23d1d86fa48bd5d",
+    "provenance.json": "af95fd123f6f617bfd2dfa14e9d708660ae6cb9d3e78420436568f122f163722"
+  }
+}
