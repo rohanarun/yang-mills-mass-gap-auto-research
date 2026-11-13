@@ -30,6 +30,8 @@ Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [actual-weig
 
 Proposed for PR review: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame comparison](auto-research/general/2026-11-11-T03-frame-axial-control/README.md) and [energy-only control](auto-research/negative-results/2026-11-11-T03-frame-energy-only/README.md). Written minimizer estimate and conditional fine-loop replacement; exact finite quaternion checks passed. No novelty, Lean proof, independent review, or mass-gap estimate is claimed.
 
+Proposed for dependent PR review: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame-uniqueness certificate](auto-research/general/2026-11-11-T03-frame-uniqueness/README.md). Written sufficient cutoff condition and optimization-error estimate modulo gauge; exact finite quaternion matrix checks passed. Standard synchronization certificate methods are attributed in the record. Depends on PR #4; no novelty, independent review, Lean formalization, or physical mass gap is claimed.
+
 ## Inherited work and tools
 
 - The authors and contributors credited in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028), including its [NOTICE](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/NOTICE), own the attribution for the underlying construction and proof sources. They are referenced as upstream authors, not represented as participants or endorsers of this repository.

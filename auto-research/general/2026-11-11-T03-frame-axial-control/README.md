@@ -159,3 +159,5 @@ The [energy-only failure record](../../negative-results/2026-11-11-T03-frame-ene
 The earlier patch-size-dependent sketch is superseded by this written bound, subject to its explicit small-cutoff assumption. Next bounded work: test whether the localized minimizer set admits a quantitative uniqueness/stability theorem, keeping common gauge freedom and the centre constraint explicit. Alternatively, derive a bound on $P_1(G_C^c)$ under the actual fine law. Neither task alone supplies the spatial covariance estimate or continuum limit. Preserve the original source branch hypotheses until they are actually proved.
 
 Review status: author/assistant derivation and finite controls only; submit through a PR without automatic merge. No independent mathematical review, Lean proof, or mass-gap theorem.
+
+Follow-up, 2026-11-11: the [uniqueness certificate](../2026-11-11-T03-frame-uniqueness/README.md) derives a written sufficient condition `frame_cut <= 1/16` and optimization-error control modulo common gauge rotation from this localization argument. It remains unformalized and independently unreviewed; the actual history's cutoff and the spatial estimate remain open.
