@@ -2,6 +2,8 @@
 
 ## Current status
 
+2026-11-13 geometric update: [actual coarse-law Hessian](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [noise-only obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md) recorded. Exact quaternion, finite-mixture derivative, cycle-Hessian, and rational Bessel-series checks passed. The continuous argument is written and unreviewed; no new Lean proof.
+
 Partial: generic tools and 22 upstream branch modules checked; full-construction replay open. Last indexed: 2026-11-11. No Yang–Mills mass-gap proof is claimed.
 
 ## Research question
@@ -29,6 +31,8 @@ Review the checked scalar support theorem and connect it to the exact public PVM
 No active contributor recorded. When coordinating a session, add its owner/session, date, bounded question, branch or work area, and handoff condition. A stale entry is not evidence that a worker is still running.
 
 ## Contribution ledger
+
+- 2026-11-13: [Geometric posterior-curvature derivation](../general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [comparison-law obstruction](../negative-results/2026-11-13-T03-geometric-noise-only/README.md). Exact quaternion, finite-mixture derivative, cycle-Hessian, and rational Bessel-series checks passed. The continuous argument is written and unreviewed; no new Lean proof.
 
 - 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) records 157,464 finite coordinate-route checks, four face counts, and scalar diagnostics. New analytic/source application remains written and unreviewed; only the inherited axial theorem is within the earlier scoped Lean replay.
 

@@ -22,6 +22,8 @@ The initial inspection uses upstream revision [`3456e5e`](https://github.com/yan
 
 ## Research progress — 11 November 2026
 
+**13 November update:** A [written geometric curvature formula](auto-research/general/2026-11-13-T03-geometric-posterior-curvature/README.md) now identifies the full posterior covariance that must be controlled for the actual coarse law. Exact algebraic checks passed. A [gauge-invariant comparison model](auto-research/negative-results/2026-11-13-T03-geometric-noise-only/README.md) rules out deriving positive curvature from symmetry and smoothing alone. No positive Yang–Mills curvature estimate, exponential decay bound, or mass gap has been established.
+
 **Verified formal infrastructure; the Yang–Mills mass gap remains unproved.**
 
 - **Proposed written estimate:** a [bare SU(2) frame-branch bound](auto-research/general/2026-11-11-T03-bare-branch-probability/README.md) makes fixed-patch failure probability tend to zero at large beta, uniformly in total volume. It uses the existing upstream axial theorem; finite geometry/scalar checks passed. The new bound is not Lean-checked or independently reviewed, and does not apply automatically to blocked measures or prove spatial decay.

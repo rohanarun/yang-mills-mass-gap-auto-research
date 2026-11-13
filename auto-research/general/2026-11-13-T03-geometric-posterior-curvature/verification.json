@@ -1,0 +1,11 @@
+{
+  "command": "python3 auto-research/general/2026-11-13-T03-geometric-posterior-curvature/check_geometry.py",
+  "exit_code": 0,
+  "elapsed_seconds": 1.204,
+  "scope": "Exact finite and symbolic diagnostics; continuous source application and Haar convolution argument are written, not Lean checked or independently reviewed",
+  "sha256": {
+    "check_geometry.py": "61e2b20b3ee515da3be0a22df406f802b248c5c403fd89e51844978c428dba05",
+    "checks.json": "957bb2da359e08f6226ad28b816fa5702e37a752c2e3862dea6ccb02d0fb3dd6",
+    "provenance.json": "97b3b551f27e7d3b85f169c60a184ebcea72b941f23fa85232335c1decde07e6"
+  }
+}

@@ -35,6 +35,8 @@ Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame
 
 Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame-uniqueness certificate](auto-research/general/2026-11-11-T03-frame-uniqueness/README.md). Written sufficient cutoff condition and optimization-error estimate modulo gauge; exact finite quaternion matrix checks passed. Standard synchronization certificate methods are attributed in the record. Builds on merged PR #4; no novelty, independent review, Lean formalization, or physical mass gap is claimed.
 
+Recorded 2026-11-13: Rohan Arun, with OpenAI Codex assistance, contributed the [source-matched geometric Hessian](auto-research/general/2026-11-13-T03-geometric-posterior-curvature/README.md) and [gauge-invariant noise-only curvature obstruction](auto-research/negative-results/2026-11-13-T03-geometric-noise-only/README.md). Written continuous arguments and exact algebraic diagnostics; no new Lean proof, independent review, novelty claim, or Yang–Mills decay bound. The marginalization identity is standard.
+
 ## Inherited work and tools
 
 - The authors and contributors credited in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028), including its [NOTICE](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/NOTICE), own the attribution for the underlying construction and proof sources. They are referenced as upstream authors, not represented as participants or endorsers of this repository.
