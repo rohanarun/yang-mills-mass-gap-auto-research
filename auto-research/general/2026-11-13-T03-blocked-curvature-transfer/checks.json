@@ -1,0 +1,61 @@
+{
+  "all_assertions_passed": true,
+  "cases": [
+    {
+      "J": 4,
+      "K_R": 27085938440005736202240000,
+      "block_side": 3,
+      "fine_side": 51,
+      "footprint_radius": 24,
+      "patch_radius": 21,
+      "points_checked": 1920
+    },
+    {
+      "J": 6,
+      "K_R": 246142421625529958400000000,
+      "block_side": 3,
+      "fine_side": 63,
+      "footprint_radius": 30,
+      "patch_radius": 27,
+      "points_checked": 1920
+    },
+    {
+      "J": 4,
+      "K_R": 4264543204489455206400000000,
+      "block_side": 5,
+      "fine_side": 85,
+      "footprint_radius": 40,
+      "patch_radius": 35,
+      "points_checked": 2688
+    },
+    {
+      "J": 6,
+      "K_R": 39131878831755264000000000000,
+      "block_side": 5,
+      "fine_side": 105,
+      "footprint_radius": 50,
+      "patch_radius": 45,
+      "points_checked": 2688
+    },
+    {
+      "J": 4,
+      "K_R": 120766146575752102265487360000,
+      "block_side": 7,
+      "fine_side": 119,
+      "footprint_radius": 56,
+      "patch_radius": 49,
+      "points_checked": 3456
+    },
+    {
+      "J": 6,
+      "K_R": 1112831155819899577958400000000,
+      "block_side": 7,
+      "fine_side": 147,
+      "footprint_radius": 70,
+      "patch_radius": 63,
+      "points_checked": 3456
+    }
+  ],
+  "python": "3.9.6",
+  "scope": "Finite footprint containment, injectivity, and exact constant arithmetic only"
+}

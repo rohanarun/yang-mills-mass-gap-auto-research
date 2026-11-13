@@ -18,6 +18,10 @@ An initial investigation of what additional estimate could establish a positive 
 
 The initial inspection uses upstream revision [`3456e5e`](https://github.com/yang-mills-group/OpenAI-YM-20261028/tree/3456e5e75cf8d4cd558955a5c7638fba2d68f464). The upstream README explicitly leaves positive mass gap outside its claim. Its verification reports are not independent verification by this project.
 
+## Research progress — 13 November 2026
+
+A [written curvature-transfer estimate](auto-research/general/2026-11-13-T03-blocked-curvature-transfer/README.md) now applies to the actual normalized blocking kernel with its full fine input law. It covers both minimizing and fallback branches. Four source-level frame/predictor bounds passed Lean 4.32.0 with `--trust=0`; the full probability application is not formalized or independently reviewed. Its constants are too large to establish multiscale contraction or exponential correlation decay. **The mass gap remains unproved.**
+
 ## Research progress — 11 November 2026
 
 **Verified formal infrastructure; the Yang–Mills mass gap remains unproved.**

@@ -1,0 +1,4 @@
+'Research.BlockedCurvature.minimizing_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.BlockedCurvature.frame_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.BlockedCurvature.best_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Research.BlockedCurvature.predict_chord' depends on axioms: [propext, Classical.choice, Quot.sound]

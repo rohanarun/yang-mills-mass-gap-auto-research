@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-13: [Actual-kernel curvature transfer](../general/2026-11-13-T03-blocked-curvature-transfer/README.md) keeps the generated law in a level-by-level moment recurrence. The footprint coefficient grows like R^10 and the positive noise contribution is explicit. No uniform iteration or positive physical decay rate is established; spatial rescaling remains essential.
+
 - 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) distinguishes volume uniformity from growing-patch control. A sufficient condition for the written estimate to vanish is radius^10 log(beta)/(frame_cut^2 beta) -> 0; this is not verified along the selected hierarchy. No physical decay rate follows.
 
 - 2026-11-11: [Cutoff endpoint and integrated approximation](../general/2026-11-11-T03-cutoff-endpoint/README.md). Fixed-law dominated convergence survives an atom at zero; a quantitative rate needs a small-ball bound for small nonzero means, uniform in the required regulators. Neither fixed-law convergence nor algebraic degree decay supplies a spatial or physical-time rate.
