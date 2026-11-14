@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-14: [Numerical re-check of the geometric posterior-Hessian claims](../reviews/2026-11-14-T07-geometric-posterior-review/README.md): independent floating-point reproduction of the algebra in PRs #11 and #12 (five checks); one failure of the reviewer's own tolerance diagnosed as finite-difference truncation. Source correspondence unreviewed; AI review only.
+
 - 2026-11-11: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md) records 157,464 finite coordinate-route checks, four face counts, and scalar diagnostics. New analytic/source application remains written and unreviewed; only the inherited axial theorem is within the earlier scoped Lean replay.
 
 - 2026-11-11: The [branch audit](../general/2026-11-11-T03-upstream-branch-audit/README.md) replayed the 22-module `YM.Branch.Pick` closure and seven-declaration axiom probe with Lean 4.32.0 `--trust=0`. A `12*d` pairwise corollary also passed. Full construction and foundation consumer not replayed.

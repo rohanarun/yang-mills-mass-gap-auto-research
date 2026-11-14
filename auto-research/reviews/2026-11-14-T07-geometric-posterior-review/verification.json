@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-14",
+  "command": [
+    "python3",
+    "auto-research/reviews/2026-11-14-T07-geometric-posterior-review/check_review.py"
+  ],
+  "working_directory": "repository root",
+  "python_version": "3.9.6",
+  "numpy_version": "2.0.2",
+  "elapsed_seconds": 6.5,
+  "exit_code": 0,
+  "random_seed": 20261114,
+  "source_sha256": "06076482ee917824cbe35f08a1b0b2c898232084999b27f80155edd34a3d6df1",
+  "output_sha256": "41a53c427caede39dd927ca4fefb03a26ff20255b92d014391f03a4d2001ac0e",
+  "floating_point": true,
+  "reviewed_commits": {
+    "pr11": "5f41029f18f89695cb0867f612ca5ecd33985054",
+    "pr12": "ac461fb132186393e184fb99aaf57773e5ced88a"
+  },
+  "authors_checker_scripts_read": false,
+  "source_correspondence_reviewed": false,
+  "upstream_replayed": false,
+  "human_review": false
+}

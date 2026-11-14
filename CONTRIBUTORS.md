@@ -34,6 +34,7 @@ Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [upstream br
 Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame comparison](auto-research/general/2026-11-11-T03-frame-axial-control/README.md) and [energy-only control](auto-research/negative-results/2026-11-11-T03-frame-energy-only/README.md). Written minimizer estimate and conditional fine-loop replacement; exact finite quaternion checks passed. No novelty, Lean proof, independent review, or mass-gap estimate is claimed.
 
 Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame-uniqueness certificate](auto-research/general/2026-11-11-T03-frame-uniqueness/README.md). Written sufficient cutoff condition and optimization-error estimate modulo gauge; exact finite quaternion matrix checks passed. Standard synchronization certificate methods are attributed in the record. Builds on merged PR #4; no novelty, independent review, Lean formalization, or physical mass gap is claimed.
+Rohan Arun, with Claude (Anthropic) assistance, contributed the [numerical re-check of the geometric posterior-Hessian claims](auto-research/reviews/2026-11-14-T07-geometric-posterior-review/README.md). It re-computes selected formulas from two other contributions made with OpenAI Codex assistance, and is an AI review without human mathematical review. Authors of the reviewed work keep their credit; cited authors (Bauerschmidt–Bodineau, Moncrief–Marini–Maitra, Louis) are referenced, not participants.
 
 ## Inherited work and tools
 

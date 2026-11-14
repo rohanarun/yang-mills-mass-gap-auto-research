@@ -2,6 +2,7 @@
 
 | Date | Tracks | Review | Scope and evidence |
 | --- | --- | --- | --- |
+| 2026-11-14 | T07; T03, T06 | [Numerical re-check of the geometric posterior-Hessian claims (PRs #11, #12)](2026-11-14-T07-geometric-posterior-review/README.md) | AI re-computation from the READMEs without reading the authors' scripts: Haar cancellation, Hessian identity, noise-only counterexample, non-uniform Poincaré bound, link-gradient identity all reproduced in floating point. Source correspondence and PRs #10, #13 not reviewed; no human review |
 | 2026-11-12 | T01; T02, T05, T07 | [Gap-target specification review](2026-11-12-T01-gap-target-specification/README.md) | AI-assisted review of the uncompiled `MassGapTarget.lean` against pinned upstream definitions by a contributor who did not write it. Written derivations and exact finite boost checks; no Lean elaboration, no subject-expert review |
 
 No review by a subject expert and no review of a dynamical result is recorded yet. Review the exact result revision and assumptions rather than its summary. Use the [result template](../templates/result.md) and record the reviewer/session, reviewed commit or hashes, scope, commands when applicable, findings, and unresolved concerns. A second run by the original author should be labeled a self-check, not independent review.
