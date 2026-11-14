@@ -4,6 +4,7 @@ A negative result records exactly what failed and why. It is not automatically a
 
 | Date | Tracks | Result | Scope |
 | --- | --- | --- | --- |
+| 2026-11-14 | T03, T04, T06 | [Typical-configuration curvature](2026-11-14-T03-typical-curvature/README.md) | Monte Carlo on $3^4$ and $4^4$ tori: lowest Bakry–Émery eigenvalue is negative for typical Wilson configurations above $\beta\approx0.25$ and worsens with coupling; probabilistic pointwise-curvature route closed at these sizes; projecting out gauge directions does not repair it, and neither do the computed quotient terms (O'Neill, orbit volume) |
 | 2026-11-12 | T03, T04, T06 | [Curvature (Bakry–Émery) scope](2026-11-12-T03-bakry-emery-scope/README.md) | Written threshold $\beta<1/[4(d-1)]$ matches the cited strong-coupling coefficient; Hessian checked by finite differences; endpoint coupling lies above it; displayed sufficient bound certifies only strong coupling |
 | 2026-11-11 | T03, T06 | [Small frame energy does not control the anchor](2026-11-11-T03-frame-energy-only/README.md) | Exact low-energy non-minimizing frames show why local optimality is necessary; fixed additive approximation errors do not establish decay |
 | 2026-11-11 | T03, T04, T06 | [Actual-weight cutoff endpoint and lack of a uniform margin](2026-11-11-T03-cutoff-endpoint/README.md) | Source connector-space construction allows arbitrarily small active means at cutoff one; illustrative quadratic small-ball law has only algebraic approximation decay |

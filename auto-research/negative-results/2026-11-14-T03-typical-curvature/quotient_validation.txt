@@ -1,0 +1,9 @@
+psi_hessian_vs_finite_difference_worst_relative 8.65210214584522e-08
+A_tensor_lattice_s_ne_t {'worst_abs_diff': 3.2462671439859037e-09, 'worst_relative_norm_diff': 2.0735123057541853e-09, 'typical_size': [2.5128046753380358, 1.6003485113803562, 2.04596324736568, 2.6788521361633233]}
+toy_quotient_ricci_worst_abs_diff 3.0688733511308186e-05
+{'point': (0.3, -0.2, 0.1), 'dir': 0, 'Ric_B_numeric': 0.5346204172736057, 'Ric_B_formula': 0.5346175183734165, 'abs_diff': 2.8989001891188693e-06, 'Q1_part': -1.3528342245989304, 'Q2_part': 0.06745174297234696, 'horizontal_residual': 0.0}
+{'point': (0.3, -0.2, 0.1), 'dir': 1, 'Ric_B_numeric': 0.497146632984294, 'Ric_B_formula': 0.4971443278332239, 'abs_diff': 2.305151070136624e-06, 'Q1_part': -1.4528342245989303, 'Q2_part': 0.029978552432154224, 'horizontal_residual': 6.906291246317746e-17}
+{'point': (0.3, -0.2, 0.1), 'dir': 2, 'Ric_B_numeric': 2.088255972993408, 'Ric_B_formula': 2.08824701878807, 'abs_diff': 8.954205337641241e-06, 'Q1_part': -2.0630481283422455, 'Q2_part': 0.1912951471303161, 'horizontal_residual': 6.245004513516506e-17}
+{'point': (0.1, 0.4, -0.3), 'dir': 0, 'Ric_B_numeric': 0.46187898423869667, 'Ric_B_formula': 0.4618758398280033, 'abs_diff': 3.144410693378674e-06, 'Q1_part': -1.5255737704918033, 'Q2_part': 0.007449610319806505, 'horizontal_residual': 0.0}
+{'point': (0.1, 0.4, -0.3), 'dir': 1, 'Ric_B_numeric': 0.5736250480420082, 'Ric_B_formula': 0.5736199946251006, 'abs_diff': 5.053416907596642e-06, 'Q1_part': -1.2255737704918033, 'Q2_part': 0.11919376511690404, 'horizontal_residual': 1.3904866443919908e-17}
+{'point': (0.1, 0.4, -0.3), 'dir': 2, 'Ric_B_numeric': 1.9307600856286111, 'Ric_B_formula': 1.9307471109916694, 'abs_diff': 1.2974636941720519e-05, 'Q1_part': -1.9474863387978143, 'Q2_part': 0.23823344978948321, 'horizontal_residual': 8.002322828458972e-17}

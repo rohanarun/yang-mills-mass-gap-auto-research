@@ -106,6 +106,8 @@ Additional established lessons:
 
 - Before trying a curvature, convexity, or Dobrushin-type criterion, [compute its coupling threshold in the repository convention](auto-research/negative-results/2026-11-12-T03-bakry-emery-scope/README.md) and compare it with the endpoint coupling `bar` and the running slope. The Bakry–Émery threshold $\beta<1/[4(d-1)]$ for bare SU(2) equals the cited strong-coupling condition and lies below `bar`. Geometric routes need a bound for the generated coarse measures, not the bare law.
 
+- Pointwise Bakry–Émery curvature of the bare Wilson measure is negative on [typical sampled configurations](auto-research/negative-results/2026-11-14-T03-typical-curvature/README.md) once $\beta\gtrsim0.3$, in a band of directions, so a probabilistic version of the curvature argument is closed at those sizes. Geometric routes must be non-pointwise (multiscale, ground-state weighted); the gauge-quotient version, with the O'Neill and orbit-volume terms computed, is closed as well at $3^4$. Measure the typical spectrum before building an argument on a curvature bound.
+
 ## Assessing scientific progress
 
 The [bare Wilson branch-probability bound](auto-research/general/2026-11-11-T03-bare-branch-probability/README.md) is uniform in total volume for fixed patch radius and frame cutoff, but it grows like radius^10/cutoff^2. Agents must distinguish a small lattice patch from a fixed physical region, and a bare measure from the generated law entering later RG steps. Always identify the actual density and retain its normalization before transporting a rare-event estimate. Rare local defects alone do not supply separation decay.

@@ -30,6 +30,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 ## Contribution ledger
 
+- 2026-11-14: [Typical-configuration curvature](../negative-results/2026-11-14-T03-typical-curvature/README.md): numerical obstruction to pointwise curvature arguments on typical Wilson configurations; not a Yang–Mills counterexample.
+
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): scope obstruction for curvature methods on the bare Wilson law; not a Yang–Mills counterexample.
 
 - 2026-11-11: The [branch audit](../general/2026-11-11-T03-upstream-branch-audit/README.md) retracts the inference from an interface comment to absence of upstream proofs. Existing producers supply all three branch conditions; the physical covariance problem remains separate.
