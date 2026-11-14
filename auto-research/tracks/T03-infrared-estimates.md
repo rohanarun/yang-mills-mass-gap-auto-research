@@ -88,6 +88,8 @@ The upstream branch audit already supplies uniform frame control. A complementar
 
 ## Contribution ledger
 
+- 2026-11-14: [Literature scan of adjacent approaches](../general/2026-11-14-T03-literature-scan/README.md): candidate list only, evidence-tagged. The published multiscale Bakry–Émery criterion is formulated on a linear field space with a Gaussian covariance decomposition and a uniform Hessian hypothesis; no group-valued formulation was found. Cheapest first tests: operator norm versus row sum for the posterior covariance, and the $|G|$-dependence of finite-group weak-coupling decay. No proof, no computation.
+
 - 2026-11-12: [Curvature (Bakry–Émery) scope](../negative-results/2026-11-12-T03-bakry-emery-scope/README.md): written criterion $\beta<1/[4(d-1)]$ for the bare SU(2) Wilson law, Hessian assembled exactly and checked against finite differences; the threshold equals the notebook's cited strong-coupling coefficient and lies below the endpoint coupling `bar`. The displayed sufficient bound certifies only strong coupling; sharper or generated-measure bounds remain separate open tasks. Floating-point evidence only; no Lean proof or review.
 
 - 2026-11-11, recorded: [Bare Wilson frame-branch probability](../general/2026-11-11-T03-bare-branch-probability/README.md). Written normalized-law bound of order log(beta)/beta for fixed patch and cutoff, uniform in torus volume; uses existing upstream axial existence. Cost grows like radius^10/cutoff^2. Finite geometry/scalar checks passed; no new Lean proof, blocked-law bridge, predictor-branch estimate, or spatial decay.

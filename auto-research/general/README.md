@@ -4,6 +4,7 @@ Store new results in `YYYY-MM-DD-TNN-short-description/README.md`, with supporti
 
 | Date | Tracks | Result | Evidence and outcome |
 | --- | --- | --- | --- |
+| 2026-11-14 | T03; T06, T07 | [Literature scan of adjacent approaches](2026-11-14-T03-literature-scan/README.md) | Candidate list from search snippets, abstracts and partial full-text reads, each claim tagged by evidence level; multiscale (Polchinski), localization/spectral independence, finite-group weak coupling, orbit-space geometry, constructive RG; no computation, no result |
 | 2026-11-11 | T03, T04, T07 | [Bare Wilson frame-branch probability](2026-11-11-T03-bare-branch-probability/README.md) | Written volume-uniform fixed-patch bound of order log(beta)/beta; finite checks passed; blocked-law extension and spatial decay open |
 | 2026-11-11 | T03, T06, T07 | [Upstream branch audit and correction](2026-11-11-T03-upstream-branch-audit/README.md) | Existing producers located; 22-module scoped Lean replay and a corollary passed; earlier absence claim retracted; no new dynamical estimate |
 | 2026-11-11 | T03, T04, T06 | [SU(2) frame uniqueness certificate](2026-11-11-T03-frame-uniqueness/README.md) | Recorded: written sufficient cutoff condition and optimization-error bound modulo gauge; exact matrix checks passed; selected-history parameters and spatial estimate open |
