@@ -47,6 +47,7 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 - 2026-11-11: [Connected-source bridge](../general/2026-11-11-T03-connected-source-bridge/README.md): cover-budget separation bound passed trust-zero checking; written identity isolates covariance of the actual normalized one-marker ratios under the retained vacuum measure.
 
 - 2026-11-12: [Gap-target specification review](../reviews/2026-11-12-T01-gap-target-specification/README.md): semantic review of the uncompiled target against pinned upstream definitions; upstream blob hashes recomputed and matched. No Lean replay; the target and the review's variant definitions remain uncompiled.
+- 2026-11-15: [Gap-target elaboration](../reviews/2026-11-15-T01-gap-target-elaboration/README.md): the target and variant definitions elaborate with Lean 4.32.0 `--trust=0` against upstream `WilsonPublic` at `3456e5e`, with an axiom report, four checks, and a failing control. Statement check only; the full upstream construction was not built.
 
 ## Update instructions
 

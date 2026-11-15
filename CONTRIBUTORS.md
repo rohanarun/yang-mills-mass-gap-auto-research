@@ -35,6 +35,8 @@ Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame
 
 Recorded: Rohan Arun, with OpenAI Codex assistance, contributed the [SU(2) frame-uniqueness certificate](auto-research/general/2026-11-11-T03-frame-uniqueness/README.md). Written sufficient cutoff condition and optimization-error estimate modulo gauge; exact finite quaternion matrix checks passed. Standard synchronization certificate methods are attributed in the record. Builds on merged PR #4; no novelty, independent review, Lean formalization, or physical mass gap is claimed.
 
+Sudarsh ([@Sudarsh3301](https://github.com/Sudarsh3301)), with Claude (Anthropic) assistance, contributed the [gap-target elaboration](auto-research/reviews/2026-11-15-T01-gap-target-elaboration/README.md): Lean 4.32.0 `--trust=0` elaboration of the existing target and the T01 review's variants against the pinned upstream `ChallengeSpec`, with four short structural checks and a failure control. The definitions are by Rohan Arun and @DanieleCorso respectively; this contribution checks them and claims no novelty, proof of the target, expert review, or mass-gap estimate.
+
 ## Inherited work and tools
 
 - The authors and contributors credited in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028), including its [NOTICE](https://github.com/yang-mills-group/OpenAI-YM-20261028/blob/3456e5e75cf8d4cd558955a5c7638fba2d68f464/NOTICE), own the attribution for the underlying construction and proof sources. They are referenced as upstream authors, not represented as participants or endorsers of this repository.

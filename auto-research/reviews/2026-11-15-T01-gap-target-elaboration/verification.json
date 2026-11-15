@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-15",
+  "evidence": "Lean elaboration with --trust=0 by a contributor who did not write the targets; AI-assisted; no subject-expert review",
+  "upstream": "yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "lean_version": "Lean (version 4.32.0, x86_64-w64-windows-gnu, commit 8c9756b28d64dab099da31a4c09229a9e6a2ef35, Release)",
+  "dependency_revisions": {
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "mathlib": "81a5d257c8e410db227a6665ed08f64fea08e997"
+  },
+  "prerequisite_note": "`lake exe cache get` was run beforehand (exit 0, log not kept); the build below is rerun by this script",
+  "prerequisite_command": [
+    "lake",
+    "build",
+    "WilsonPublic"
+  ],
+  "prerequisite_exit_code": 0,
+  "prerequisite_log": "WilsonPublic-build.log",
+  "probe_generator": "make_probe.py (verbatim target bodies + ChecksTail.lean)",
+  "checks_tail_sha256": "918deafbc6d11665637242513303dccfab73298215d4d7a2f1636025d384ff0c",
+  "runs": [
+    {
+      "file": "MassGapTarget",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "MassGapTarget.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "input_sha256": "8313a08042a8dcf6a1785a5a38d03a7c448b774e0265b93e9bdb54cf573ee82c",
+      "log": "MassGapTarget.log"
+    },
+    {
+      "file": "SpecVariants",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "SpecVariants.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "input_sha256": "c8e28a434e78fb50d449839eb9ece6c7d3b51d797bef18ba4553f8dc1f3e346b",
+      "log": "SpecVariants.log"
+    },
+    {
+      "file": "Checks",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "Checks.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "input_sha256": "77ea73c7d44b99558ccfaf8a9a5b878bb3d979b55eeeca2275fd1952407dbc3e",
+      "log": "Checks.log"
+    },
+    {
+      "file": "ControlReversed",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "ControlReversed.lean"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "input_sha256": "ab7e09a6648983c3ca18a4725953fe8a9a2a5af7158c3e6c83a0f35efa95cc7c",
+      "log": "ControlReversed.log"
+    }
+  ],
+  "all_as_expected": true
+}
