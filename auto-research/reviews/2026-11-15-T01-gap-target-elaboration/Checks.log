@@ -1,0 +1,19 @@
+'YangMills.MassGapResearch.HasEnergyGapAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMills.MassGapResearch.GappedJointExistence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMills.MassGapResearch.SpecReview.EnergySlabEmpty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMills.MassGapResearch.SpecReview.InvariantMassGap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'YangMills.MassGapResearch.SpecReview.GappedJointExistencePerHierarchy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'YangMills.MassGapResearch.ElaborationChecks.energySlabEmpty_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'YangMills.MassGapResearch.ElaborationChecks.jointExistence_of_gapped' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'YangMills.MassGapResearch.ElaborationChecks.perHierarchy_of_gapped' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'YangMills.MassGapResearch.ElaborationChecks.hasEnergyGapAt_mono' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -4,7 +4,7 @@
 
 An initial investigation of what additional estimate could establish a positive mass gap for the construction in [OpenAI-YM-20261028](https://github.com/yang-mills-group/OpenAI-YM-20261028).
 
-**This repository does not prove the Yang–Mills mass gap.** It contains a standard conditional spectral argument, an explicit obstruction to inferring a gap from polynomial decay, and an uncompiled Lean specification for a stronger target.
+**This repository does not prove the Yang–Mills mass gap.** It contains a standard conditional spectral argument, an explicit obstruction to inferring a gap from polynomial decay, and a Lean specification for a stronger target (definitions elaborated against the pinned upstream; no proof).
 
 ## What is established here?
 
@@ -15,7 +15,7 @@ An initial investigation of what additional estimate could establish a positive 
 | Positive mass gap for the upstream Yang–Mills construction | **Unproved** |
 | Generic projection/Laplace tools | Six lemmas/controls checked with Lean 4.32.0 and `--trust=0`; [receipt](auto-research/general/2026-11-11-T02-uniform-projection-criterion/verification.json) |
 | Scalar Laplace support equivalence | Checked with Lean 4.32.0 and `--trust=0`, including integrability and the energy-window pullback; [receipt](auto-research/general/2026-11-11-T02-laplace-support/verification.json) |
-| Proposed Yang–Mills Lean gap target | Definitions only; **not compiled** |
+| Proposed Yang–Mills Lean gap target | Definitions only; elaborated with Lean 4.32.0 `--trust=0` against the pinned upstream `ChallengeSpec`; [receipt](auto-research/reviews/2026-11-15-T01-gap-target-elaboration/verification.json). **No proof of the target** |
 | Independent replay of upstream Lean proofs | **Scoped replay passed:** 22 modules through `YM.Branch.Pick`, with Lean 4.32.0 and `--trust=0`; [receipt](auto-research/general/2026-11-11-T03-upstream-branch-audit/verification.json). Full construction not replayed. |
 
 The initial inspection uses upstream revision [`3456e5e`](https://github.com/yang-mills-group/OpenAI-YM-20261028/tree/3456e5e75cf8d4cd558955a5c7638fba2d68f464). The upstream README explicitly leaves positive mass gap outside its claim. Its verification reports are not independent verification by this project.
@@ -151,7 +151,7 @@ python3 -m venv .venv
 
 The check verifies the total mass, low-energy integral, heat integral, and failure of every positive exponential decay rate for the scalar example. It does not verify the Yang–Mills construction or the spectral theorem argument in Lean.
 
-`MassGapTarget.lean` imports `ChallengeSpec` from the pinned upstream project. This repository does not bundle that project's dependencies or provide a standalone Lean build. Upstream pins Lean **4.32.0**. The target remains uncompiled and also requires a mathematical review of its specification; it asks for a common gap per chosen Wilson family across volume refinements, a stronger requirement than a separate gap for each resulting hierarchy.
+`MassGapTarget.lean` imports `ChallengeSpec` from the pinned upstream project. This repository does not bundle that project's dependencies or provide a standalone Lean build. Upstream pins Lean **4.32.0**. The target and the review's variant definitions now [elaborate against the pinned upstream build](auto-research/reviews/2026-11-15-T01-gap-target-elaboration/README.md) (2026-11-15); a subject-expert review of the specification is still outstanding; it asks for a common gap per chosen Wilson family across volume refinements, a stronger requirement than a separate gap for each resulting hierarchy.
 
 ## Contributors
 
