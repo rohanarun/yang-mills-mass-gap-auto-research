@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-19",
+  "evidence": "Lean 4.35.0 check with --trust=0 -j1; no independent human review",
+  "lean_version": "4.35.0",
+  "lean_version_string": "Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "upstream_repository": "https://github.com/yang-mills-group/OpenAI-YM-20261028",
+  "upstream_commit": "3456e5e75cf8d4cd558955a5c7638fba2d68f464",
+  "upstream_source_sha256": {
+    "PublicTheory.lean": "94111ad258b4218a263fcc0a7136446d5a6eff0e090809b72036fb3a7aecfff8",
+    "PublicWilson.lean": "c1542c816cd42d23448b66b4cb021c7f3bdad64b64f1c643dde27147ce0c3233",
+    "ChallengeSpec.lean": "e48b0be2b72d16b9b87c6c1923b3ae814270387bf9312b5cb0661dfa3e243749"
+  },
+  "repository_prerequisite_sha256": {
+    "GapCriteria.lean": "309e447e3359040bb441f5cd43e3ae9d1a4f6a133707d61eb3ea34ed76d6c06a",
+    "LaplaceSupport.lean": "c55661ae7425df89996d669713735be0a51a35a1a582fe970843619829c700a2",
+    "MassGapTarget.lean": "8313a08042a8dcf6a1785a5a38d03a7c448b774e0265b93e9bdb54cf573ee82c",
+    "SpecVariants.lean": "c8e28a434e78fb50d449839eb9ece6c7d3b51d797bef18ba4553f8dc1f3e346b"
+  },
+  "dependency_revisions": {
+    "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+    "plausible": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+    "LeanSearchClient": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+    "importGraph": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+    "proofwidgets": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+    "aesop": "4a174c490d8707121c4a9290800489f105d85e07",
+    "Qq": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+    "batteries": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+    "Cli": "c24fe6078c630e89b489bffe59b3e20ac30d12c8"
+  },
+  "prerequisite_command": [
+    "lake",
+    "build",
+    "WilsonPublic",
+    "GapCriteria",
+    "MassGapTarget",
+    "SpecVariants"
+  ],
+  "prerequisite_exit_code": 0,
+  "runs": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "-j1",
+        "PVMGapBridge.lean"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "source": "PVMGapBridge.lean",
+      "source_sha256": "5513b3e3c4cbb8595d1939cc701cbbfb0b107557814ac03c3cd9c42731ece6d9",
+      "output": "PVMGapBridge.log",
+      "output_sha256": "b1c3b18a869e05d1723b7ed1fe3accaf15a5a992cc1144aaa23ae2d5eb811933"
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--trust=0",
+        "-j1",
+        "ControlSwappedRate.lean"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "role": "negative_control",
+      "source": "ControlSwappedRate.lean",
+      "source_sha256": "a4692ea32bfc987dc9bf0d6a5a2417ea78920b0d5e5865c4a30e66243f36db70",
+      "output": "ControlSwappedRate.log",
+      "output_sha256": "dcbec0a31e20ae619a9f9d0714c75a340a4f6eb6f9ed960f1b3300a8c7cdba26"
+    }
+  ],
+  "observed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "warnings": [],
+  "upstream_YM_full_construction_replayed": false,
+  "original_YM_target_compiled": true,
+  "dynamical_gap_estimate_proved": false,
+  "novelty_claim": false
+}

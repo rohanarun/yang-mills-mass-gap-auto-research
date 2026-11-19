@@ -43,6 +43,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-12: [Gap-target specification review](../reviews/2026-11-12-T01-gap-target-specification/README.md): names the instantiation of the checked energy-window theorem at the public PVM (`ρ := diagonal ψ`, `energy := time`) and reduces `HasEnergyGapAt` to per-state slab measures on a spanning dense set. Written only; the instantiation was not elaborated.
 
+- 2026-11-19: [PVM gap bridge from scalar heat bounds](../general/2026-11-19-T02-pvm-gap-bridge/README.md): Lean 4.35.0 `--trust=0` proof connecting `energy_window_zero_of_heat_bound` to `HasEnergyGapAt` across dense-span families, smeared `W1` field words, and `(ℂ ∙ Ω)ᗮ` under `W0` + `W1` + `W2`, with swapped-rate failure control. Dynamical heat-decay and Euclidean-to-spectral bridges remain open.
+
 ## Update instructions
 
 Follow [the agent prompt](../../auto-research.md). Append dated links to result records, their exact outcome/evidence level, and any superseded result. Update the next contribution from the evidence, and link cross-track consequences without duplicating results. Preserve concurrent contributions.

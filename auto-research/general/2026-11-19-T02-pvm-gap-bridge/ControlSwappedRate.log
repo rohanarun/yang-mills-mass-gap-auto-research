@@ -1,0 +1,11 @@
+ControlSwappedRate.lean:18:61: error: Application type mismatch: The argument
+  hn
+has type
+  ∀ (t : ℝ),
+    0 ≤ t → Integrable (fun e => Real.exp (-t * e)) (μ n) ∧ ∫ (e : ℝ), Real.exp (-t * e) ∂μ n ≤ 1 * Real.exp (-t * r)
+but is expected to have type
+  ∀ (t : ℝ),
+    0 ≤ t →
+      Integrable (fun x => Real.exp (-t * x)) (μ n) ∧ ∫ (x : ℝ), Real.exp (-t * x) ∂μ n ≤ ?m.90 * Real.exp (-t * m)
+in the application
+  MassGapResearch.measure_Iio_zero_of_heat_bound (μ n) hn

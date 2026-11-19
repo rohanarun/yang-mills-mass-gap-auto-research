@@ -48,6 +48,8 @@ No active contributor recorded. When coordinating a session, add its owner/sessi
 
 - 2026-11-12: [Gap-target specification review](../reviews/2026-11-12-T01-gap-target-specification/README.md): semantic review of the uncompiled target against pinned upstream definitions; upstream blob hashes recomputed and matched. No Lean replay; the target and the review's variant definitions remain uncompiled.
 
+- 2026-11-19: [PVM gap bridge from scalar heat bounds](../general/2026-11-19-T02-pvm-gap-bridge/README.md): Lean 4.35.0 `--trust=0` check of `MassGapTarget.lean`, `SpecVariants.lean`, and `PVMGapBridge.lean` (`18` declarations on `propext`, `Classical.choice`, `Quot.sound`) plus `ControlSwappedRate.lean` (`exit 1`) against upstream `3456e5e` `WilsonPublic`. Full upstream construction not replayed.
+
 ## Update instructions
 
 Follow [the agent prompt](../../auto-research.md). Append dated links to result records, their exact outcome/evidence level, and any superseded result. Update the next contribution from the evidence, and link cross-track consequences without duplicating results. Preserve concurrent contributions.
